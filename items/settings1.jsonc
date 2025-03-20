@@ -1,0 +1,80 @@
+[
+    {
+        "name": "Item Shuffle",
+        "type": "progressive",
+        "allow_disabled": false,
+        "initial_stage_idx": 1,
+        "loop": true,
+        "stages": [
+            {
+                "img": "/images/settings/item_shuffle",
+                "img_mods": "overlay|/images/overlays/off.png,@disabled",
+                "codes": "item_shuffle,all_chests_and_tablets",
+                "inherit_codes": false,
+                "name": "Item Shuffle- All Chests & Tablets"
+            },
+            {
+                "img": "/images/settings/item_shuffle",
+                "img_mods": "overlay|/images/overlays/on.png",
+                "codes": "item_shuffle,all_items",
+                "inherit_codes": false,
+                "name": "Item Shuffle- All Items"
+            }
+        ]
+    },
+    {
+        "name": "Major/Minor Split",
+        "type": "progressive",
+        "allow_disabled": false,
+        "initial_stage_idx": 1,
+        "loop": true,
+        "stages":
+        [
+            {
+                "img": "/images/settings/major_minor",
+                "img_mods": "overlay|/images/overlays/off.png,@disabled",
+                "codes": "major_minor_split,major_minor_off",
+                "inherit_codes": false,
+                "name": "Major/Minor Split - Off"
+            },
+            {
+                "img": "/images/settings/major_minor",
+                "img_mods": "overlay|/images/overlays/on.png",
+                "codes": "major_minor_split,major_minor_off",
+                "inherit_codes": false,
+                "name": "Major/Minor Split - On"
+            }
+        ]
+    },
+    {
+        "name": "Omit Locations",
+        "type": "progressive",
+        "allow_disabled": false,
+        "initial_stage_idx": 1,
+        "loop": true,
+        "stages":
+        [
+            {
+                "img": "/images/settings/inner_sanctum",
+                "img_mods": "overlay|/images/overlays/off.png,@disabled",
+                "codes": "ommissions, ommissions_off",
+                "inherit_codes": false,
+                "name": "No Ommissions"
+            },
+            {
+                "img": "/images/settings/inner_sanctum",
+                "img_mods": "overlay|/images/overlays/inner.png",
+                "codes": "ommissions, ommissions_inner",
+                "inherit_codes": false,
+                "name": "Omit Inner Sanctum"
+            },
+            {
+                "img": "/images/settings/inner_sanctum",
+                "img_mods": "overlay|/images/overlays/supers_inner.png,@disabled",
+                "codes": "ommissions, ommissions_supers_inner",
+                "inherit_codes": false,
+                "name": "Omit Superbosses & Inner Sanctum"
+            }
+        ]
+    }
+]

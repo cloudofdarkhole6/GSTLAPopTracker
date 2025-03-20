@@ -1,0 +1,1 @@
+Tracker:AddLocations("locations/locations.jsonc")
