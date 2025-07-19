@@ -1,14 +1,31 @@
-ENABLE_DEBUG_LOG = true
+
 local variant = Tracker.ActiveVariantUID
 
-Tracker:AddItems("items/settings.jsonc")
+-- Items
+require("scripts/items_import")
 
-ScriptHost:LoadScript("scripts/logic/logic.lua")
-ScriptHost:LoadScript("scripts/items.lua")
-ScriptHost:LoadScript("scripts/layouts.lua")
-ScriptHost:LoadScript("scripts/logic.lua")
-ScriptHost:LoadScript("scripts/locations.lua")
+-- Logic
+require("scripts/logic/logic_helper")
+require("scripts/logic/logic_main")
 
-Tracker:AddMaps("maps/maps.jsonc")
+-- Maps
+if Tracker.ActiveVariantUID == "maps-u" then
+    Tracker:AddMaps("maps/maps-u.json")  
+else
+    Tracker:AddMaps("maps/maps.jsonc")
+end  
 
-Tracker:AddLayouts("layouts/settings.jsonc")
+if PopVersion and PopVersion >= "0.23.0" then
+    Tracker:AddLocations("locations/dungeons.json")
+end
+
+-- Layout
+require("scripts/layouts_import")
+
+-- Locations
+require("scripts/locations_import")
+
+-- AutoTracking for Poptracker
+if PopVersion and PopVersion >= "0.26.0" then
+    require("scripts/autotracking")
+end

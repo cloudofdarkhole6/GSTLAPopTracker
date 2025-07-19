@@ -930,5 +930,53 @@
     "type": "toggle",
     "img": "images/hosts/wings.png",
     "codes": "wings_of_anemos"
+  },
+  {
+    "name": "Felix",
+    "type": "static",
+    "img": "images/characters/felix.png",
+    "codes": "felix"
+  },
+  {
+    "name": "Jenna",
+    "type": "toggle",
+    "img": "images/characters/jenna.png",
+    "codes": "jenna"
+  },
+  {
+    "name": "Sheba",
+    "type": "toggle",
+    "img": "images/characters/sheba.png",
+    "codes": "sheba"
+  },
+  {
+    "name": "Piers",
+    "type": "toggle",
+    "img": "images/characters/piers.png",
+    "codes": "piers_character"
+  },
+  {
+    "name": "Isaac",
+    "type": "toggle",
+    "img": "images/characters/isaac.png",
+    "codes": "isaac"
+  },
+  {
+    "name": "Garet",
+    "type": "toggle",
+    "img": "images/characters/garret.png",
+    "codes": "garet"
+  },
+  {
+    "name": "Ivan",
+    "type": "toggle",
+    "img": "images/characters/ivan.png",
+    "codes": "ivan"
+  },
+  {
+    "name": "Mia",
+    "type": "toggle",
+    "img": "images/characters/mia.png",
+    "codes": "mia"
   }
 ]
