@@ -1525,13 +1525,6 @@
 							"visibility_rules": ["sett_mode_1"]
 						},
 						{
-							"name": "Maze Items",
-							"short_name": "Maze",
-							"access_rules": ["$neg|sett_hide_yellows,[growth]", "growth", "sett_skips_growth"],
-							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,sett_major"]
-						},
-						{
 							"name": "Sand Tablet",
 							"short_name": "Sand",
 							"access_rules": ["susa"],
@@ -1806,14 +1799,6 @@
 							"visibility_rules": ["sett_mode_1"]
 						},
 						{
-							"name": "Main Room North",
-							"short_name": "Main North",
-							"access_rules": ["grind", "{sett_show_captures}"],
-							"capture_item": true,
-							"item_count": 3,
-							"visibility_rules": ["sett_mode_1,sett_major"]
-						},
-						{
 							"name": "Depths Front",
 							"access_rules": ["grind,lift"],
 							"item_count": 1,
@@ -1867,24 +1852,6 @@
 							"capture_item": true,
 							"item_count": 2,
 							"visibility_rules": ["sett_mode_1"]
-						},
-						{
-							"name": "1F - West Room Ledge",
-							"short_name": "(1F) West",
-							"access_rules": ["parch,burst", "{sett_show_captures,parch}"],
-							"capture_item": true,
-							"item_count": 1,
-							"clear_as_group": false,
-							"visibility_rules": ["sett_mode_1,sett_major"]
-						},
-						{
-							"name": "1F - East Room Ledge",
-							"short_name": "(1F) East",
-							"access_rules": ["parch,burst", "{sett_show_captures,parch}"],
-							"capture_item": true,
-							"item_count": 1,
-							"clear_as_group": false,
-							"visibility_rules": ["sett_mode_1,sett_major"]
 						},
 						{
 							"name": "2F - South Room",
