@@ -26,39 +26,39 @@
 							"name": "North-East Jar",
 							"short_name": "Outside NE",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 
 						},
 						{
 							"name": "South-West Barrel",
 							"short_name": "Outside SW",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Buried Item",
 							"short_name": "Buried",
 							"access_rules": ["scoop"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Inn - Barrel",
 							"short_name": "Inn",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Corner House - Jar",
 							"short_name": "Corner House",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Mayor's House - Jar",
 							"short_name": "Mayor's House",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Echo",
@@ -84,13 +84,13 @@
 							"name": "Second Screen Ledge",
 							"short_name": "Room 2",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Second Screen Drop-down",
 							"short_name": "Drop-down",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Third Screen",
@@ -104,7 +104,7 @@
 							"access_rules": ["lash", "{sett_show_captures}"],
 							"capture_item": true,
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Pound Cube",
@@ -133,7 +133,7 @@
 							"name": "Left Ledge",
 							"short_name": "L. Ledge",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Laughing Fungus",
@@ -185,7 +185,7 @@
 						{
 							"name": "Mimic",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Mysterious Card",
@@ -234,7 +234,7 @@
 							"name": "Entrance - Barrel",
 							"short_name": "Entrance",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Frost Pillar",
@@ -242,21 +242,21 @@
 							"access_rules": ["frost", "{sett_show_captures}"],
 							"capture_item": true,
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Large Room - Box",
 							"short_name": "Large Room",
 							"access_rules": ["frost"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Aqua Hydra Room - Barrel",
 							"short_name": "Hydra Barrel",
 							"access_rules": ["$neg|sett_hide_yellows,[frost]", "frost", "sett_skips_oobhard"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Submerged Chest",
@@ -267,7 +267,7 @@
 							],
 							"capture_item": true,
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Lemurian Ship",
@@ -297,31 +297,31 @@
 							"name": "Fence Corner Box",
 							"short_name": "Fence Box",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Inn - Upstairs Jar",
 							"short_name": "Inn 2F",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Left Cave House - Jar",
 							"short_name": "Left Cave",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Small Central House - Barrel",
 							"short_name": "Center House",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Mayor's House - Box",
 							"short_name": "Mayor's House",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Gabomba Reward",
@@ -365,7 +365,7 @@
 							"access_rules": ["reveal,lash,frost", "{sett_show_captures,reveal}"],
 							"capture_item": true,
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Tremor Bit",
@@ -378,7 +378,7 @@
 							"short_name": "Ruins West",
 							"item_count": 1,
 							"access_rules": ["reveal"],
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Ruin Key",
@@ -480,21 +480,21 @@
 							"access_rules": ["whirlwind", "{sett_show_captures}"],
 							"capture_item": true,
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "First Room - Mimic",
 							"short_name": "Mimic",
 							"access_rules": ["whirlwind"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "First Room - Middle",
 							"short_name": "Bottom Middle",
 							"access_rules": ["whirlwind"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "First Room - Top Right",
@@ -509,14 +509,14 @@
 							"access_rules": ["whirlwind,frost", "{sett_show_captures,whirlwind}"],
 							"capture_item": true,
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Cliff Ascent",
 							"short_name": "Ascent",
 							"access_rules": ["whirlwind"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Summit Chest",
@@ -540,13 +540,13 @@
 							"name": "Right Path",
 							"short_name": "(R) Blue 4",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Top Floor",
 							"short_name": "Top",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Flora Tablet",
@@ -563,13 +563,13 @@
 							"name": "Left Path - Blue 4 Room",
 							"short_name": "(L) Blue 4",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Left Path - Blue 5 Room",
 							"short_name": "(L) Blue 5",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Reveal Tablet",
@@ -582,7 +582,7 @@
 							"access_rules": ["reveal", "{sett_show_captures}"],
 							"capture_item": true,
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						}
 					]
 				},
@@ -600,45 +600,45 @@
 							"short_name": "Req. Reveal",
 							"access_rules": ["reveal"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "West Jar",
 							"short_name": "Outside W",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "North-East Jar",
 							"short_name": "Outside NE",
 							"access_rules": ["briggs_battle"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Eastern Alhafra - Jar",
 							"short_name": "Dock",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Inn - Upstairs Jar",
 							"short_name": "Inn 2F",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Upper Long House - Barrel",
 							"short_name": "N Long House",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Cave Left Side",
 							"short_name": "Cave Left",
 							"access_rules": ["briggs_battle,tremor,lash,pound", "briggs_jailbreak,lash,pound"],
 							"item_count": 3,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Cave Right Side",
@@ -646,21 +646,14 @@
 							"access_rules": ["briggs_jailbreak,frost", "{sett_show_captures,briggs_battle,tremor}"],
 							"capture_item": true,
 							"item_count": 3,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
-						},
-						{
-							"name": "Cave Left Side",
-							"short_name": "Cave Left",
-							"access_rules": ["briggs_battle,tremor,lash,pound", "briggs_jailbreak,lash,pound"],
-							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Jail - Jar",
 							"short_name": "Jail",
 							"access_rules": ["briggs_jailbreak"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Briggs Fight",
@@ -696,25 +689,25 @@
 							"name": "South-East Barrel",
 							"short_name": "Outside SE",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "North-West Ledge Barrel",
 							"short_name": "Outside NW",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Inn - Jar",
 							"short_name": "Inn",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "North-East Ledge House - Jar",
 							"short_name": "Ledge House",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Ether",
@@ -735,31 +728,31 @@
 							"name": "Ledge Chest",
 							"short_name": "Ledge",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "South-East Barrel",
 							"short_name": "Outside SE",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "South-West Box",
 							"short_name": "Outside SW",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Inn - Barrel",
 							"short_name": "Inn",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "South-East House - Jar",
 							"short_name": "SE House",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Spark",
@@ -811,7 +804,7 @@
 							"short_name": "Djinni Room",
 							"access_rules": ["sand", "pound"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Scoop Gem",
@@ -824,14 +817,14 @@
 							"short_name": "Buried",
 							"access_rules": ["$neg|sett_hide_yellows,[$canAccessYampiBackside],scoop", "$canAccessYampiBackside,scoop", "sett_skips_oobeasy,scoop"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Sand Flow Cave South",
 							"short_name": "Cave South",
 							"access_rules": ["$neg|sett_hide_yellows,[$canAccessYampiBackside]", "$canAccessYampiBackside", "sett_skips_oobeasy"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Sand Flow Cave North",
@@ -859,14 +852,14 @@
 							"short_name": "Req. Reveal",
 							"access_rules": ["$neg|sett_hide_yellows,[$canAccessYampiBackside],reveal", "$canAccessYampiBackside,reveal", "sett_skips_oobeasy,reveal"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Yampi Desert Cave Entrance",
 							"short_name": "YDC Entrance",
 							"access_rules": ["$neg|sett_hide_yellows,[sand]", "sand", "sett_skips_basic"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Blitz",
@@ -962,7 +955,7 @@
 									"name": "B2F - North Room Weeds",
 									"short_name": "(B2F) Weeds",
 									"item_count": 1,
-									"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+									"visibility_rules": ["sett_mode_2"]
 								},
 								{
 									"name": "Mud",
@@ -984,7 +977,7 @@
 									"short_name": "Entrance",
 									"item_count": 2,
 									"clear_as_group": false,
-									"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+									"visibility_rules": ["sett_mode_1"]
 								},
 								{
 									"name": "Early Isaac Room",
@@ -998,7 +991,7 @@
 									"access_rules": ["lash", "{sett_show_captures}"],
 									"capture_item": true,
 									"item_count": 1,
-									"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+									"visibility_rules": ["sett_mode_1"]
 								},
 								{
 									"name": "Gabomba Statue Cleared",
@@ -1027,21 +1020,21 @@
 									"name": "West Jar",
 									"short_name": "Outside W",
 									"item_count": 1,
-									"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+									"visibility_rules": ["sett_mode_2"]
 								},
 								{
 									"name": "Inn - Upstairs Barrel",
 									"short_name": "Inn 2F",
 									"access_rules": ["gabomba_statue"],
 									"item_count": 1,
-									"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+									"visibility_rules": ["sett_mode_2"]
 								},
 								{
 									"name": "North-West House - Jar",
 									"short_name": "NW House",
 									"access_rules": ["gabomba_statue"],
 									"item_count": 1,
-									"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+									"visibility_rules": ["sett_mode_2"]
 								},
 								{
 									"name": "Piers",
@@ -1080,21 +1073,14 @@
 							"access_rules": ["lash"],
 							"item_count": 2,
 							"clear_as_group": false,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
-						},
-						{
-							"name": "North Screen",
-							"short_name": "North",
-							"access_rules": ["lash"],
-							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "North Screen Cave",
 							"short_name": "Cave",
 							"access_rules": ["lash"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Waft",
@@ -1127,25 +1113,25 @@
 							"access_rules": ["whirlwind,reveal", "{sett_show_captures,reveal}"],
 							"capture_item": true,
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "South-West Jar",
 							"short_name": "Outside SW",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Inn - Jar",
 							"short_name": "Inn",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "North-West House - Jar",
 							"short_name": "NW House",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						}
 					]
 				},
@@ -1186,14 +1172,14 @@
 							"short_name": "Entrance",
 							"item_count": 6,
 							"clear_as_group": false,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Face Rooms 2 and 7",
 							"short_name": "Faces 2+7",
 							"item_count": 2,
 							"clear_as_group": false,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Face Rooms 1 and 6",
@@ -1201,7 +1187,7 @@
 							"access_rules": ["sand", "{sett_show_captures}"],
 							"capture_item": true,
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Left Path - Sand Path",
@@ -1209,21 +1195,21 @@
 							"access_rules": ["sand", "{sett_show_captures}"],
 							"capture_item": true,
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Left Path - Filled Pit",
 							"short_name": "(L) Chest 2",
 							"access_rules": ["sand"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Left Path - Winding Path",
 							"short_name": "(L) Long Path",
 							"access_rules": ["sand"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Left Path - Thanatos Mace",
@@ -1251,7 +1237,7 @@
 							"short_name": "(R) Ledge",
 							"access_rules": ["sand"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Left Prong",
@@ -1273,34 +1259,34 @@
 							"name": "South-West Jar",
 							"short_name": "Outside SW",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "South Weeds",
 							"short_name": "S Weeds",
 							"access_rules": ["cyclone"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "South-East Weeds",
 							"short_name": "SE Weeds",
 							"access_rules": ["cyclone"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Gaia Falls Weeds",
 							"short_name": "Falls Weeds",
 							"access_rules": ["cyclone"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "North-East Hut - Barrel",
 							"short_name": "NE Hut",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Haze",
@@ -1324,19 +1310,19 @@
 							"name": "1F - Top Ledge",
 							"short_name": "(1F) Top",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "1F - Middle Ledge",
 							"short_name": "(1F) Middle",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "2F - Waterfall",
 							"short_name": "(2F) Waterfall",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "2F - Frost Pillars",
@@ -1362,14 +1348,14 @@
 							"short_name": "(3F) Ledge",
 							"access_rules": ["frost"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "3F - Entrance Room South",
 							"short_name": "(3F) Entrance",
 							"access_rules": ["frost"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "2F - Waterfall",
@@ -1384,21 +1370,21 @@
 							"access_rules": ["frost", "{sett_show_captures,parch}"],
 							"capture_item": true,
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "1F - Mimic",
 							"short_name": "(1F) Mimic",
 							"access_rules": ["frost", "parch"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "1F - Main Room Left",
 							"short_name": "(1F) Main Room",
 							"access_rules": ["frost", "parch"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "1F - Aquarius Stone",
@@ -1448,31 +1434,31 @@
 							"name": "West Box",
 							"short_name": "Outside W",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "East Box",
 							"short_name": "Outside E",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Inn - Box",
 							"short_name": "Inn",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "1F Cave House - Barrel",
 							"short_name": "Cave 1F",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Cave - Upper Ledge Jar",
 							"short_name": "Cave Ledge",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Trident",
@@ -1499,7 +1485,7 @@
 							"name": "House - Jar",
 							"short_name": "House",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						}
 					]
 				},
@@ -1515,14 +1501,14 @@
 							"name": "Cliff Ledge Chest",
 							"short_name": "Ledge",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Summit Chest",
 							"short_name": "Summit",
 							"access_rules": ["whirlwind"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Dancing Idol",
@@ -1536,7 +1522,7 @@
 							"access_rules": ["$neg|sett_hide_yellows,[growth]", "growth", "sett_skips_growth"],
 							"item_count": 2,
 							"clear_as_group": false,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Maze Items",
@@ -1622,32 +1608,32 @@
 							"name": "North Jar",
 							"short_name": "Outside N",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "North Ledge Jar",
 							"short_name": "N Ledge",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "South-East Weeds",
 							"short_name": "SE Weeds",
 							"access_rules": ["cyclone"],
 							"item_count": 2,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Ledge Weeds",
 							"access_rules": ["cyclone"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "East House - Jar",
 							"short_name": "E House",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "South House - Box",
@@ -1693,7 +1679,7 @@
 							"name": "House - Barrel",
 							"short_name": "House",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						}
 					]
 				},
@@ -1715,7 +1701,7 @@
 							"name": "South-East Box",
 							"short_name": "Outside SE",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						}
 					]
 				},
@@ -1731,7 +1717,7 @@
 							"name": "First Screen",
 							"short_name": "Entrance",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "North-West Cave - Half-buried Item",
@@ -1754,14 +1740,14 @@
 							"short_name": "SE Cave Weeds",
 							"access_rules": ["whirlwind,cyclone"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Magma Chamber",
 							"short_name": "Magma",
 							"access_rules": ["whirlwind,growth,douse,frost"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Star Dust",
@@ -1789,21 +1775,14 @@
 							"short_name": "Entrance",
 							"item_count": 6,
 							"clear_as_group": false,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Main Room South",
 							"short_name": "Main South",
 							"item_count": 6,
 							"clear_as_group": false,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
-						},
-						{
-							"name": "Front (if GS1 items enabled)",
-							"short_name": "Front (GS1)",
-							"item_count": 2,
-							"clear_as_group": false,
-							"visibility_rules": ["sett_mode_1,sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Three-path Room",
@@ -1816,7 +1795,7 @@
 							"name": "Mimic",
 							"access_rules": ["grind"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Main Room North",
@@ -1824,7 +1803,7 @@
 							"access_rules": ["grind", "{sett_show_captures}"],
 							"capture_item": true,
 							"item_count": 6,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Main Room North",
@@ -1879,7 +1858,7 @@
 							"access_rules": ["parch,burst", "{sett_show_captures,parch}"],
 							"capture_item": true,
 							"item_count": 2,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "1F - East Room Ledge",
@@ -1887,7 +1866,7 @@
 							"access_rules": ["parch,burst", "{sett_show_captures,parch}"],
 							"capture_item": true,
 							"item_count": 2,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "1F - West Room Ledge",
@@ -1912,14 +1891,14 @@
 							"short_name": "(2F) South",
 							"access_rules": ["parch"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "2F - North Room",
 							"short_name": "(2F) North",
 							"access_rules": ["parch"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "4F - West Room",
@@ -1927,7 +1906,7 @@
 							"access_rules": ["parch,pound"],
 							"item_count": 2,
 							"clear_as_group": false,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Burst Brooch",
@@ -1967,7 +1946,7 @@
 							"name": "North-West Barrel",
 							"short_name": "Outside NW",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						}
 					]
 				},
@@ -1990,33 +1969,33 @@
 							"name": "North Jar",
 							"short_name": "Outside N",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Central Ledge Weeds",
 							"short_name": "C Weeds",
 							"access_rules": ["cyclone"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "East Weeds",
 							"short_name": "E Weeds",
 							"access_rules": ["cyclone"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Inn - Box",
 							"short_name": "Inn",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Sunshine's Smithy - Barrel",
 							"short_name": "Smithy",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						}
 					]
 				},
@@ -2049,7 +2028,7 @@
 							"name": "House - Barrel",
 							"short_name": "House",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						}
 					]
 				},
@@ -2110,14 +2089,14 @@
 					"short_name": "Buried S",
 					"access_rules": ["scoop"],
 					"item_count": 1,
-					"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+					"visibility_rules": ["sett_mode_2"]
 				},
 				{
 					"name": "Central Buried Item",
 					"short_name": "Buried C",
 					"access_rules": ["scoop"],
 					"item_count": 1,
-					"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+					"visibility_rules": ["sett_mode_2"]
 				},
 				{
 					"name": "North Buried Item",
@@ -2138,13 +2117,13 @@
 					"short_name": "SE Weeds",
 					"access_rules": ["cyclone"],
 					"item_count": 1,
-					"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+					"visibility_rules": ["sett_mode_2"]
 				},
 				{
 					"name": "Castle - 1F East Room Barrel",
 					"short_name": "Castle 1F",
 					"item_count": 1,
-					"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+					"visibility_rules": ["sett_mode_2"]
 				},
 				{
 					"name": "Rime",
@@ -2240,7 +2219,7 @@
 							"name": "Ledge Chest",
 							"short_name": "Ledge",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Geode",
@@ -2263,7 +2242,7 @@
 							"name": "Free Corn Sample",
 							"short_name": "Corn",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Front of Anemos Sanctum",
@@ -2277,14 +2256,14 @@
 							"name": "North-East Barrel",
 							"short_name": "Outside NE",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "North Weeds",
 							"short_name": "N Weeds",
 							"access_rules": ["cyclone"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Reunion",
@@ -2321,7 +2300,7 @@
 						{
 							"name": "Graveyard",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						}
 					]
 				},
@@ -2338,7 +2317,7 @@
 							"short_name": "Cave",
 							"access_rules": ["growth"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Tinder",
@@ -2362,7 +2341,7 @@
 							"name": "Entrance Weeds",
 							"short_name": "Weeds",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Rolling Pillar Room",
@@ -2387,14 +2366,14 @@
 							"name": "Reveal Circle",
 							"access_rules": ["hover,reveal"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "West Wing - Mimic",
 							"short_name": "(WW) Mimic",
 							"access_rules": ["hover,red_key"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "West Wing - Middle Room",
@@ -2402,7 +2381,7 @@
 							"access_rules": ["hover,red_key"],
 							"item_count": 2,
 							"clear_as_group": false,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "West Wing - Blue Key",
@@ -2415,14 +2394,14 @@
 							"short_name": "To EW",
 							"access_rules": ["hover,reveal"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "East Wing - Nightmare Room",
 							"short_name": "(EW) Pain",
 							"access_rules": ["hover,reveal,blue_key,pound"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "East Wing - Hover Room",
@@ -2473,7 +2452,7 @@
 							"name": "South-East Barrel",
 							"short_name": "Outside SE",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Half-buried Item",
@@ -2526,14 +2505,14 @@
 							"name": "1F - Ledge",
 							"short_name": "(1F) Ledge",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "2F West - Bottom",
 							"short_name": "(2F) West Bottom",
 							"access_rules": ["growth"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "2F West - Top",
@@ -2557,21 +2536,21 @@
 							"name": "Entrance Mimic",
 							"short_name": "Mimic",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "4F - West Side",
 							"short_name": "(4F) West",
 							"access_rules": ["burst,growth,lash"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "3F - West Side",
 							"short_name": "(3F) West",
 							"access_rules": ["burst,growth,lash"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "2F - Center",
@@ -2659,33 +2638,33 @@
 							"short_name": "Outside E",
 							"access_rules": ["$neg|sett_hide_yellows,[trial_road]", "trial_road", "sett_skips_basic"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Inn - Jar",
 							"short_name": "Inn",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Moapa's House - Barrel",
 							"short_name": "Moapa's House",
 							"access_rules": ["shaman's_rod"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Fortune Teller's Tent - Jar",
 							"short_name": "Diviner",
 							"access_rules": ["trial_road"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Sand Wall",
 							"access_rules": ["shaman's_rod"],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Trial Road Side Path",
@@ -2693,7 +2672,7 @@
 							"access_rules": ["shaman's_rod,hover,lift,reveal", "{sett_show_captures,shaman's_rod,hover_lift}"],
 							"capture_item": true,
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Trial Road Cleared",
@@ -2826,7 +2805,7 @@
 							"name": "Elevator Chest",
 							"short_name": "Elevator",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Entrance Mimic",
@@ -2834,7 +2813,7 @@
 							"access_rules": ["pound", "{sett_show_captures}"],
 							"capture_item": true,
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Orihalcon",
@@ -2906,7 +2885,7 @@
 								"$canAccessUpperMars,mars_lit,cyclone,sett_skips_basic"
 							],
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_1,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Doomed Dragon",
@@ -2947,19 +2926,19 @@
 							"name": "South-West Jar",
 							"short_name": "Outside SW",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Inn - Jar",
 							"short_name": "Inn",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Chieftain's House - Box",
 							"short_name": "Chief's House",
 							"item_count": 1,
-							"visibility_rules": ["sett_mode_2,$neg|sett_major"]
+							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Mold",

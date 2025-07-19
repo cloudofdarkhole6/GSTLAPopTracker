@@ -3,7 +3,7 @@
         "name": "Item shuffle mode",
         "type": "progressive",
         "allow_disabled": false,
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 1,
         "loop": true,
         "stages": [
             {
@@ -14,7 +14,12 @@
             {
                 "img": "images/settings/text_mode_1.png",
                 "codes": "sett_mode,sett_mode_1",
-                "inherit_codes": false
+                "inherit_codes": true
+            },
+            {
+                "img": "images/settings/text_mode_2.png",
+                "codes": "sett_mode,sett_mode_2",
+                "inherit_codes": true
             }
         ]
     }
