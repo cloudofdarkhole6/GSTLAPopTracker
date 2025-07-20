@@ -1,0 +1,12 @@
+{
+	"versions": [
+		{
+			"package_version": "0.1.0",
+			"download_url": "https://github.com/cloudofdarkhole6/GSTLAPopTracker/releases/download/0.1.0/GSTLA-poptracker_0.1.0.zip",
+			"sha256": "",
+			"changelog": [
+				"initial release"
+			]
+		}
+	]
+}

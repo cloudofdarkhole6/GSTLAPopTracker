@@ -980,12 +980,6 @@
 									"visibility_rules": ["sett_mode_1"]
 								},
 								{
-									"name": "Early Isaac Room",
-									"short_name": "Entrance",
-									"item_count": 1,
-									"visibility_rules": ["sett_mode_1,sett_major"]
-								},
-								{
 									"name": "Right Side Chest",
 									"short_name": "Right Side",
 									"access_rules": ["lash", "{sett_show_captures}"],
