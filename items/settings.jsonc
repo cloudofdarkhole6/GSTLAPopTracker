@@ -3,14 +3,9 @@
         "name": "Item shuffle mode",
         "type": "progressive",
         "allow_disabled": false,
-        "initial_stage_idx": 1,
+        "initial_stage_idx": 0,
         "loop": true,
         "stages": [
-            {
-                "img": "images/settings/text_mode_0.png",
-                "codes": "sett_mode,sett_mode_0",
-                "inherit_codes": false
-            },
             {
                 "img": "images/settings/text_mode_1.png",
                 "codes": "sett_mode,sett_mode_1",
@@ -22,5 +17,11 @@
                 "inherit_codes": true
             }
         ]
+    },
+    {
+        "name": "Reveal Hidden Items",
+        "type": "toggle",
+        "img": "images/settings/reveal_hidden_items.png",
+        "codes": "reveal_hidden"
     }
 ]

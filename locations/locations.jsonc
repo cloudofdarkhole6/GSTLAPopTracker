@@ -1816,7 +1816,7 @@
 							"hosted_item": "jupiter_6"
 						},
 						{
-							"name": "Reserve Djinni (Venus)",
+							"name": "Bane",
 							"short_name": "GS1 Venus",
 							"access_rules": ["grind,lift"],
 							"hosted_item": "venus_6"
@@ -2541,7 +2541,7 @@
 							"item_count": 1
 						},
 						{
-							"name": "Reserve Djinni (Mars)",
+							"name": "Torch",
 							"short_name": "GS1 Mars",
 							"access_rules": ["burst,growth,lash"],
 							"hosted_item": "mars_10"
@@ -2568,7 +2568,7 @@
 							"visibility_rules": ["sett_mode_1"]
 						},
 						{
-							"name": "Reserve Djinni (Jupiter)",
+							"name": "Luff",
 							"short_name": "GS1 Jupiter",
 							"access_rules": ["lift", "{sett_show_captures}"],
 							"capture_item": true,
@@ -2909,7 +2909,7 @@
 							"hosted_item": "venus_7"
 						},
 						{
-							"name": "Reserve Djinni (Mercury)",
+							"name": "Dew",
 							"short_name": "GS1 Mercury",
 							"hosted_item": "mercury_6"
 						}

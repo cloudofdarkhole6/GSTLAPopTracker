@@ -2,9 +2,12 @@
 require("scripts/autotracking/item_mapping")
 require("scripts/autotracking/location_mapping")
 require("scripts/autotracking/hints_mapping")
+require("scripts/autotracking/djinn_mapping")
+require("scripts/autotracking/setting_mapping")
 
 CUR_INDEX = -1
 --SLOT_DATA = nil
+
 
 SLOT_DATA = {}
 
@@ -111,7 +114,36 @@ function onClear(slot_data)
     end
     PLAYER_ID = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
-    SLOT_DATA = slot_data
+    -- reset settings
+    print("Fill settings from slot_data")
+    for _, table in pairs(slot_data) do
+        print(dump_table(value))
+        for key, value in pairs(table) do
+            print(key)
+            print(value)
+            if SLOT_CODES[key] then
+                local object = Tracker:FindObjectForCode(SLOT_CODES[key].code)
+                    if object then
+                        print(object)
+                        if SLOT_CODES[key].type == "toggle" then
+                            object.Active = value
+                        elseif SLOT_CODES[key].type == "progressive" then
+                            if key == "lemurian_ship" then
+                                if value == 2 then
+                                    object.Active = true
+                                end
+                            else
+                                object.CurrentStage = SLOT_CODES[key].mapping[value]
+                            end
+                        elseif SLOT_CODES[key].type == "consumable" then
+                            object.AcquiredCount = value
+                        end
+                    elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                        print(string.format("No setting could be found for key: %s", key))
+                    end
+            end
+        end
+    end
     -- if Tracker:FindObjectForCode("autofill_settings").Active == true then
     --     autoFill(slot_data)
     -- end
@@ -121,6 +153,10 @@ function onClear(slot_data)
         HINTS_ID = "_read_hints_"..TEAM_NUMBER.."_"..PLAYER_ID
         Archipelago:SetNotify({HINTS_ID})
         Archipelago:Get({HINTS_ID})
+
+        DJINN_ID = "gstla_goal_djinn_status_"..PLAYER_ID.."_"..TEAM_NUMBER
+        Archipelago:SetNotify({DJINN_ID})
+        Archipelago:Get({DJINN_ID})
     end
 end
 
@@ -191,7 +227,7 @@ function onEventsLaunch(key, value)
     updateEvents(value)
 end
 
--- this Autofill function is meant as an example on how to do the reading from slotdata and mapping the values to 
+-- this Autofill function is meant as an example on how to do the reading from slotdata and mapping the values to
 -- your own settings
 -- function autoFill()
 --     if SLOT_DATA == nil  then
@@ -216,7 +252,7 @@ end
 --                 item = Tracker:FindObjectForCode(slotCodes[settings_name].code)
 --                 if item.Type == "toggle" then
 --                     item.Active = slotCodes[settings_name].mapping[settings_value]
---                 else 
+--                 else
 --                     -- print(k,v,Tracker:FindObjectForCode(slotCodes[k].code).CurrentStage, slotCodes[k].mapping[v])
 --                     item.CurrentStage = slotCodes[settings_name].mapping[settings_value]
 --                 end
@@ -227,34 +263,28 @@ end
 
 function onNotify(key, value, old_value)
     print("onNotify", key, value, old_value)
-    if value ~= old_value and key == HINTS_ID then
-        for _, hint in ipairs(value) do
-            if hint.finding_player == Archipelago.PlayerNumber then
-                if hint.found then
-                    updateHints(hint.location, true)
-                else
-                    updateHints(hint.location, false)
-                end
-            end
+    if value ~= nil and value ~= 0 then
+        if key == DJINN_ID then
+			updateDjinnLocations(value)
         end
     end
 end
 
 function onNotifyLaunch(key, value)
     print("onNotifyLaunch", key, value)
-    if key == HINTS_ID then
-        for _, hint in ipairs(value) do
-            -- print("hint", hint, hint.found)
-            -- print(dump_table(hint))
-            if hint.finding_player == Archipelago.PlayerNumber then
-                if hint.found then
-                    updateHints(hint.location, true)
-                else
-                    updateHints(hint.location, false)
-                end
-            end
+    if value ~= nil and value ~= 0 then
+        if key == DJINN_ID then
+            updateDjinnLocations(value)
         end
     end
+end
+
+function updateDjinnLocations(value)
+	for _, id in pairs(value) do
+		local obj = Tracker:FindObjectForCode(DJINN_MAPPING[id])
+		print(obj)
+		obj.Active = true
+	end
 end
 
 function updateHints(locationID, clear)

@@ -10,7 +10,8 @@
         "h_alignment": "center",
         "rows":
             [
-                ["sett_mode"]
+                ["sett_mode"],
+                ["reveal_hidden"]
             ]
             }
         ]
