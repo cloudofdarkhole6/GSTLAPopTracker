@@ -336,7 +336,7 @@
     "codes": "venus",
     "swap_actions": false,
     "max_quantity": 18,
-    "initial_quantity": 1
+    "initial_quantity": 0
   },
   {
     "name": "Mercury Djinn",
@@ -345,7 +345,7 @@
     "codes": "mercury",
     "swap_actions": false,
     "max_quantity": 18,
-    "initial_quantity": 1
+    "initial_quantity": 0
   },
   {
     "name": "Mars Djinn",
@@ -354,7 +354,7 @@
     "codes": "mars",
     "swap_actions": false,
     "max_quantity": 18,
-    "initial_quantity": 1
+    "initial_quantity": 0
   },
   {
     "name": "Jupiter Djinn",
@@ -363,7 +363,7 @@
     "codes": "jupiter",
     "swap_actions": false,
     "max_quantity": 18,
-    "initial_quantity": 1
+    "initial_quantity": 0
   },
   
   {

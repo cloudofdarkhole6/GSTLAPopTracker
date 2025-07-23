@@ -8,7 +8,7 @@ SLOT_CODES = {
       }
     },
     reveal_hidden_item = {
-        code = "reveal_hidden_item_setting",
+        code = "reveal_hidden",
         type = "toggle"
     },
     lemurian_ship = {

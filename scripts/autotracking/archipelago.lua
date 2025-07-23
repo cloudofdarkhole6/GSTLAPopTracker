@@ -157,6 +157,10 @@ function onClear(slot_data)
         DJINN_ID = "gstla_goal_djinn_status_"..PLAYER_ID.."_"..TEAM_NUMBER
         Archipelago:SetNotify({DJINN_ID})
         Archipelago:Get({DJINN_ID})
+
+        OWNED_DJINN_ID = "gstla_djinn_held_"..PLAYER_ID.."_"..TEAM_NUMBER
+        Archipelago:SetNotify({OWNED_DJINN_ID})
+        Archipelago:Get({OWNED_DJINN_ID})
     end
 end
 
@@ -276,6 +280,11 @@ function onNotifyLaunch(key, value)
         if key == DJINN_ID then
             updateDjinnLocations(value)
         end
+        if key == OWNED_DJINN_ID then
+            print(key)
+            print(value)
+            updateDjinnCount(value)
+        end
     end
 end
 
@@ -284,6 +293,17 @@ function updateDjinnLocations(value)
 		local obj = Tracker:FindObjectForCode(DJINN_MAPPING[id])
 		print(obj)
 		obj.Active = true
+	end
+end
+
+function updateDjinnCount(value)
+	for _, id in pairs(value) do
+	    local djinn = DJINN_MAPPING[id]
+	    local splitIndex = string.find(djinn, "_")
+	    local code = string.sub(djinn, 1, splitIndex-1)
+	    print(code)
+		local obj = Tracker:FindObjectForCode(code)
+        obj.AcquiredCount = obj.AcquiredCount + 1
 	end
 end
 
