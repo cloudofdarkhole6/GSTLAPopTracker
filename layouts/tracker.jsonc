@@ -77,6 +77,12 @@
                         "item": "reveal_hidden",
                         "canvas_left": 5,
                         "canvas_top": 30
+                    },
+                    {
+                        "type": "item",
+                        "item": "djinn_logic_count",
+                        "canvas_left": 5,
+                        "canvas_top": 60
                     }
                 ]
             }

@@ -863,7 +863,7 @@
     "name": "Lemurian Ship",
     "type": "toggle",
     "img": "images/hosts/lemurian_ship.png",
-    "codes": "lemurian_ship"
+    "codes": "lemurian_ship, lemurian_ship_setting"
   },
   {
     "name": "Dwarven Cannon",
@@ -929,7 +929,7 @@
     "name": "Wings of Anemos",
     "type": "toggle",
     "img": "images/hosts/wings.png",
-    "codes": "wings_of_anemos"
+    "codes": "wings_of_anemos,start_with_wings_setting"
   },
   {
     "name": "Felix",

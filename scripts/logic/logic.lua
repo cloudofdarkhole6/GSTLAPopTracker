@@ -72,6 +72,16 @@ function hasDjinn(num)
     return 0
 end
 
+function hasDjinnCountLogic(num)
+    local logicPercent = Tracker:ProviderCountForCode("djinn_logic_count")
+    local djinnCount = Tracker:ProviderCountForCode("venus") + Tracker:ProviderCountForCode("mars") + Tracker:ProviderCountForCode("jupiter") + Tracker:ProviderCountForCode("mercury")
+
+    if djinnCount >= tonumber(num) * logicPercent / 100 then
+        return 1
+    end
+    return 0
+end
+
 function canAccessInnerAnemos()
     local djinn = Tracker:ProviderCountForCode("venus") + Tracker:ProviderCountForCode("mars") + Tracker:ProviderCountForCode("jupiter") + Tracker:ProviderCountForCode("mercury")
     if djinn == 72 then

@@ -132,6 +132,11 @@ function onClear(slot_data)
                                 if value == 2 then
                                     object.Active = true
                                 end
+                                if value ~= 0 then
+                                    print("Set black crystal active")
+                                    local crystal = Tracker:FindObjectForCode("black_crystal")
+                                    crystal.Active = true
+                                end
                             else
                                 object.CurrentStage = SLOT_CODES[key].mapping[value]
                             end
@@ -271,6 +276,9 @@ function onNotify(key, value, old_value)
         if key == DJINN_ID then
 			updateDjinnLocations(value)
         end
+        if key == OWNED_DJINN_ID then
+            updateSingleDjinnCount(value[#value])
+        end
     end
 end
 
@@ -281,14 +289,13 @@ function onNotifyLaunch(key, value)
             updateDjinnLocations(value)
         end
         if key == OWNED_DJINN_ID then
-            print(key)
-            print(value)
             updateDjinnCount(value)
         end
     end
 end
 
 function updateDjinnLocations(value)
+    print("Update Djinn Locations")
 	for _, id in pairs(value) do
 		local obj = Tracker:FindObjectForCode(DJINN_MAPPING[id])
 		print(obj)
@@ -296,13 +303,25 @@ function updateDjinnLocations(value)
 	end
 end
 
+function updateSingleDjinnCount(value)
+    local djinn = DJINN_MAPPING[value]
+	print(djinn)
+	local splitIndex = string.find(djinn, "_")
+	local code = string.sub(djinn, 1, splitIndex-1)
+	local obj = Tracker:FindObjectForCode(code)
+	print(obj)
+    obj.AcquiredCount = obj.AcquiredCount + 1
+end
+
 function updateDjinnCount(value)
+    print("Update Djinn Counts")
 	for _, id in pairs(value) do
 	    local djinn = DJINN_MAPPING[id]
+	    print(djinn)
 	    local splitIndex = string.find(djinn, "_")
 	    local code = string.sub(djinn, 1, splitIndex-1)
-	    print(code)
 		local obj = Tracker:FindObjectForCode(code)
+		print(obj)
         obj.AcquiredCount = obj.AcquiredCount + 1
 	end
 end

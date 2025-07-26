@@ -19,5 +19,13 @@ SLOT_CODES = {
             [1] = 1, -- Ship door open
             [2] = 2 -- Start with ship available
         }
+    },
+    start_with_wings = {
+        code = "start_with_wings_setting",
+        type = "toggle"
+    },
+    djinn_logic = {
+        code = "djinn_logic_count",
+        type = "consumable"
     }
 }

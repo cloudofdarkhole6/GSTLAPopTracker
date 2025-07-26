@@ -23,5 +23,13 @@
         "type": "toggle",
         "img": "images/settings/reveal_hidden_items.png",
         "codes": "reveal_hidden"
+    },
+    {
+        "name": "Djinn logic",
+        "type": "consumable",
+        "img": "images/settings/text_boss_logic.png",
+        "codes": "djinn_logic_count",
+        "initial_quantity": 100,
+        "max_quantity": 100
     }
 ]

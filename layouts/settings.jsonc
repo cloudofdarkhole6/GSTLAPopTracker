@@ -11,7 +11,8 @@
         "rows":
             [
                 ["sett_mode"],
-                ["reveal_hidden"]
+                ["reveal_hidden"],
+                ["djinn_logic_count"]
             ]
             }
         ]
