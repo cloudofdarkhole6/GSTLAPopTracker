@@ -4,6 +4,7 @@ require("scripts/autotracking/location_mapping")
 require("scripts/autotracking/hints_mapping")
 require("scripts/autotracking/djinn_mapping")
 require("scripts/autotracking/setting_mapping")
+require("scripts/autotracking/event_mapping")
 
 CUR_INDEX = -1
 --SLOT_DATA = nil
@@ -133,7 +134,6 @@ function onClear(slot_data)
                                     object.Active = true
                                 end
                                 if value ~= 0 then
-                                    print("Set black crystal active")
                                     local crystal = Tracker:FindObjectForCode("black_crystal")
                                     crystal.Active = true
                                 end
@@ -166,6 +166,10 @@ function onClear(slot_data)
         OWNED_DJINN_ID = "gstla_djinn_held_"..PLAYER_ID.."_"..TEAM_NUMBER
         Archipelago:SetNotify({OWNED_DJINN_ID})
         Archipelago:Get({OWNED_DJINN_ID})
+
+        EVENT_ID = "gstla_events_status_"..PLAYER_ID.."_"..TEAM_NUMBER
+        Archipelago:SetNotify({EVENT_ID})
+        Archipelago:Get({EVENT_ID})
     end
 end
 
@@ -279,6 +283,9 @@ function onNotify(key, value, old_value)
         if key == OWNED_DJINN_ID then
             updateSingleDjinnCount(value[#value])
         end
+        if key == EVENT_ID then
+            updateProgression(value)
+        end
     end
 end
 
@@ -290,6 +297,9 @@ function onNotifyLaunch(key, value)
         end
         if key == OWNED_DJINN_ID then
             updateDjinnCount(value)
+        end
+        if key == EVENT_ID then
+            updateProgression(value)
         end
     end
 end
@@ -324,6 +334,16 @@ function updateDjinnCount(value)
 		print(obj)
         obj.AcquiredCount = obj.AcquiredCount + 1
 	end
+end
+
+function updateProgression(value)
+    print("Update progression events")
+    print(dump_table(value))
+    for _, id in pairs(value) do
+        local obj = Tracker:FindObjectForCode(EVENT_MAPPING[id])
+        print(obj)
+        obj.Active = true
+    end
 end
 
 function updateHints(locationID, clear)

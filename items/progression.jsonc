@@ -35,19 +35,19 @@
     "name": "Briggs Defeated",
     "type": "toggle",
     "img": "images/hosts/briggs.png",
-    "codes": "briggs_battle"
+    "codes": "briggs_defeated"
   },
   {
     "name": "Briggs Escaped",
     "type": "toggle",
     "img": "images/hosts/briggs_neener.png",
-    "codes": "briggs_jailbreak"
+    "codes": "briggs_escaped"
   },
   {
     "name": "Gabomba Statue Cleared",
     "type": "toggle",
     "img": "images/hosts/gabomba.png",
-    "codes": "gabomba_statue"
+    "codes": "gabomba_statue_cleared"
   },
   {
     "name": "Jupiter Lighthouse Lit",
@@ -59,7 +59,7 @@
     "name": "Serpent Defeated",
     "type": "toggle",
     "img": "images/hosts/serpent.png",
-    "codes": "susa"
+    "codes": "serpent_defeated"
   },
   {
     "name": "Mars Lighthouse Heated",

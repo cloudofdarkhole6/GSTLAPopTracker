@@ -69,16 +69,16 @@
       "item_size": 40,
       "rows": [
         [
-                      "briggs_battle",
+                      "briggs_defeated",
                       "piers"
         ],
         [
-                      "gabomba_statue",
+                      "gabomba_statue_cleared",
                       "lemurian_ship"
         ],
         [
-                      "susa",
-                      "briggs_jailbreak"
+                      "serpent_defeated",
+                      "briggs_escaped"
                   ],
                   [
                       "trial_road",

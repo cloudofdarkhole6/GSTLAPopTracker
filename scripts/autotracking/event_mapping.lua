@@ -1,0 +1,22 @@
+EVENT_MAPPING = {
+    [5001] = "doom_dragon",
+	[5002] = "briggs_defeated",
+	[5003] = "briggs_escaped",
+	[5004] = "gabomba_statue_cleared",
+	[5005] = "serpent_defeated",
+	[5006] = "poseidon_defeated",
+	[5007] = "aqua_hydra_defeated",
+	[5008] = "trial_road",
+	[5009] = "jupiter_lit",
+	[5010] = "mars_lit",
+	[5011] = "lemurian_ship",
+	[5012] = "wings_of_anemos",
+	[5013] = "chestbeaters_defeated",
+	[5014] = "king_scorpion_defeated",
+	[5015] = "avimander_defeated",
+	[5016] = "star_magician_defeated",
+	[5017] = "sentinel_defeated",
+	[5018] = "valukar_defeated",
+	[5019] = "dullahan_defeated",
+	[5020] = "reunion"
+}

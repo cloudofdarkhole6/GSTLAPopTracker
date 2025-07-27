@@ -377,5 +377,5 @@ LOCATION_MAPPING = {
 	[16384390] = {"@Overworld/Contigo/Recruit Mia"},
 	[16384392] = {"@Overworld/Idejima/Recruit Jenna"},
 	[16384394] = {"@Overworld/Idejima/Recruit Sheba"},
-	[16384396] = {"@Overworld/Kibombo/Recruit Piers"},
+	[16384396] = {"@Overworld/Gondowan/Kibombo Area/Kibombo/Recruit Piers"},
 }

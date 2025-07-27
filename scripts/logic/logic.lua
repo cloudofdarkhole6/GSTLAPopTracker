@@ -3,7 +3,7 @@ function canAccessNaribwe()
         return 1
     end
 
-    if Tracker:ProviderCountForCode("briggs_battle") > 0 then
+    if Tracker:ProviderCountForCode("briggs_defeated") > 0 then
         return Tracker:ProviderCountForCode("frost") + Tracker:ProviderCountForCode("scoop")
     end
 
@@ -39,7 +39,7 @@ function canAccessWesternSeas()
 end
 
 function canAccessShip()
-    return (canSailShip() * (canAccessLemuria() + canAccessWesternSeas())) + (Tracker:ProviderCountForCode("gabomba_statue") * Tracker:ProviderCountForCode("black_crystal"))
+    return (canSailShip() * (canAccessLemuria() + canAccessWesternSeas())) + (Tracker:ProviderCountForCode("gabomba_statue_cleared") * Tracker:ProviderCountForCode("black_crystal") * Tracker:ProviderCountForCode("piers_character"))
 end
 
 function canAccessUpperMars()

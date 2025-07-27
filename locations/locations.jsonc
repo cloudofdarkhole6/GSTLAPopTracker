@@ -127,7 +127,7 @@
 						"x": 3345,
 						"y": 3900
 					}],
-					"access_rules": ["frost", "scoop", "$canSailShip,briggs_battle", "whirlwind,sett_skips_oobhard,briggs_battle"],
+					"access_rules": ["frost", "scoop", "$canSailShip,briggs_defeated", "whirlwind,sett_skips_oobhard,briggs_defeated"],
 					"sections": [
 						{
 							"name": "Left Ledge",
@@ -326,15 +326,15 @@
 						{
 							"name": "Gabomba Reward",
 							"short_name": "Orb",
-							"access_rules": ["gabomba_statue", "{sett_show_captures}"],
+							"access_rules": ["gabomba_statue_cleared", "{sett_show_captures}"],
 							"capture_item": true,
-							"hosted_item": "gabomba_statue",
+							"hosted_item": "gabomba_statue_cleared",
 							"visibility_rules": ["sett_show_captures"]
 						},
 						{
 							"name": "Mayor's Gift",
 							"short_name": "Cyclone",
-							"access_rules": ["gabomba_statue"],
+							"access_rules": ["gabomba_statue_cleared"],
 							"item_count": 1
 						},
 						{
@@ -593,7 +593,7 @@
 						"x": 5295,
 						"y": 3795
 					}],
-					"access_rules": ["$neg|sett_hide_yellows,[sand]", "sand", "sett_skips_oobeasy", "scoop_gem", "$canSailShip"],
+					"access_rules": ["$neg|sett_hide_yellows,[sand]", "sand", "sett_skips_oobeasy", "scoop", "$canSailShip"],
 					"sections": [
 						{
 							"name": "Reveal Circle",
@@ -611,7 +611,7 @@
 						{
 							"name": "North-East Jar",
 							"short_name": "Outside NE",
-							"access_rules": ["briggs_battle"],
+							"access_rules": ["briggs_defeated"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_2"]
 						},
@@ -636,14 +636,14 @@
 						{
 							"name": "Cave Left Side",
 							"short_name": "Cave Left",
-							"access_rules": ["briggs_battle,tremor,lash,pound", "briggs_jailbreak,lash,pound"],
+							"access_rules": ["briggs_defeated,tremor,lash,pound", "briggs_escaped,lash,pound"],
 							"item_count": 3,
 							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Cave Right Side",
 							"short_name": "Cave Right",
-							"access_rules": ["briggs_jailbreak,frost", "{sett_show_captures,briggs_battle,tremor}"],
+							"access_rules": ["briggs_escaped,frost", "{sett_show_captures,briggs_defeated,tremor}"],
 							"capture_item": true,
 							"item_count": 3,
 							"visibility_rules": ["sett_mode_1"]
@@ -651,7 +651,7 @@
 						{
 							"name": "Jail - Jar",
 							"short_name": "Jail",
-							"access_rules": ["briggs_jailbreak"],
+							"access_rules": ["briggs_escaped"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_2"]
 						},
@@ -659,13 +659,13 @@
 							"name": "Briggs Fight",
 							"short_name": "Briggs",
 							"access_rules": ["$hasDjinn|6"],
-							"hosted_item": "briggs_battle"
+							"hosted_item": "briggs_defeated"
 						},
 						{
 							"name": "Briggs Jailbreak",
 							"short_name": "Fix Boat",
-							"access_rules": ["briggs_battle,burst,lash,pound"],
-							"hosted_item": "briggs_jailbreak"
+							"access_rules": ["briggs_defeated,burst,lash,pound"],
+							"hosted_item": "briggs_escaped"
 						}
 					]
 				},
@@ -930,7 +930,7 @@
 		},
 		{
 			"name": "Gondowan",
-			"access_rules": ["$canSailShip", "briggs_battle,frost", "briggs_battle,scoop", "sett_skips_oobhard,whirlwind"],
+			"access_rules": ["$canSailShip", "briggs_defeated,frost", "briggs_defeated,scoop", "sett_skips_oobhard,whirlwind"],
 			"children": [
 				{
 					"name": "Kibombo Area",
@@ -943,7 +943,7 @@
 								"x": 3320,
 								"y": 2720
 							}],
-							"access_rules": ["gabomba_statue,cyclone"],
+							"access_rules": ["gabomba_statue_cleared,cyclone"],
 							"sections": [
 								{
 									"name": "Tomegathericon",
@@ -991,7 +991,7 @@
 									"name": "Gabomba Statue Cleared",
 									"short_name": "Cleared",
 									"access_rules": ["lash,pound"],
-									"hosted_item": "gabomba_statue"
+									"hosted_item": "gabomba_statue_cleared"
 								},
 								{
 									"name": "Steel",
@@ -1019,28 +1019,28 @@
 								{
 									"name": "Inn - Upstairs Barrel",
 									"short_name": "Inn 2F",
-									"access_rules": ["gabomba_statue"],
+									"access_rules": ["gabomba_statue_cleared"],
 									"item_count": 1,
 									"visibility_rules": ["sett_mode_2"]
 								},
 								{
 									"name": "North-West House - Jar",
 									"short_name": "NW House",
-									"access_rules": ["gabomba_statue"],
+									"access_rules": ["gabomba_statue_cleared"],
 									"item_count": 1,
 									"visibility_rules": ["sett_mode_2"]
 								},
 								{
-									"name": "Piers",
+									"name": "Recruit Piers",
 									"access_rules": ["$neg|sett_hide_yellows,[lash]", "lash", "sett_skips_oobeasy"],
-									"hosted_item": "piers"
+									"item_count": 1
 								},
 								{
 									"name": "Gabomba Reward",
 									"short_name": "Orb",
-									"access_rules": ["gabomba_statue", "{sett_show_captures,$neg|sett_hide_yellows,[lash]}", "{sett_show_captures,lash}", "{sett_show_captures,sett_skips_oobeasy}"],
+									"access_rules": ["gabomba_statue_cleared", "{sett_show_captures,$neg|sett_hide_yellows,[lash]}", "{sett_show_captures,lash}", "{sett_show_captures,sett_skips_oobeasy}"],
 									"capture_item": true,
-									"hosted_item": "gabomba_statue",
+									"hosted_item": "gabomba_statue_cleared",
 									"visibility_rules": ["sett_show_captures"]
 								}
 							]
@@ -1456,7 +1456,7 @@
 						},
 						{
 							"name": "Trident",
-							"access_rules": ["{sett_show_captures,$hasDjinn|20,briggs_jailbreak,left_prong,center_prong,right_prong}","$hasDjinn|20,briggs_jailbreak,left_prong,center_prong,right_prong,reveal"],
+							"access_rules": ["{sett_show_captures,$hasDjinn|20,briggs_escaped,left_prong,center_prong,right_prong}","$hasDjinn|20,briggs_escaped,left_prong,center_prong,right_prong,reveal"],
 							"capture_item": true,
 							"item_count": 1
 						}
@@ -1521,12 +1521,12 @@
 						{
 							"name": "Sand Tablet",
 							"short_name": "Sand",
-							"access_rules": ["susa"],
+							"access_rules": ["serpent_defeated"],
 							"item_count": 1
 						},
 						{
 							"name": "Cloud Brand",
-							"access_rules": ["susa,sand"],
+							"access_rules": ["serpent_defeated,sand"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_2"]
 						},
@@ -1541,7 +1541,7 @@
 								"$hasDjinn|16,growth,dancing_idol,cyclone,whirlwind", 
 								"$hasDjinn|16,sett_skips_growth,dancing_idol,cyclone,whirlwind"
 							],
-							"hosted_item": "susa"
+							"hosted_item": "serpent_defeated"
 						}
 					]
 				},
@@ -1643,7 +1643,7 @@
 						},
 						{
 							"name": "Coal",
-							"access_rules": ["susa,dancing_idol"],
+							"access_rules": ["serpent_defeated,dancing_idol"],
 							"hosted_item": "mars_6"
 						}
 					]
