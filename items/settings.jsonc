@@ -31,5 +31,33 @@
         "codes": "djinn_logic_count",
         "initial_quantity": 100,
         "max_quantity": 100
+    },
+    {
+        "name": "Hide yellow checks",
+        "type": "toggle",
+        "img": "images/settings/text_hide_yellows.png",
+        "codes": "sett_hide_yellows"
+    },
+    {
+        "name": "Open Anemos Sanctum",
+        "type": "progressive",
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "loop": true,
+        "img": "images/hosts/open_anemos.png",
+        "stages": [
+            {
+                "codes": "anemos_door_setting,anemos_door_0",
+                "inherit_codes": false
+            },
+            {
+                "codes": "anemos_door_setting,anemos_door_1",
+                "inherit_codes": false
+            },
+            {
+                "codes": "anemos_door_setting,anemos_door_2",
+                "inherit_codes": false
+            }
+        ]
     }
 ]

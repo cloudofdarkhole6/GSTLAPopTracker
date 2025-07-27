@@ -58,7 +58,7 @@ function onClearHandler(slot_data)
         -- locations from AP have been processed.
         local handlerName = "AP onClearHandler"
         local function frameCallback()
-            ScriptHost:AddWatchForCode("StateChange", "*", StateChange)
+            --ScriptHost:AddWatchForCode("StateChange", "*", StateChange)
             ScriptHost:RemoveOnFrameHandler(handlerName)
             Tracker.BulkUpdate = false
             -- forceUpdate()
@@ -120,12 +120,9 @@ function onClear(slot_data)
     for _, table in pairs(slot_data) do
         print(dump_table(value))
         for key, value in pairs(table) do
-            print(key)
-            print(value)
             if SLOT_CODES[key] then
                 local object = Tracker:FindObjectForCode(SLOT_CODES[key].code)
                     if object then
-                        print(object)
                         if SLOT_CODES[key].type == "toggle" then
                             object.Active = value
                         elseif SLOT_CODES[key].type == "progressive" then
@@ -308,18 +305,15 @@ function updateDjinnLocations(value)
     print("Update Djinn Locations")
 	for _, id in pairs(value) do
 		local obj = Tracker:FindObjectForCode(DJINN_MAPPING[id])
-		print(obj)
 		obj.Active = true
 	end
 end
 
 function updateSingleDjinnCount(value)
     local djinn = DJINN_MAPPING[value]
-	print(djinn)
 	local splitIndex = string.find(djinn, "_")
 	local code = string.sub(djinn, 1, splitIndex-1)
 	local obj = Tracker:FindObjectForCode(code)
-	print(obj)
     obj.AcquiredCount = obj.AcquiredCount + 1
 end
 
@@ -327,21 +321,17 @@ function updateDjinnCount(value)
     print("Update Djinn Counts")
 	for _, id in pairs(value) do
 	    local djinn = DJINN_MAPPING[id]
-	    print(djinn)
 	    local splitIndex = string.find(djinn, "_")
 	    local code = string.sub(djinn, 1, splitIndex-1)
 		local obj = Tracker:FindObjectForCode(code)
-		print(obj)
         obj.AcquiredCount = obj.AcquiredCount + 1
 	end
 end
 
 function updateProgression(value)
     print("Update progression events")
-    print(dump_table(value))
     for _, id in pairs(value) do
         local obj = Tracker:FindObjectForCode(EVENT_MAPPING[id])
-        print(obj)
         obj.Active = true
     end
 end

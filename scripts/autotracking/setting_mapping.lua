@@ -27,5 +27,14 @@ SLOT_CODES = {
     djinn_logic = {
         code = "djinn_logic_count",
         type = "consumable"
+    },
+    anemos_inner_sanctum_access = {
+        code = "anemos_door_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- require all 72 djinn
+            [1] = 1, -- require between 16 and 28 djinn
+            [2] = 2 -- open without djinn
+        }
     }
 }

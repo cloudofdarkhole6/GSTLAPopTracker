@@ -18,7 +18,7 @@
 						{
 							"name": "Sea God's Tear",
 							"short_name": "SG Tear",
-							"access_rules": ["frost", "{sett_show_captures}"],
+							"access_rules": ["frost"],
 							"capture_item": true,
 							"item_count": 1
 						},
@@ -101,7 +101,7 @@
 						{
 							"name": "Lash Required Chest",
 							"short_name": "Req. Lash",
-							"access_rules": ["lash", "{sett_show_captures}"],
+							"access_rules": ["lash"],
 							"capture_item": true,
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
@@ -113,7 +113,7 @@
 						},
 						{
 							"name": "Cannon",
-							"access_rules": ["pound", "{sett_show_captures}"],
+							"access_rules": ["pound"],
 							"capture_item": true,
 							"capture_item_layout": "tracker_capture_djinni",
 							"hosted_item": "mars_1"
@@ -127,7 +127,7 @@
 						"x": 3345,
 						"y": 3900
 					}],
-					"access_rules": ["frost", "scoop", "$canSailShip,briggs_defeated", "whirlwind,sett_skips_oobhard,briggs_defeated"],
+					"access_rules": ["frost", "scoop", "$canSailShip,briggs_defeated"],
 					"sections": [
 						{
 							"name": "Left Ledge",
@@ -143,7 +143,7 @@
 						{
 							"name": "Healing Fungus",
 							"short_name": "Fungus",
-							"access_rules": ["frost", "{sett_show_captures,scoop}"],
+							"access_rules": ["frost"],
 							"capture_item": true,
 							"item_count": 1
 						},
@@ -164,7 +164,7 @@
 						{
 							"name": "Zagan Tablet",
 							"short_name": "Zagan",
-							"access_rules": ["lash", "{sett_show_captures}"],
+							"access_rules": ["lash"],
 							"capture_item": true,
 							"item_count": 1
 						}
@@ -199,7 +199,7 @@
 						},
 						{
 							"name": "Fog",
-							"access_rules": ["lash", "{sett_show_captures}"],
+							"access_rules": ["lash"],
 							"capture_item": true,
 							"capture_item_layout": "tracker_capture_djinni",
 							"hosted_item": "mercury_1"
@@ -239,7 +239,7 @@
 						{
 							"name": "Frost Pillar",
 							"short_name": "Req. Frost",
-							"access_rules": ["frost", "{sett_show_captures}"],
+							"access_rules": ["frost"],
 							"capture_item": true,
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
@@ -254,7 +254,7 @@
 						{
 							"name": "Aqua Hydra Room - Barrel",
 							"short_name": "Hydra Barrel",
-							"access_rules": ["$neg|sett_hide_yellows,[frost]", "frost", "sett_skips_oobhard"],
+							"access_rules": ["$neg|sett_hide_yellows,[frost]", "frost"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_2"]
 						},
@@ -262,8 +262,7 @@
 							"name": "Submerged Chest",
 							"short_name": "Req. Parch",
 							"access_rules": [
-								"$hasDjinn|10,$neg|sett_hide_yellows,[frost],parch", "$hasDjinn|10,frost,parch", "$hasDjinn|10,sett_skips_oobhard,parch",
-								"{sett_show_captures}"
+								"$hasDjinnCountLogic|10,$neg|sett_hide_yellows,[frost],parch", "$hasDjinnCountLogic|10,frost,parch"
 							],
 							"capture_item": true,
 							"item_count": 1,
@@ -273,7 +272,7 @@
 							"name": "Lemurian Ship",
 							"short_name": "Ship",
 							"access_rules": [
-								"$hasDjinn|10,$neg|sett_hide_yellows,[frost],douse", "$hasDjinn|10,frost,douse", "$hasDjinn|10,sett_skips_oobhard,douse"
+								"$hasDjinnCountLogic|10,$neg|sett_hide_yellows,[frost],douse", "$hasDjinnCountLogic|10,frost,douse"
 							],
 							"hosted_item": "lemurian_ship"
 						}
@@ -324,14 +323,6 @@
 							"visibility_rules": ["sett_mode_2"]
 						},
 						{
-							"name": "Gabomba Reward",
-							"short_name": "Orb",
-							"access_rules": ["gabomba_statue_cleared", "{sett_show_captures}"],
-							"capture_item": true,
-							"hosted_item": "gabomba_statue_cleared",
-							"visibility_rules": ["sett_show_captures"]
-						},
-						{
 							"name": "Mayor's Gift",
 							"short_name": "Cyclone",
 							"access_rules": ["gabomba_statue_cleared"],
@@ -351,18 +342,18 @@
 						"x": 4070,
 						"y": 3850
 					}],
+					"access_rules": ["reveal"],
 					"sections": [
 						{
 							"name": "Main Cave East",
 							"short_name": "Main East",
 							"item_count": 1,
-							"capture_item": true,
-							"access_rules": ["{sett_show_captures}","reveal"]
+							"capture_item": true
 						},
 						{
 							"name": "Main Cave South",
 							"short_name": "Main South",
-							"access_rules": ["reveal,lash,frost", "{sett_show_captures,reveal}"],
+							"access_rules": ["lash,frost"],
 							"capture_item": true,
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
@@ -370,26 +361,24 @@
 						{
 							"name": "Tremor Bit",
 							"short_name": "Tremor",
-							"access_rules": ["reveal"],
 							"item_count": 1
 						},
 						{
 							"name": "Ruins West Room",
 							"short_name": "Ruins West",
 							"item_count": 1,
-							"access_rules": ["reveal"],
 							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Ruin Key",
-							"access_rules": ["reveal,lash,frost,tremor", "{sett_show_captures,reveal,lash,frost}"],
+							"access_rules": ["lash,frost,tremor"],
 							"capture_item": true,
 							"item_count": 1
 						},
 						{
 							"name": "Moloch Tablet",
 							"short_name": "Moloch",
-							"access_rules": ["reveal,ruin_key"],
+							"access_rules": ["ruin_key"],
 							"item_count": 1
 						}
 					]
@@ -405,7 +394,7 @@
 						{
 							"name": "Pirate Sword",
 							"short_name": "Req. Lash",
-							"access_rules": ["lash", "{sett_show_captures}"],
+							"access_rules": ["lash"],
 							"capture_item": true,
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
@@ -419,12 +408,12 @@
 						"x": 4305,
 						"y": 3140
 					}],
-					"access_rules": ["$neg|sett_hide_yellows,[lash]", "lash", "sett_skips_oobeasy"],
+					"access_rules": ["$neg|sett_hide_yellows,[lash]", "lash"],
 					"sections": [
 						{
 							"name": "Breaking Bridges Room",
 							"short_name": "Bridges",
-							"access_rules": ["$neg|sett_hide_yellows,[frost]", "frost", "sett_skips_oobeasy"],
+							"access_rules": ["$neg|sett_hide_yellows,[frost]", "frost"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
 						},
@@ -433,8 +422,7 @@
 							"short_name": "Prong",
 							"access_rules": [
 								"$neg|sett_hide_yellows,[frost],reveal,sea_god's_tear", 
-								"frost,reveal,sea_god's_tear",
-								"sett_skips_oobeasy,reveal,sea_god's_tear"
+								"frost,reveal,sea_god's_tear"
 							],
 							"item_count": 1
 						},
@@ -473,11 +461,11 @@
 						"x": 5500,
 						"y": 4255
 					}],
+					"access_rules": ["whirlwind"],
 					"sections": [
 						{
 							"name": "First Room - Lower Left",
 							"short_name": "Bottom SW",
-							"access_rules": ["whirlwind", "{sett_show_captures}"],
 							"capture_item": true,
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
@@ -485,28 +473,25 @@
 						{
 							"name": "First Room - Mimic",
 							"short_name": "Mimic",
-							"access_rules": ["whirlwind"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "First Room - Middle",
 							"short_name": "Bottom Middle",
-							"access_rules": ["whirlwind"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "First Room - Top Right",
 							"short_name": "Bottom NE",
-							"access_rules": ["whirlwind"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Frost Ledge",
 							"short_name": "Req. Frost",
-							"access_rules": ["whirlwind,frost", "{sett_show_captures,whirlwind}"],
+							"access_rules": ["frost"],
 							"capture_item": true,
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
@@ -514,14 +499,12 @@
 						{
 							"name": "Cliff Ascent",
 							"short_name": "Ascent",
-							"access_rules": ["whirlwind"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Summit Chest",
 							"short_name": "Summit",
-							"access_rules": ["whirlwind"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
 						}
@@ -579,7 +562,7 @@
 						{
 							"name": "Tablet Room Chest",
 							"short_name": "Req. Reveal",
-							"access_rules": ["reveal", "{sett_show_captures}"],
+							"access_rules": ["reveal"],
 							"capture_item": true,
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
@@ -593,7 +576,7 @@
 						"x": 5295,
 						"y": 3795
 					}],
-					"access_rules": ["$neg|sett_hide_yellows,[sand]", "sand", "sett_skips_oobeasy", "scoop", "$canSailShip"],
+					"access_rules": ["$neg|sett_hide_yellows,[sand]", "sand", "scoop", "$canSailShip"],
 					"sections": [
 						{
 							"name": "Reveal Circle",
@@ -643,7 +626,7 @@
 						{
 							"name": "Cave Right Side",
 							"short_name": "Cave Right",
-							"access_rules": ["briggs_escaped,frost", "{sett_show_captures,briggs_defeated,tremor}"],
+							"access_rules": ["briggs_escaped,frost"],
 							"capture_item": true,
 							"item_count": 3,
 							"visibility_rules": ["sett_mode_1"]
@@ -658,7 +641,7 @@
 						{
 							"name": "Briggs Fight",
 							"short_name": "Briggs",
-							"access_rules": ["$hasDjinn|6"],
+							"access_rules": ["$hasDjinnCountLogic|6"],
 							"hosted_item": "briggs_defeated"
 						},
 						{
@@ -680,7 +663,7 @@
 						{
 							"name": "Ledge Chest",
 							"short_name": "Ledge",
-							"access_rules": ["reveal", "{sett_show_captures}"],
+							"access_rules": ["reveal"],
 							"capture_item": true,
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
@@ -756,7 +739,7 @@
 						},
 						{
 							"name": "Spark",
-							"access_rules": ["scoop", "{sett_show_captures}"],
+							"access_rules": ["scoop"],
 							"capture_item": true,
 							"capture_item_layout": "tracker_capture_djinni",
 							"hosted_item": "mars_3"
@@ -774,7 +757,7 @@
 						{
 							"name": "Megaera Tablet",
 							"short_name": "Megaera",
-							"access_rules": ["scoop", "{sett_show_captures}"],
+							"access_rules": ["scoop"],
 							"capture_item": true,
 							"item_count": 1
 						}
@@ -794,7 +777,7 @@
 						{
 							"name": "Guardian Ring",
 							"short_name": "G. Ring",
-							"access_rules": ["sand", "pound", "{sett_show_captures}"],
+							"access_rules": ["sand", "pound"],
 							"capture_item": true,
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
@@ -809,20 +792,20 @@
 						{
 							"name": "Scoop Gem",
 							"short_name": "Scoop",
-							"access_rules": ["$hasDjinn|3,pound"],
+							"access_rules": ["$hasDjinnCountLogic|3,pound"],
 							"item_count": 1
 						},
 						{
 							"name": "Buried Item",
 							"short_name": "Buried",
-							"access_rules": ["$neg|sett_hide_yellows,[$canAccessYampiBackside],scoop", "$canAccessYampiBackside,scoop", "sett_skips_oobeasy,scoop"],
+							"access_rules": ["$neg|sett_hide_yellows,[$canAccessYampiBackside],scoop", "$canAccessYampiBackside,scoop"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_2"]
 						},
 						{
 							"name": "Sand Flow Cave South",
 							"short_name": "Cave South",
-							"access_rules": ["$neg|sett_hide_yellows,[$canAccessYampiBackside]", "$canAccessYampiBackside", "sett_skips_oobeasy"],
+							"access_rules": ["$neg|sett_hide_yellows,[$canAccessYampiBackside]", "$canAccessYampiBackside"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
 						},
@@ -830,8 +813,7 @@
 							"name": "Sand Flow Cave North",
 							"short_name": "Cave North",
 							"access_rules": [
-								"$neg|sett_hide_yellows,[$canAccessYampiBackside],pound", "$canAccessYampiBackside,pound", "sett_skips_oobeasy,pound",
-								"{sett_show_captures,$canAccessYampiBackside}"
+								"$neg|sett_hide_yellows,[$canAccessYampiBackside],pound", "$canAccessYampiBackside,pound"
 							],
 							"capture_item": true,
 							"item_count": 1,
@@ -841,8 +823,7 @@
 							"name": "Trainer's Whip",
 							"short_name": "Whip",
 							"access_rules": [
-								"$neg|sett_hide_yellows,[$canAccessYampiBackside],lash", "$canAccessYampiBackside,lash", "sett_skips_oobeasy,lash", "sand",
-								"{sett_show_captures,$canAccessYampiBackside}"
+								"$neg|sett_hide_yellows,[$canAccessYampiBackside],lash", "$canAccessYampiBackside,lash", "sand"
 							],
 							"capture_item": true,
 							"item_count": 1
@@ -850,20 +831,20 @@
 						{
 							"name": "Reveal Circle",
 							"short_name": "Req. Reveal",
-							"access_rules": ["$neg|sett_hide_yellows,[$canAccessYampiBackside],reveal", "$canAccessYampiBackside,reveal", "sett_skips_oobeasy,reveal"],
+							"access_rules": ["$neg|sett_hide_yellows,[$canAccessYampiBackside],reveal", "$canAccessYampiBackside,reveal"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Yampi Desert Cave Entrance",
 							"short_name": "YDC Entrance",
-							"access_rules": ["$neg|sett_hide_yellows,[sand]", "sand", "sett_skips_basic"],
+							"access_rules": ["$neg|sett_hide_yellows,[sand]", "sand"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Blitz",
-							"access_rules": ["pound", "{sett_show_captures}"],
+							"access_rules": ["pound"],
 							"capture_item": true,
 							"capture_item_layout": "tracker_capture_djinni",
 							"hosted_item": "jupiter_3"
@@ -882,7 +863,7 @@
 						{
 							"name": "Half-buried Item",
 							"short_name": "Half-buried",
-							"access_rules": ["scoop", "{sett_show_captures}"],
+							"access_rules": ["scoop"],
 							"capture_item": true,
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
@@ -902,7 +883,7 @@
 						{
 							"name": "Daedalus Tablet",
 							"short_name": "Daedalus",
-							"access_rules": ["$hasDjinn|64,reunion,jupiter_lit,pound"],
+							"access_rules": ["$hasDjinnCountLogic|64,pound"],
 							"item_count": 1
 						},
 						{
@@ -930,7 +911,7 @@
 		},
 		{
 			"name": "Gondowan",
-			"access_rules": ["$canSailShip", "briggs_defeated,frost", "briggs_defeated,scoop", "sett_skips_oobhard,whirlwind"],
+			"access_rules": ["$canSailShip", "briggs_defeated,frost", "briggs_defeated,scoop"],
 			"children": [
 				{
 					"name": "Kibombo Area",
@@ -970,7 +951,7 @@
 								"x": 3320,
 								"y": 2800
 							}],
-							"access_rules": ["$neg|sett_hide_yellows,[lash],scoop", "lash,scoop", "sett_skips_oobeasy,scoop"],
+							"access_rules": ["$neg|sett_hide_yellows,[lash],scoop", "lash,scoop"],
 							"sections": [
 								{
 									"name": "Early Isaac Room",
@@ -982,7 +963,7 @@
 								{
 									"name": "Right Side Chest",
 									"short_name": "Right Side",
-									"access_rules": ["lash", "{sett_show_captures}"],
+									"access_rules": ["lash"],
 									"capture_item": true,
 									"item_count": 1,
 									"visibility_rules": ["sett_mode_1"]
@@ -995,7 +976,7 @@
 								},
 								{
 									"name": "Steel",
-									"access_rules": ["lash,pound", "{sett_show_captures,lash}"],
+									"access_rules": ["lash,pound"],
 									"capture_item": true,
 									"capture_item_layout": "tracker_capture_djinni",
 									"hosted_item": "venus_2"
@@ -1032,16 +1013,8 @@
 								},
 								{
 									"name": "Recruit Piers",
-									"access_rules": ["$neg|sett_hide_yellows,[lash]", "lash", "sett_skips_oobeasy"],
+									"access_rules": ["$neg|sett_hide_yellows,[lash]", "lash"],
 									"item_count": 1
-								},
-								{
-									"name": "Gabomba Reward",
-									"short_name": "Orb",
-									"access_rules": ["gabomba_statue_cleared", "{sett_show_captures,$neg|sett_hide_yellows,[lash]}", "{sett_show_captures,lash}", "{sett_show_captures,sett_skips_oobeasy}"],
-									"capture_item": true,
-									"hosted_item": "gabomba_statue_cleared",
-									"visibility_rules": ["sett_show_captures"]
 								}
 							]
 						}
@@ -1078,7 +1051,7 @@
 						},
 						{
 							"name": "Waft",
-							"access_rules": ["frost,growth", "{sett_show_captures,$canSailShip}", "{sett_show_captures,lash,whirlwind}", "{sett_show_captures,frost}"],
+							"access_rules": ["frost,growth"],
 							"capture_item": true,
 							"capture_item_layout": "tracker_capture_djinni",
 							"hosted_item": "jupiter_4"
@@ -1096,7 +1069,7 @@
 						{
 							"name": "Thorn Crown",
 							"short_name": "Req. Lash",
-							"access_rules": ["lash", "{sett_show_captures}"],
+							"access_rules": ["lash"],
 							"capture_item": true,
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
@@ -1104,7 +1077,7 @@
 						{
 							"name": "Reveal Circle",
 							"short_name": "Req. Reveal",
-							"access_rules": ["whirlwind,reveal", "{sett_show_captures,reveal}"],
+							"access_rules": ["whirlwind,reveal"],
 							"capture_item": true,
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
@@ -1178,7 +1151,7 @@
 						{
 							"name": "Face Rooms 1 and 6",
 							"short_name": "Faces 1+6",
-							"access_rules": ["sand", "{sett_show_captures}"],
+							"access_rules": ["sand"],
 							"capture_item": true,
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
@@ -1186,7 +1159,7 @@
 						{
 							"name": "Left Path - Sand Path",
 							"short_name": "(L) Chest 1",
-							"access_rules": ["sand", "{sett_show_captures}"],
+							"access_rules": ["sand"],
 							"capture_item": true,
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
@@ -1284,7 +1257,7 @@
 						},
 						{
 							"name": "Haze",
-							"access_rules": ["sand,whirlwind", "{sett_show_captures}"],
+							"access_rules": ["sand,whirlwind"],
 							"capture_item": true,
 							"capture_item_layout": "tracker_capture_djinni",
 							"hosted_item": "jupiter_5"
@@ -1321,7 +1294,7 @@
 						{
 							"name": "2F - Frost Pillars",
 							"short_name": "(2F) Req. Frost",
-							"access_rules": ["frost", "{sett_show_captures}"],
+							"access_rules": ["frost"],
 							"capture_item": true,
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
@@ -1361,7 +1334,7 @@
 						{
 							"name": "1F - Left Side",
 							"short_name": "(1F) Left",
-							"access_rules": ["frost", "{sett_show_captures,parch}"],
+							"access_rules": ["frost"],
 							"capture_item": true,
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
@@ -1389,7 +1362,7 @@
 						{
 							"name": "1F - Submerged Chest",
 							"short_name": "(1F) Req. Parch",
-							"access_rules": ["parch", "{sett_show_captures}"],
+							"access_rules": ["parch"],
 							"capture_item": true,
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
@@ -1402,7 +1375,7 @@
 						},
 						{
 							"name": "Steam",
-							"access_rules": ["parch", "{sett_show_captures,frost}"],
+							"access_rules": ["parch"],
 							"capture_item": true,
 							"capture_item_layout": "tracker_capture_djinni",
 							"hosted_item": "mercury_3"
@@ -1456,7 +1429,7 @@
 						},
 						{
 							"name": "Trident",
-							"access_rules": ["{sett_show_captures,$hasDjinn|20,briggs_escaped,left_prong,center_prong,right_prong}","$hasDjinn|20,briggs_escaped,left_prong,center_prong,right_prong,reveal"],
+							"access_rules": ["$hasDjinnCountLogic|20,briggs_escaped,left_prong,center_prong,right_prong,reveal"],
 							"capture_item": true,
 							"item_count": 1
 						}
@@ -1513,7 +1486,7 @@
 						{
 							"name": "Maze Items",
 							"short_name": "Maze",
-							"access_rules": ["$neg|sett_hide_yellows,[growth]", "growth", "sett_skips_growth"],
+							"access_rules": ["$neg|sett_hide_yellows,[growth]", "growth"],
 							"item_count": 2,
 							"clear_as_group": false,
 							"visibility_rules": ["sett_mode_1"]
@@ -1534,12 +1507,10 @@
 							"name": "Serpent Defeated",
 							"short_name": "Cleared",
 							"access_rules": [
-								"$hasDjinn|24,$neg|sett_hide_yellows,[growth],dancing_idol,cyclone", 
-								"$hasDjinn|24,growth,dancing_idol,cyclone", 
-								"$hasDjinn|24,sett_skips_growth,dancing_idol,cyclone",
-								"$hasDjinn|16,$neg|sett_hide_yellows,[growth],dancing_idol,cyclone,whirlwind", 
-								"$hasDjinn|16,growth,dancing_idol,cyclone,whirlwind", 
-								"$hasDjinn|16,sett_skips_growth,dancing_idol,cyclone,whirlwind"
+								"$hasDjinnCountLogic|24,$neg|sett_hide_yellows,[growth],dancing_idol,cyclone",
+								"$hasDjinnCountLogic|24,growth,dancing_idol,cyclone",
+								"$hasDjinnCountLogic|16,$neg|sett_hide_yellows,[growth],dancing_idol,cyclone,whirlwind",
+								"$hasDjinnCountLogic|16,growth,dancing_idol,cyclone,whirlwind"
 							],
 							"hosted_item": "serpent_defeated"
 						}
@@ -1569,7 +1540,7 @@
 						{
 							"name": "Catastrophe Tablet",
 							"short_name": "Catastrophe",
-							"access_rules": ["$hasDjinn|64,reunion,jupiter_lit,teleport"],
+							"access_rules": ["$hasDjinnCountLogic|64,teleport"],
 							"item_count": 1
 						},
 						{
@@ -1709,7 +1680,7 @@
 						{
 							"name": "North-West Cave - Half-buried Item",
 							"short_name": "Half-buried 1",
-							"access_rules": ["whirlwind,scoop", "{sett_show_captures,whirlwind}"],
+							"access_rules": ["whirlwind,scoop"],
 							"capture_item": true,
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
@@ -1717,7 +1688,7 @@
 						{
 							"name": "South-East Cave - Half-buried Item",
 							"short_name": "Half-buried 2",
-							"access_rules": ["whirlwind,scoop", "{sett_show_captures,whirlwind}"],
+							"access_rules": ["whirlwind,scoop"],
 							"capture_item": true,
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
@@ -1787,7 +1758,7 @@
 						{
 							"name": "Main Room North",
 							"short_name": "Main North",
-							"access_rules": ["grind", "{sett_show_captures}"],
+							"access_rules": ["grind"],
 							"capture_item": true,
 							"item_count": 6,
 							"visibility_rules": ["sett_mode_1"]
@@ -1807,7 +1778,7 @@
 						{
 							"name": "Azul Tablet",
 							"short_name": "Azul",
-							"access_rules": ["$hasDjinn|64,grind,lift,reunion,jupiter_lit"],
+							"access_rules": ["$hasDjinnCountLogic|64,grind,lift"],
 							"item_count": 1
 						},
 						{
@@ -1834,7 +1805,7 @@
 						{
 							"name": "1F - West Room Ledge",
 							"short_name": "(1F) West",
-							"access_rules": ["parch,burst", "{sett_show_captures,parch}"],
+							"access_rules": ["parch,burst"],
 							"capture_item": true,
 							"item_count": 2,
 							"visibility_rules": ["sett_mode_1"]
@@ -1842,7 +1813,7 @@
 						{
 							"name": "1F - East Room Ledge",
 							"short_name": "(1F) East",
-							"access_rules": ["parch,burst", "{sett_show_captures,parch}"],
+							"access_rules": ["parch,burst"],
 							"capture_item": true,
 							"item_count": 2,
 							"visibility_rules": ["sett_mode_1"]
@@ -1872,13 +1843,13 @@
 						{
 							"name": "Burst Brooch",
 							"short_name": "Burst",
-							"access_rules": ["parch,$neg|sett_hide_yellows,[pound],reveal", "parch,pound,reveal", "parch,sett_skips_basic,reveal"],
+							"access_rules": ["parch,$neg|sett_hide_yellows,[pound],reveal", "parch,pound,reveal"],
 							"item_count": 1
 						},
 						{
 							"name": "Center Prong",
 							"short_name": "Prong",
-							"access_rules": ["burst", "{sett_show_captures}"],
+							"access_rules": ["burst"],
 							"capture_item": true,
 							"item_count": 1
 						},
@@ -1921,7 +1892,7 @@
 					"sections": [
 						{
 							"name": "Masamune",
-							"access_rules": ["force,cyclone", "{sett_show_captures}"],
+							"access_rules": ["force,cyclone"],
 							"capture_item": true,
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
@@ -2088,7 +2059,7 @@
 				},
 				{
 					"name": "Rime",
-					"access_rules": ["grind,cyclone,tremor", "{sett_show_captures,grind,cyclone}"],
+					"access_rules": ["grind,cyclone,tremor"],
 					"capture_item": true,
 					"capture_item_layout": "tracker_capture_djinni",
 					"hosted_item": "mercury_4"
@@ -2110,7 +2081,7 @@
 						{
 							"name": "Haures Tablet",
 							"short_name": "Haures",
-							"access_rules": ["carry", "{sett_show_captures}"],
+							"access_rules": ["carry"],
 							"capture_item": true,
 							"item_count": 1
 						}
@@ -2147,7 +2118,7 @@
 							"name": "Iris Tablet",
 							"short_name": "Iris",
 							"item_count": 1,
-							"access_rules": ["lift,sand,$hasDjinn|72"]
+							"access_rules": ["lift,sand,$hasDjinnCountLogic|72"]
 						}
 					]
 				},
@@ -2162,7 +2133,7 @@
 						{
 							"name": "Coatlicue Tablet",
 							"short_name": "Coatlicue",
-							"access_rules": ["$canFlyShip,parch", "{sett_show_captures,$canFlyShip}"],
+							"access_rules": ["$canFlyShip,parch"],
 							"capture_item": true,
 							"item_count": 1
 						}
@@ -2184,7 +2155,7 @@
 						},
 						{
 							"name": "Geode",
-							"access_rules": ["cyclone,lift", "{sett_show_captures,cyclone}"],
+							"access_rules": ["cyclone,lift"],
 							"capture_item": true,
 							"capture_item_layout": "tracker_capture_djinni",
 							"hosted_item": "venus_9"
@@ -2208,7 +2179,7 @@
 						{
 							"name": "Front of Anemos Sanctum",
 							"short_name": "Anemos Front",
-							"access_rules": ["reveal", "{sett_show_captures,teleport}"],
+							"access_rules": ["reveal"],
 							"capture_item": true,
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
@@ -2282,7 +2253,7 @@
 						},
 						{
 							"name": "Tinder",
-							"access_rules": ["growth", "{sett_show_captures}"],
+							"access_rules": ["growth"],
 							"capture_item": true,
 							"capture_item_layout": "tracker_capture_djinni",
 							"hosted_item": "mars_7"
@@ -2394,7 +2365,7 @@
 					"sections": [
 						{
 							"name": "Gel",
-							"access_rules": ["lash", "{sett_show_captures}"],
+							"access_rules": ["lash"],
 							"capture_item": true,
 							"capture_item_layout": "tracker_capture_djinni",
 							"hosted_item": "mercury_5"
@@ -2418,7 +2389,7 @@
 						{
 							"name": "Half-buried Item",
 							"short_name": "Half-buried",
-							"access_rules": ["cannon,scoop", "{sett_show_captures}"],
+							"access_rules": ["cannon,scoop"],
 							"capture_item": true,
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
@@ -2433,7 +2404,7 @@
 						{
 							"name": "Item Under Boulder",
 							"short_name": "Req. Lift",
-							"access_rules": ["cannon,lift,scoop", "{sett_show_captures,cannon,lift}"],
+							"access_rules": ["cannon,lift,scoop"],
 							"capture_item": true,
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
@@ -2446,7 +2417,7 @@
 						},
 						{
 							"name": "Lull",
-							"access_rules": ["cannon", "{sett_show_captures}"],
+							"access_rules": ["cannon"],
 							"capture_item": true,
 							"capture_item_layout": "tracker_capture_djinni",
 							"hosted_item": "jupiter_8"
@@ -2523,7 +2494,7 @@
 						{
 							"name": "2F - North-East Sluice",
 							"short_name": "(2F) North-East",
-							"access_rules": ["burst,growth,lash,whirlwind", "{sett_show_captures,burst,growth,lash}"],
+							"access_rules": ["burst,growth,lash,whirlwind"],
 							"capture_item": true,
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
@@ -2537,7 +2508,7 @@
 						{
 							"name": "Magma Ball",
 							"short_name": "Meatball",
-							"access_rules": ["burst,growth,lash,whirlwind,[blaze]"],
+							"access_rules": ["burst,growth,lash,whirlwind,blaze"],
 							"item_count": 1
 						},
 						{
@@ -2570,7 +2541,7 @@
 						{
 							"name": "Luff",
 							"short_name": "GS1 Jupiter",
-							"access_rules": ["lift", "{sett_show_captures}"],
+							"access_rules": ["lift"],
 							"capture_item": true,
 							"capture_item_layout": "tracker_capture_djinni",
 							"hosted_item": "jupiter_7"
@@ -2589,7 +2560,7 @@
 						{
 							"name": "Next to Moapa's House",
 							"short_name": "Req. Growth",
-							"access_rules": ["growth", "{sett_show_captures}"],
+							"access_rules": ["growth"],
 							"capture_item": true,
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
@@ -2597,7 +2568,7 @@
 						{
 							"name": "East Ledge Barrel",
 							"short_name": "Outside E",
-							"access_rules": ["$neg|sett_hide_yellows,[trial_road]", "trial_road", "sett_skips_basic"],
+							"access_rules": ["$neg|sett_hide_yellows,[trial_road]", "trial_road"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_2"]
 						},
@@ -2630,7 +2601,7 @@
 						{
 							"name": "Trial Road Side Path",
 							"short_name": "Side Path",
-							"access_rules": ["shaman's_rod,hover,lift,reveal", "{sett_show_captures,shaman's_rod,hover_lift}"],
+							"access_rules": ["shaman's_rod,hover,lift,reveal"],
 							"capture_item": true,
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
@@ -2638,19 +2609,19 @@
 						{
 							"name": "Trial Road Cleared",
 							"short_name": "Trial Road",
-							"access_rules": ["$hasDjinn|28,shaman's_rod"],
+							"access_rules": ["$hasDjinnCountLogic|28,shaman's_rod"],
 							"hosted_item": "trial_road"
 						},
 						{
 							"name": "Aroma",
-							"access_rules": ["$neg|sett_hide_yellows,[lash],[trial_road]", "lash,trial_road", "sett_skips_basic", "{sett_show_captures}"],
+							"access_rules": ["$neg|sett_hide_yellows,[lash],[trial_road]", "lash,trial_road"],
 							"capture_item": true,
 							"capture_item_layout": "tracker_capture_djinni",
 							"hosted_item": "jupiter_9"
 						},
 						{
 							"name": "Gasp",
-							"access_rules": ["shaman's_rod,hover,lift,reveal", "{sett_show_captures,shaman's_rod,hover,lift}"],
+							"access_rules": ["shaman's_rod,hover,lift,reveal"],
 							"capture_item": true,
 							"capture_item_layout": "tracker_capture_djinni",
 							"hosted_item": "jupiter_10"
@@ -2667,7 +2638,7 @@
 					"sections": [
 						{
 							"name": "Eddy",
-							"access_rules": ["whirlwind,frost,lift", "{sett_show_captures,whirlwind}"],
+							"access_rules": ["whirlwind,frost,lift"],
 							"capture_item": true,
 							"capture_item_layout": "tracker_capture_djinni",
 							"hosted_item": "mercury_7"
@@ -2739,7 +2710,7 @@
 						"x": 655,
 						"y": 3375
 					}],
-					"access_rules": ["reunion,hover"],
+					"access_rules": ["hover"],
 					"sections": [
 						{
 							"name": "Sunken Item",
@@ -2771,7 +2742,7 @@
 						{
 							"name": "Entrance Mimic",
 							"short_name": "Mimic",
-							"access_rules": ["pound", "{sett_show_captures}"],
+							"access_rules": ["pound"],
 							"capture_item": true,
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
@@ -2785,7 +2756,7 @@
 						{
 							"name": "Teleport Lapis",
 							"short_name": "Teleport",
-							"access_rules": ["pound,burst,blaze", "pound,burst,teleport", "{sett_show_captures,pound,burst}"],
+							"access_rules": ["pound,burst,blaze", "pound,burst,teleport"],
 							"capture_item": true,
 							"item_count": 1
 						},
@@ -2806,13 +2777,13 @@
 						{
 							"name": "Flame Dragons",
 							"short_name": "Agatio",
-							"access_rules": ["$hasDjinn|48,pound,burst,blaze,reveal,teleport"],
+							"access_rules": ["hasDjinnCountLogic|48,pound,burst,blaze,reveal,teleport"],
 							"item_count": 1
 						},
 						{
 							"name": "Lighthouse Heated",
 							"short_name": "Heated",
-							"access_rules": ["$hasDjinn|48,$canAccessUpperMars"],
+							"access_rules": ["$hasDjinnCountLogic|48,$canAccessUpperMars"],
 							"hosted_item": "mars_lit"
 						},
 						{
@@ -2842,8 +2813,7 @@
 							"short_name": "Jup. Wing",
 							"access_rules": [
 								"$neg|sett_hide_yellows,$canAccessUpperMars,mars_lit,cyclone,[hover]", 
-								"$canAccessUpperMars,mars_lit,cyclone,hover",
-								"$canAccessUpperMars,mars_lit,cyclone,sett_skips_basic"
+								"$canAccessUpperMars,mars_lit,cyclone,hover"
 							],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
@@ -2852,15 +2822,14 @@
 							"name": "Doomed Dragon",
 							"short_name": "Victory",
 							"access_rules": [
-								"$hasDjinn|56,$neg|sett_hide_yellows,$canAccessUpperMars,mars_lit,cyclone,[hover],frost,[carry],[sand]",
-								"$hasDjinn|56,$canAccessUpperMars,mars_lit,cyclone,hover,frost,carry,sand",
-								"$hasDjinn|56,$canAccessUpperMars,mars_lit,cyclone,frost,sett_skips_basic"
+								"$hasDjinnCountLogic|56,$neg|sett_hide_yellows,$canAccessUpperMars,mars_lit,cyclone,[hover],frost,[carry],[sand]",
+								"$hasDjinnCountLogic|56,$canAccessUpperMars,mars_lit,cyclone,hover,frost,carry,sand"
 							],
 							"hosted_item": "doom_dragon"
 						},
 						{
 							"name": "Fugue",
-							"access_rules": ["mars_lit", "{sett_show_captures,pound}"],
+							"access_rules": ["mars_lit"],
 							"capture_item": true,
 							"capture_item_layout": "tracker_capture_djinni",
 							"hosted_item": "mars_9"
@@ -2878,7 +2847,7 @@
 						{
 							"name": "Half-buried Item",
 							"short_name": "Half-buried",
-							"access_rules": ["lift,scoop", "{sett_show_captures}"],
+							"access_rules": ["lift,scoop"],
 							"capture_item": true,
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
@@ -2903,7 +2872,7 @@
 						},
 						{
 							"name": "Mold",
-							"access_rules": ["scoop", "{sett_show_captures}"],
+							"access_rules": ["scoop"],
 							"capture_item": true,
 							"capture_item_layout": "tracker_capture_djinni",
 							"hosted_item": "venus_7"

@@ -27,7 +27,7 @@ function canSailShip()
 end
 
 function canAccessLemuria()
-    return canSailShip() * (Tracker:ProviderCountForCode("grind") + (Tracker:ProviderCountForCode("trident") * hasDjinn("24")))
+    return canSailShip() * (Tracker:ProviderCountForCode("grind") + (Tracker:ProviderCountForCode("trident") * hasDjinnCountLogic("24")))
 end
 
 function canFlyShip()
@@ -76,17 +76,21 @@ function hasDjinnCountLogic(num)
     local logicPercent = Tracker:ProviderCountForCode("djinn_logic_count")
     local djinnCount = Tracker:ProviderCountForCode("venus") + Tracker:ProviderCountForCode("mars") + Tracker:ProviderCountForCode("jupiter") + Tracker:ProviderCountForCode("mercury")
 
-    if djinnCount >= tonumber(num) * logicPercent / 100 then
+    if djinnCount >= math.ceil(tonumber(num) * logicPercent / 100) then
         return 1
     end
     return 0
 end
 
 function canAccessInnerAnemos()
-    local djinn = Tracker:ProviderCountForCode("venus") + Tracker:ProviderCountForCode("mars") + Tracker:ProviderCountForCode("jupiter") + Tracker:ProviderCountForCode("mercury")
-    if djinn == 72 then
+    if Tracker:FindObjectForCode("anemos_door_setting").CurrentStage == 2 then
         return Tracker:ProviderCountForCode("teleport")
-    else
-        return Tracker:ProviderCountForCode("teleport") * ( ((djinn >= 72) and 1 or 0) + Tracker:ProviderCountForCode("anemos_door"))
     end
+
+    local djinn = Tracker:ProviderCountForCode("venus") + Tracker:ProviderCountForCode("mars") + Tracker:ProviderCountForCode("jupiter") + Tracker:ProviderCountForCode("mercury")
+    if Tracker:FindObjectForCode("anemos_door_setting").CurrentStage == 1 then
+        return Tracker:ProviderCountForCode("teleport") and djinn >= 28
+    end
+
+    return Tracker:ProviderCountForCode("teleport") and djinn == 72
 end

@@ -27,7 +27,6 @@ ITEM_MAPPING = {
 	[440] = {"left_prong", "toggle"},
 	[441] = {"center_prong", "toggle"},
 	[448] = {"healing_fungus", "toggle"},
-	[449] = {"laughingfungus", "toggle"},
 	[451] = {"dancing_idol", "toggle"},
 	[452] = {"pretty_stone", "toggle"},
 	[453] = {"red_cloth", "toggle"},

@@ -83,6 +83,12 @@
                         "item": "djinn_logic_count",
                         "canvas_left": 5,
                         "canvas_top": 60
+                    },
+                    {
+                        "type": "item",
+                        "item": "sett_hide_yellows",
+                        "canvas_left": 5,
+                        "canvas_top": 90
                     }
                 ]
             }
