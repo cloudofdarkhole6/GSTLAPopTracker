@@ -80,15 +80,9 @@
                     },
                     {
                         "type": "item",
-                        "item": "djinn_logic_count",
-                        "canvas_left": 5,
-                        "canvas_top": 60
-                    },
-                    {
-                        "type": "item",
                         "item": "sett_hide_yellows",
                         "canvas_left": 5,
-                        "canvas_top": 90
+                        "canvas_top": 60
                     }
                 ]
             }
@@ -166,6 +160,17 @@
                             "content": {
                                 "type": "layout",
                                 "key": "tracker_characters"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Goals",
+                            "header_background": "#302919",
+                            "background": "#33000000",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "tracker_goals"
                             }
                         }
                     ]

@@ -2,6 +2,7 @@
   "tracker_broadcast": {
       "type": "array",
   "orientation": "horizontal",
+    "background": "#6C6046",
       "content": [
     {
       "type": "array",
@@ -54,48 +55,16 @@
             ]
             }
           ]
+        },
+        {
+          "type": "itemgrid",
+          "h_alignment": "center",
+          "item_margin": "-0.2,-0.2,-0.2,-0.2",
+          "rows": [
+            ["briggs_defeated", "piers", "gabomba_statue_cleared", "lemurian_ship", "serpent_defeated", "briggs_escaped", "wings_of_anemos"],
+            ["trial_road", "jupiter_lit", "reunion", "cannon", "mars_lit", "anemos_door", "doom_dragon"]
+          ]
         }
-      ]
-    },
-    {
-      "type": "container",
-      "background": "#333333",
-      "width": 2,
-      "height": 300
-    },
-    {
-      "type": "itemgrid",
-      "h_alignment": "center",
-      "item_size": 40,
-      "rows": [
-        [
-                      "briggs_defeated",
-                      "piers"
-        ],
-        [
-                      "gabomba_statue_cleared",
-                      "lemurian_ship"
-        ],
-        [
-                      "serpent_defeated",
-                      "briggs_escaped"
-                  ],
-                  [
-                      "trial_road",
-                      "jupiter_lit"
-        ],
-        [
-                      "reunion",
-                      "wings_of_anemos"
-        ],
-        [
-                      "cannon",
-                      "mars_lit"
-        ],
-        [
-                      "anemos_door",
-                      "doom_dragon"
-                  ]
       ]
     }
   ]
