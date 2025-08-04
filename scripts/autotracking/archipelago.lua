@@ -118,7 +118,7 @@ function onClear(slot_data)
     -- reset settings
     print("Fill settings from slot_data")
     for _, table in pairs(slot_data) do
-        print(dump_table(value))
+        print(dump_table(table))
         for key, value in pairs(table) do
             if SLOT_CODES[key] then
                 local object = Tracker:FindObjectForCode(SLOT_CODES[key].code)

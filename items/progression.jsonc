@@ -7,13 +7,6 @@
     "disabled_img_mods": "brightness|0.5,saturation|0"
   },
   {
-    "name": "Piers",
-    "type": "toggle",
-    "img": "images/hosts/piers.png",
-    "codes": "piers",
-    "disabled_img_mods": "brightness|0.5,saturation|0"
-  },
-  {
     "name": "Lemurian Ship",
     "type": "toggle",
     "img": "images/hosts/lemurian_ship.png",
@@ -72,12 +65,6 @@
     "type": "toggle",
     "img": "images/hosts/doomy.png",
     "codes": "doom_dragon"
-  },
-  {
-    "name": "Open Anemos Door",
-    "type": "toggle",
-    "img": "images/hosts/open_anemos.png",
-    "codes": "anemos_door"
   },
   {
     "name": "Wings of Anemos",

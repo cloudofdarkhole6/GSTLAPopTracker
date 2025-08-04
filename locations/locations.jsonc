@@ -599,6 +599,13 @@
 							"visibility_rules": ["sett_mode_2"]
 						},
 						{
+							"name": "Outside Mayor's House East Box",
+							"short_name": "Outside Mayor Box",
+							"access_rules": ["briggs_defeated"],
+							"item_count": 1,
+							"visibility_rules": ["sett_mode_2"]
+						},
+						{
 							"name": "Eastern Alhafra - Jar",
 							"short_name": "Dock",
 							"item_count": 1,
@@ -2198,9 +2205,20 @@
 							"visibility_rules": ["sett_mode_2"]
 						},
 						{
-							"name": "Reunion",
-							"access_rules": ["jupiter_lit"],
-							"hosted_item": "reunion"
+							"name": "Recruit Isaac",
+							"access_rules": ["jupiter_lit"]
+						},
+						{
+							"name": "Recruit Garet",
+							"access_rules": ["jupiter_lit"]
+						},
+						{
+							"name": "Recruit Ivan",
+							"access_rules": ["jupiter_lit"]
+						},
+						{
+							"name": "Recruit Mia",
+							"access_rules": ["jupiter_lit"]
 						},
 						{
 							"name": "Salt",

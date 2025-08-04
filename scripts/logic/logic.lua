@@ -74,7 +74,7 @@ end
 
 function hasDjinnCountLogic(num)
     local logicPercent = Tracker:ProviderCountForCode("djinn_logic_count")
-    local djinnCount = Tracker:ProviderCountForCode("venus") + Tracker:ProviderCountForCode("mars") + Tracker:ProviderCountForCode("jupiter") + Tracker:ProviderCountForCode("mercury")
+    local djinnCount = Tracker:ProviderCountForCode("venus") + Tracker:ProviderCountForCode("mars") + Tracker:ProviderCountForCode("jupiter") + Tracker:ProviderCountForCode("mercury") -4
 
     if djinnCount >= math.ceil(tonumber(num) * logicPercent / 100) then
         return 1
@@ -87,7 +87,7 @@ function canAccessInnerAnemos()
         return Tracker:ProviderCountForCode("teleport")
     end
 
-    local djinn = Tracker:ProviderCountForCode("venus") + Tracker:ProviderCountForCode("mars") + Tracker:ProviderCountForCode("jupiter") + Tracker:ProviderCountForCode("mercury")
+    local djinn = Tracker:ProviderCountForCode("venus") + Tracker:ProviderCountForCode("mars") + Tracker:ProviderCountForCode("jupiter") + Tracker:ProviderCountForCode("mercury") - 4
     if Tracker:FindObjectForCode("anemos_door_setting").CurrentStage == 1 then
         return Tracker:ProviderCountForCode("teleport") and djinn >= 28
     end

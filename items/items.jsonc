@@ -854,12 +854,6 @@
     "codes": "reunion"
   },
   {
-    "name": "Piers",
-    "type": "toggle",
-    "img": "images/hosts/piers.png",
-    "codes": "piers"
-  },
-  {
     "name": "Lemurian Ship",
     "type": "toggle",
     "img": "images/hosts/lemurian_ship.png",
@@ -918,12 +912,6 @@
     "type": "toggle",
     "img": "images/hosts/doomy.png",
     "codes": "doom_dragon"
-  },
-  {
-    "name": "Open Anemos Door",
-    "type": "toggle",
-    "img": "images/hosts/open_anemos.png",
-    "codes": "anemos_door"
   },
   {
     "name": "Wings of Anemos",
@@ -1023,5 +1011,10 @@
     "name": "Dullahan (Boss event)",
     "type": "toggle",
     "codes": "dullahan_defeated"
+  },
+  {
+    "name": "Vicory?",
+    "type": "toggle",
+    "codes": "victory"
   }
 ]

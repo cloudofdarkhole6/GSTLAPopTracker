@@ -52,7 +52,7 @@
         "margin": "4,2,4,2",
         "item_margin": "2,1,2,1",
         "rows": [
-            ["felix", "jenna", "sheba", "piers"],
+            ["felix", "jenna", "sheba", "piers_character"],
             ["isaac", "garet", "ivan", "mia"]
         ]
     },

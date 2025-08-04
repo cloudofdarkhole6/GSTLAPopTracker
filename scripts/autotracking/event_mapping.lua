@@ -18,5 +18,6 @@ EVENT_MAPPING = {
 	[5017] = "sentinel_defeated",
 	[5018] = "valukar_defeated",
 	[5019] = "dullahan_defeated",
-	[5020] = "reunion"
+	[5020] = "reunion",
+	[5021] = "victory"
 }
