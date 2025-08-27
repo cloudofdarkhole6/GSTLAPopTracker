@@ -1,0 +1,19 @@
+GOAL_SLOT_MAPPING = {
+    ["Doom Dragon"] = "doom_dragon_defeated",
+	["Briggs"] = "briggs_defeated_goal",
+	["Serpent"] = "serpent_defeated_goal",
+	["Poseidon"] = "poseidon_defeated",
+	["Aqua Hydra"] = "aqua_hydra_defeated",
+	["Moapa"] = "moapa_defeated",
+	["Chestbeaters"] = "chestbeaters_defeated",
+	["King Scorpion"] = "king_scorpion_defeated",
+	["Avimander"] = "avimander_defeated",
+	["Star Magician"] = "star_magician_defeated",
+	["Sentinel"] = "sentinel_defeated",
+	["Valukar"] = "valukar_defeated",
+	["Dullahan"] = "dullahan_defeated",
+	["Reunion"] = "reunion_completed",
+	["Flame Dragons"] = "flame_dragons_defeated",
+	["djinn"] = "djinn_goal_count",
+	["summons"] = "summons_goal_count"
+}

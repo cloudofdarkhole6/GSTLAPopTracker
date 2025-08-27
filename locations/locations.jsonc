@@ -1264,7 +1264,7 @@
 						},
 						{
 							"name": "Haze",
-							"access_rules": ["sand,whirlwind"],
+							"access_rules": ["sand,whirlwind,lash"],
 							"capture_item": true,
 							"capture_item_layout": "tracker_capture_djinni",
 							"hosted_item": "jupiter_5"
@@ -1506,7 +1506,7 @@
 						},
 						{
 							"name": "Cloud Brand",
-							"access_rules": ["serpent_defeated,sand"],
+							"access_rules": ["$neg|sett_hide_yellows,[growth],sand","growth,sand"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_2"]
 						},
@@ -2054,7 +2054,7 @@
 				{
 					"name": "South-East Weeds",
 					"short_name": "SE Weeds",
-					"access_rules": ["cyclone"],
+					"access_rules": ["cyclone, growth"],
 					"item_count": 1,
 					"visibility_rules": ["sett_mode_2"]
 				},
@@ -2368,7 +2368,7 @@
 						},
 						{
 							"name": "Whorl",
-							"access_rules": ["hover,reveal,blue_key"],
+							"access_rules": ["hover,reveal,blue_key,pound"],
 							"hosted_item": "jupiter_11"
 						}
 					]
@@ -2795,7 +2795,7 @@
 						{
 							"name": "Flame Dragons",
 							"short_name": "Agatio",
-							"access_rules": ["hasDjinnCountLogic|48,pound,burst,blaze,reveal,teleport"],
+							"access_rules": ["$hasDjinnCountLogic|48,pound,burst,blaze,reveal,teleport"],
 							"item_count": 1
 						},
 						{

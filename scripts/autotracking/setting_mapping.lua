@@ -36,5 +36,8 @@ SLOT_CODES = {
             [1] = 1, -- require between 16 and 28 djinn
             [2] = 2 -- open without djinn
         }
-    }
+    },
+    goal = {},
+    flags = {},
+    counts = {}
 }

@@ -5,6 +5,8 @@ require("scripts/autotracking/hints_mapping")
 require("scripts/autotracking/djinn_mapping")
 require("scripts/autotracking/setting_mapping")
 require("scripts/autotracking/event_mapping")
+require("scripts/autotracking/goal_mapping")
+require("scripts/autotracking/goal_slot_mapping")
 
 CUR_INDEX = -1
 --SLOT_DATA = nil
@@ -121,28 +123,37 @@ function onClear(slot_data)
         print(dump_table(table))
         for key, value in pairs(table) do
             if SLOT_CODES[key] then
-                local object = Tracker:FindObjectForCode(SLOT_CODES[key].code)
+                if key == "flags" then
+                    print("Test flags")
+                    setInitialGoalState(value)
+                elseif key == "counts" then
+                    print("Test counts")
+                    setHuntCounts(value)
+                else
+                    local object = Tracker:FindObjectForCode(SLOT_CODES[key].code)
                     if object then
                         if SLOT_CODES[key].type == "toggle" then
                             object.Active = value
                         elseif SLOT_CODES[key].type == "progressive" then
                             if key == "lemurian_ship" then
                                 if value == 2 then
-                                    object.Active = true
+                                    local ship = Tracker:FindObjectForCode("lemurian_ship")
+                                    ship.Active = true
                                 end
                                 if value ~= 0 then
                                     local crystal = Tracker:FindObjectForCode("black_crystal")
                                     crystal.Active = true
                                 end
-                            else
-                                object.CurrentStage = SLOT_CODES[key].mapping[value]
                             end
+                            print("Set " .. SLOT_CODES[key].code .. " to value " .. SLOT_CODES[key].mapping[value])
+                            object.CurrentStage = SLOT_CODES[key].mapping[value]
                         elseif SLOT_CODES[key].type == "consumable" then
                             object.AcquiredCount = value
                         end
                     elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
                         print(string.format("No setting could be found for key: %s", key))
                     end
+                end
             end
         end
     end
@@ -167,6 +178,10 @@ function onClear(slot_data)
         EVENT_ID = "gstla_events_status_"..PLAYER_ID.."_"..TEAM_NUMBER
         Archipelago:SetNotify({EVENT_ID})
         Archipelago:Get({EVENT_ID})
+
+        GOAL_ID = "gstla_goal_flags_status_"..PLAYER_ID.."_"..TEAM_NUMBER
+        Archipelago:SetNotify({GOAL_ID})
+        Archipelago:Get({GOAL_ID})
     end
 end
 
@@ -278,10 +293,14 @@ function onNotify(key, value, old_value)
 			updateDjinnLocations(value)
         end
         if key == OWNED_DJINN_ID then
-            updateSingleDjinnCount(value[#value])
+            -- updateSingleDjinnCount(value[#value])
+            updateDjinnDiff(value, old_value)
         end
         if key == EVENT_ID then
             updateProgression(value)
+        end
+        if key == GOAL_ID then
+            updateGoals(value)
         end
     end
 end
@@ -297,6 +316,9 @@ function onNotifyLaunch(key, value)
         end
         if key == EVENT_ID then
             updateProgression(value)
+        end
+        if key == GOAL_ID then
+            updateGoals(value)
         end
     end
 end
@@ -317,6 +339,24 @@ function updateSingleDjinnCount(value)
     obj.AcquiredCount = obj.AcquiredCount + 1
 end
 
+function updateDjinnDiff(value, oldvalue)
+    print("Update Djinn Diff")
+    print("New")
+    print(dump_table(value))
+    print("Old")
+    print(dump_table(oldvalue))
+    for idx, newid in pairs(value) do
+        if value[idx] ~= oldvalue[idx] then
+            print("Update new Djinn ID " .. newid)
+            local djinn = DJINN_MAPPING[newid]
+            local splitIndex = string.find(djinn, "_")
+            local code = string.sub(djinn, 1, splitIndex-1)
+            local obj = Tracker:FindObjectForCode(code)
+            obj.AcquiredCount = obj.AcquiredCount + 1
+        end
+    end
+end
+
 function updateDjinnCount(value)
     print("Update Djinn Counts")
 	for _, id in pairs(value) do
@@ -333,6 +373,35 @@ function updateProgression(value)
     for _, id in pairs(value) do
         local obj = Tracker:FindObjectForCode(EVENT_MAPPING[id])
         obj.Active = true
+    end
+end
+
+function setInitialGoalState(value)
+    print("Set initial goal state")
+    for _,flag in ipairs(value) do
+        print(flag)
+        local obj = Tracker:FindObjectForCode(GOAL_SLOT_MAPPING[flag])
+        obj.CurrentStage = 1
+    end
+end
+
+function setHuntCounts(value)
+    print("Set needed amounts for hunt goals")
+    print(dump_table(value))
+    for target,count in pairs(value) do
+        local obj = Tracker:FindObjectForCode(GOAL_SLOT_MAPPING[target])
+        obj.AcquiredCount = count
+    end
+end
+
+function updateGoals(value)
+    print("Update goals")
+    print(dump_table(value))
+    for _, id in pairs(value) do
+        local obj = Tracker:FindObjectForCode(GOAL_MAPPING[id])
+        if obj.Type == "progressive" then
+            obj.CurrentStage = 2
+        end
     end
 end
 

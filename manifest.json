@@ -1,7 +1,7 @@
 {
   "name": "Golden Sun TLA PopTracker",
   "game_name": "Golden Sun: The Lost Age",
-  "package_version": "0.1.0",
+  "package_version": "0.2.0",
   "package_uid": "tla_poptracker_rawkhawk64",
   "author": "rawkhawk64, cloudofdarkhole6",
   "min_poptracker_version": "0.29.0",

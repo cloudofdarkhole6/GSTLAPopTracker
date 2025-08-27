@@ -857,7 +857,25 @@
     "name": "Lemurian Ship",
     "type": "toggle",
     "img": "images/hosts/lemurian_ship.png",
-    "codes": "lemurian_ship, lemurian_ship_setting"
+    "codes": "lemurian_ship"
+  },
+  {
+    "name": "Lemurian Ship Setting",
+    "type": "progressive",
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "loop": false,
+    "stages": [
+      {
+        "codes": "lemurian_ship_setting, lemurian_ship_setting0"
+      },
+      {
+        "codes": "lemurian_ship_setting, lemurian_ship_setting1"
+      },
+      {
+        "codes": "lemurian_ship_setting, lemurian_ship_setting2"
+      }
+    ]
   },
   {
     "name": "Dwarven Cannon",
@@ -969,48 +987,368 @@
   },
   {
     "name": "Chestbeaters (Boss event)",
-    "type": "toggle",
-    "codes": "chestbeaters_defeated"
+    "type": "progressive",
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "loop": false,
+    "stages": [
+      {
+        "img": "images/hosts/chestbeater.png",
+        "img_mods": "@disabled, overlay|images/hosts/goal_disabled.png",
+        "codes": "chestbeaters_defeated"
+      },
+      {
+        "img": "images/hosts/chestbeater.png",
+        "img_mods": "@disabled",
+        "codes": "chestbeaters_defeated"
+      },
+      {
+        "img": "images/hosts/chestbeater.png",
+        "codes": "chestbeaters_defeated"
+      }
+    ]
   },
   {
     "name": "Poseidon (Boss event)",
-    "type": "toggle",
-    "codes": "poseidon_defeated"
+    "type": "progressive",
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "loop": false,
+    "stages": [
+      {
+        "img": "images/hosts/poseidon.png",
+        "img_mods": "@disabled, overlay|images/hosts/goal_disabled.png",
+        "codes": "poseidon_defeated"
+      },
+      {
+        "img": "images/hosts/poseidon.png",
+        "img_mods": "@disabled",
+        "codes": "poseidon_defeated"
+      },
+      {
+        "img": "images/hosts/poseidon.png",
+        "codes": "poseidon_defeated"
+      }
+    ]
   },
   {
     "name": "Aqua Hydra (Boss event)",
-    "type": "toggle",
-    "codes": "aqua_hydra_defeated"
+    "type": "progressive",
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "loop": false,
+    "stages": [
+      {
+        "img": "images/hosts/aqua_hydra.png",
+        "img_mods": "@disabled, overlay|images/hosts/goal_disabled.png",
+        "codes": "aqua_hydra_defeated"
+      },
+      {
+        "img": "images/hosts/aqua_hydra.png",
+        "img_mods": "@disabled",
+        "codes": "aqua_hydra_defeated"
+      },
+      {
+        "img": "images/hosts/aqua_hydra.png",
+        "codes": "aqua_hydra_defeated"
+      }
+    ]
   },
   {
     "name": "King Scorpion (Boss event)",
-    "type": "toggle",
-    "codes": "king_scorpion_defeated"
+    "type": "progressive",
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "loop": false,
+    "stages": [
+      {
+        "img": "images/hosts/king_scorpion.png",
+        "img_mods": "@disabled, overlay|images/hosts/goal_disabled.png",
+        "codes": "king_scorpion_defeated"
+      },
+      {
+        "img": "images/hosts/king_scorpion.png",
+        "img_mods": "@disabled",
+        "codes": "king_scorpion_defeated"
+      },
+      {
+        "img": "images/hosts/king_scorpion.png",
+        "codes": "king_scorpion_defeated"
+      }
+    ]
   },
   {
     "name": "Avimander (Boss event)",
-    "type": "toggle",
-    "codes": "avimander_defeated"
+    "type": "progressive",
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "loop": false,
+    "stages": [
+      {
+        "img": "images/hosts/avimander.png",
+        "img_mods": "@disabled, overlay|images/hosts/goal_disabled.png",
+        "codes": "avimander_defeated"
+      },
+      {
+        "img": "images/hosts/avimander.png",
+        "img_mods": "@disabled",
+        "codes": "avimander_defeated"
+      },
+      {
+        "img": "images/hosts/avimander.png",
+        "codes": "avimander_defeated"
+      }
+    ]
   },
   {
     "name": "Star Magician (Boss event)",
-    "type": "toggle",
-    "codes": "star_magician_defeated"
+    "type": "progressive",
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "loop": false,
+    "stages": [
+      {
+        "img": "images/hosts/star_magician.png",
+        "img_mods": "@disabled, overlay|images/hosts/goal_disabled.png",
+        "codes": "star_magician_defeated"
+      },
+      {
+        "img": "images/hosts/star_magician.png",
+        "img_mods": "@disabled",
+        "codes": "star_magician_defeated"
+      },
+      {
+        "img": "images/hosts/star_magician.png",
+        "codes": "star_magician_defeated"
+      }
+    ]
   },
   {
     "name": "Sentinel (Boss event)",
-    "type": "toggle",
-    "codes": "sentinel_defeated"
+    "type": "progressive",
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "loop": false,
+    "stages": [
+      {
+        "img": "images/hosts/sentinel.png",
+        "img_mods": "@disabled, overlay|images/hosts/goal_disabled.png",
+        "codes": "sentinel_defeated"
+      },
+      {
+        "img": "images/hosts/sentinel.png",
+        "img_mods": "@disabled",
+        "codes": "sentinel_defeated"
+      },
+      {
+        "img": "images/hosts/sentinel.png",
+        "codes": "sentinel_defeated"
+      }
+    ]
   },
   {
     "name": "Valukar (Boss event)",
-    "type": "toggle",
-    "codes": "valukar_defeated"
+    "type": "progressive",
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "loop": false,
+    "stages": [
+      {
+        "img": "images/hosts/valukar.png",
+        "img_mods": "@disabled, overlay|images/hosts/goal_disabled.png",
+        "codes": "valukar_defeated"
+      },
+      {
+        "img": "images/hosts/valukar.png",
+        "img_mods": "@disabled",
+        "codes": "valukar_defeated"
+      },
+      {
+        "img": "images/hosts/valukar.png",
+        "codes": "valukar_defeated"
+      }
+    ]
   },
   {
     "name": "Dullahan (Boss event)",
-    "type": "toggle",
-    "codes": "dullahan_defeated"
+    "type": "progressive",
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "loop": false,
+    "stages": [
+      {
+        "img": "images/hosts/dullahan.png",
+        "img_mods": "@disabled, overlay|images/hosts/goal_disabled.png",
+        "codes": "dullahan_defeated"
+      },
+      {
+        "img": "images/hosts/dullahan.png",
+        "img_mods": "@disabled",
+        "codes": "dullahan_defeated"
+      },
+      {
+        "img": "images/hosts/dullahan.png",
+        "codes": "dullahan_defeated"
+      }
+    ]
+  },
+  {
+    "name": "Briggs (Goal)",
+    "type": "progressive",
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "loop": false,
+    "stages": [
+      {
+        "img": "images/hosts/briggs.png",
+        "img_mods": "@disabled, overlay|images/hosts/goal_disabled.png",
+        "codes": "briggs_defeated_goal"
+      },
+      {
+        "img": "images/hosts/briggs.png",
+        "img_mods": "@disabled",
+        "codes": "briggs_defeated_goal"
+      },
+      {
+        "img": "images/hosts/briggs.png",
+        "codes": "briggs_defeated_goal"
+      }
+    ]
+  },
+  {
+    "name": "Serpent (Goal)",
+    "type": "progressive",
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "loop": false,
+    "stages": [
+      {
+        "img": "images/hosts/serpent.png",
+        "img_mods": "@disabled, overlay|images/hosts/goal_disabled.png",
+        "codes": "serpent_defeated_goal"
+      },
+      {
+        "img": "images/hosts/serpent.png",
+        "img_mods": "@disabled",
+        "codes": "serpent_defeated_goal"
+      },
+      {
+        "img": "images/hosts/serpent.png",
+        "codes": "serpent_defeated_goal"
+      }
+    ]
+  },
+  {
+    "name": "Moapa (Goal)",
+    "type": "progressive",
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "loop": false,
+    "stages": [
+      {
+        "img": "images/hosts/moapa.png",
+        "img_mods": "@disabled, overlay|images/hosts/goal_disabled.png",
+        "codes": "moapa_defeated"
+      },
+      {
+        "img": "images/hosts/moapa.png",
+        "img_mods": "@disabled",
+        "codes": "moapa_defeated"
+      },
+      {
+        "img": "images/hosts/moapa.png",
+        "codes": "moapa_defeated"
+      }
+    ]
+  },
+  {
+    "name": "Reunion (Goal)",
+    "type": "progressive",
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "loop": false,
+    "stages": [
+      {
+        "img": "images/hosts/reunion.png",
+        "img_mods": "@disabled, overlay|images/hosts/goal_disabled.png",
+        "codes": "reunion_completed"
+      },
+      {
+        "img": "images/hosts/reunion.png",
+        "img_mods": "@disabled",
+        "codes": "reunion_completed"
+      },
+      {
+        "img": "images/hosts/reunion.png",
+        "codes": "reunion_completed"
+      }
+    ]
+  },
+  {
+    "name": "Flame Dragons (Goal)",
+    "type": "progressive",
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "loop": false,
+    "stages": [
+      {
+        "img": "images/hosts/flame_dragons.png",
+        "img_mods": "@disabled, overlay|images/hosts/goal_disabled.png",
+        "codes": "flame_dragons_defeated"
+      },
+      {
+        "img": "images/hosts/flame_dragons.png",
+        "img_mods": "@disabled",
+        "codes": "flame_dragons_defeated"
+      },
+      {
+        "img": "images/hosts/flame_dragons.png",
+        "codes": "flame_dragons_defeated"
+      }
+    ]
+  },
+  {
+    "name": "Doom Dragon (Goal)",
+    "type": "progressive",
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "loop": false,
+    "stages": [
+      {
+        "img": "images/hosts/doomy.png",
+        "img_mods": "@disabled, overlay|images/hosts/goal_disabled.png",
+        "codes": "doom_dragon_defeated"
+      },
+      {
+        "img": "images/hosts/doomy.png",
+        "img_mods": "@disabled",
+        "codes": "doom_dragon_defeated"
+      },
+      {
+        "img": "images/hosts/doomy.png",
+        "codes": "doom_dragon_defeated"
+      }
+    ]
+  },
+  {
+    "name": "Djinn Hunt (Goal)",
+    "type": "consumable",
+    "img": "images/hosts/djinnhunt.png",
+    "disabled_img_mods": "@disabled, overlay|images/hosts/goal_disabled.png",
+    "codes": "djinn_goal_count",
+    "swap_actions": false,
+    "max_quantity": 72,
+    "initial_quantity": 0
+  },
+  {
+    "name": "Summon Hunt (Goal)",
+    "type": "consumable",
+    "img": "images/hosts/tablet.png",
+    "disabled_img_mods": "@disabled, overlay|images/hosts/goal_disabled.png",
+    "codes": "summons_goal_count",
+    "swap_actions": false,
+    "max_quantity": 13,
+    "initial_quantity": 0
   },
   {
     "name": "Vicory?",

@@ -1,12 +1,12 @@
-EVENT_MAPPING = {
+GOAL_MAPPING = {
     [5001] = "doom_dragon",
-	[5002] = "briggs_defeated",
+	[5002] = "briggs_defeated_goal",
 	[5003] = "briggs_escaped",
 	[5004] = "gabomba_statue_cleared",
-	[5005] = "serpent_defeated",
+	[5005] = "serpent_defeated_goal",
 	[5006] = "poseidon_defeated",
 	[5007] = "aqua_hydra_defeated",
-	[5008] = "trial_road",
+	[5008] = "moapa_defeated",
 	[5009] = "jupiter_lit",
 	[5010] = "mars_lit",
 	[5011] = "lemurian_ship",
@@ -18,8 +18,6 @@ EVENT_MAPPING = {
 	[5017] = "sentinel_defeated",
 	[5018] = "valukar_defeated",
 	[5019] = "dullahan_defeated",
-	[5020] = "reunion",
-	[5021] = "victory",
-	[5022] = "cannon",
-	[5023] = "flame_dragons_defeated"
+	[5020] = "reunion_completed",
+	[5021] = "victory"
 }

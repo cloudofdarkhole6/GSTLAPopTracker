@@ -187,8 +187,28 @@
           "item_size": 40,
           "rows": [
             [
+			  "chestbeaters_defeated",
+              "king_scorpion_defeated",
+              "briggs_defeated_goal",
+              "aqua_hydra_defeated",
+              "poseidon_defeated",
+              "serpent_defeated_goal"
             ],
             [
+              "avimander_defeated",
+              "moapa_defeated",
+              "reunion_completed",
+              "flame_dragons_defeated",
+              "doom_dragon_defeated",
+              "star_magician_defeated"
+            ],
+            [
+              "sentinel_defeated",
+              "valukar_defeated",
+              "dullahan_defeated",
+              "",
+              "djinn_goal_count",
+              "summons_goal_count"
             ]
           ]
         }
