@@ -1,75 +1,66 @@
 function canAccessNaribwe()
-    if Tracker:ProviderCountForCode("lemurian_ship") > 0 then
-        return 1
+    if Tracker:FindObjectForCode("lemurian_ship").Active then
+        return true
     end
 
-    if Tracker:ProviderCountForCode("briggs_defeated") > 0 then
-        return Tracker:ProviderCountForCode("frost") + Tracker:ProviderCountForCode("scoop")
+    if Tracker:FindObjectForCode("briggs_defeated").Active then
+        return Tracker:FindObjectForCode("frost").Active or Tracker:FindObjectForCode("scoop").Active
     end
 
-    return 0
+    return false
 end
 
 function canAccessKibombo()
-    if canAccessNaribwe() == 0 then
-        return 0
+    if ~canAccessNaribwe() then
+        return false
     else
-        if Tracker:ProviderCountForCode("lemurian_ship") > 0 then
-            return 1
+        if Tracker:FindObjectForCode("lemurian_ship").Active then
+            return true
         end
 
-        return Tracker:ProviderCountForCode("frost") + Tracker:ProviderCountForCode("whirlwind")
+        return Tracker:FindObjectForCode("frost").Active or Tracker:FindObjectForCode("whirlwind").Active
     end
 end
 
 function canSailShip()
-    return Tracker:ProviderCountForCode("lemurian_ship")
+    return Tracker:FindObjectForCode("lemurian_ship").Active
 end
 
 function canAccessLemuria()
-    return canSailShip() * (Tracker:ProviderCountForCode("grind") + (Tracker:ProviderCountForCode("trident") * hasDjinnCountLogic("24")))
+    return canSailShip() and (Tracker:FindObjectForCode("grind").Active or (Tracker:FindObjectForCode("trident").Active and hasDjinnCountLogic("24")))
 end
 
 function canFlyShip()
-    return canSailShip() * Tracker:ProviderCountForCode("hover") * (Tracker:ProviderCountForCode("wings_of_anemos") + Tracker:ProviderCountForCode("reunion"))
+    return canSailShip() and Tracker:FindObjectForCode("hover").Active and Tracker:FindObjectForCode("wings_of_anemos").Active
 end
 
 function canAccessWesternSeas()
-    return canSailShip() * (Tracker:ProviderCountForCode("grind") + canFlyShip())
+    return canSailShip() and (Tracker:FindObjectForCode("grind").Active or canFlyShip())
 end
 
 function canAccessShip()
-    return (canSailShip() * (canAccessLemuria() + canAccessWesternSeas())) + (Tracker:ProviderCountForCode("gabomba_statue_cleared") * Tracker:ProviderCountForCode("black_crystal") * Tracker:ProviderCountForCode("piers_character"))
+    if Tracker:FindObjectForCode("lemurian_ship_setting").CurrentStage == 0 then
+        return (canSailShip() and (canAccessLemuria() or canAccessWesternSeas())) or (Tracker:FindObjectForCode("gabomba_statue_cleared") and Tracker:FindObjectForCode("black_crystal") * Tracker:FindObjectForCode("piers_character"))
+    end
+    return true
 end
 
 function canAccessUpperMars()
-    if Tracker:ProviderCountForCode("burst") > 0 and Tracker:ProviderCountForCode("blaze") > 0 and Tracker:ProviderCountForCode("reveal") > 0 and Tracker:ProviderCountForCode("teleport") > 0 and Tracker:ProviderCountForCode("pound") > 0 then
-        return Tracker:ProviderCountForCode("mars_star")
+    if Tracker:FindObjectForCode("burst").Active and Tracker:FindObjectForCode("blaze").Active and Tracker:FindObjectForCode("reveal").Active and Tracker:ProviderCountForCode("teleport").Active and Tracker:ProviderCountForCode("pound").Active then
+        return Tracker:FindObjectForCode("mars_star").Active
     end
-	return 0
+	return false
 end
 
 function canAccessYampiBackside()
-    return Tracker:ProviderCountForCode("scoop") + Tracker:ProviderCountForCode("sand") + canSailShip()
+   return Tracker:FindObjectForCode("scoop").Active or Tracker:FindObjectForCode("sand").Active or canSailShip()
 end
 
 function neg(code)
-    if Tracker:ProviderCountForCode(code) > 0 then
-        return 0
+    if Tracker:FindObjectForCode(code).Active then
+        return false
     end
-    return 1
-end
-
-function hasDjinn(num)
-    if Tracker:ProviderCountForCode("sett_boss_logic") == 0 then
-        return 1
-    end
-
-    local djinn = Tracker:ProviderCountForCode("venus") + Tracker:ProviderCountForCode("mars") + Tracker:ProviderCountForCode("jupiter") + Tracker:ProviderCountForCode("mercury")
-    if djinn >= tonumber(num) then
-        return 1
-    end
-    return 0
+    return true
 end
 
 function hasDjinnCountLogic(num)
@@ -77,20 +68,20 @@ function hasDjinnCountLogic(num)
     local djinnCount = Tracker:ProviderCountForCode("venus") + Tracker:ProviderCountForCode("mars") + Tracker:ProviderCountForCode("jupiter") + Tracker:ProviderCountForCode("mercury") -4
 
     if djinnCount >= math.ceil(tonumber(num) * logicPercent / 100) then
-        return 1
+        return true
     end
-    return 0
+    return false
 end
 
 function canAccessInnerAnemos()
     if Tracker:FindObjectForCode("anemos_door_setting").CurrentStage == 2 then
-        return Tracker:ProviderCountForCode("teleport")
+        return Tracker:FindObjectForCode("teleport")
     end
 
     local djinn = Tracker:ProviderCountForCode("venus") + Tracker:ProviderCountForCode("mars") + Tracker:ProviderCountForCode("jupiter") + Tracker:ProviderCountForCode("mercury") - 4
     if Tracker:FindObjectForCode("anemos_door_setting").CurrentStage == 1 then
-        return Tracker:ProviderCountForCode("teleport") and djinn >= 28
+        return Tracker:FindObjectForCode("teleport") and djinn >= 28
     end
 
-    return Tracker:ProviderCountForCode("teleport") and djinn == 72
+    return Tracker:FindObjectForCode("teleport") and djinn == 72
 end
