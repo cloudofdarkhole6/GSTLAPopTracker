@@ -19,5 +19,6 @@ GOAL_MAPPING = {
 	[5018] = "valukar_defeated",
 	[5019] = "dullahan_defeated",
 	[5020] = "reunion_completed",
-	[5021] = "victory"
+	[5021] = "victory",
+	[5023] = "flame_dragons_defeated"
 }

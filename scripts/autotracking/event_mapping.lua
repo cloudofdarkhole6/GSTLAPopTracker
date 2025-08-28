@@ -21,5 +21,5 @@ EVENT_MAPPING = {
 	[5020] = "reunion",
 	[5021] = "victory",
 	[5022] = "cannon",
-	[5023] = "flame_dragons_defeated"
+	[5023] = "flame_dragons"
 }

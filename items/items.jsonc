@@ -920,6 +920,11 @@
     "codes": "serpent_defeated"
   },
   {
+    "name": "Flame Dragons",
+    "type": "toggle",
+    "codes": "flame_dragons"
+  },
+  {
     "name": "Mars Lighthouse Heated",
     "type": "toggle",
     "img": "images/hosts/mars_lit.png",
