@@ -1359,5 +1359,15 @@
     "name": "Vicory?",
     "type": "toggle",
     "codes": "victory"
+  },
+  {
+    "name": "Mars Lighthouse Shortcut",
+    "type": "toggle",
+    "codes": "mars_lighthouse_shortcut"
+  },
+  {
+    "name": "Magma Rock Shortcut",
+    "type": "toggle",
+    "codes": "magma_rock_shortcut"
   }
 ]

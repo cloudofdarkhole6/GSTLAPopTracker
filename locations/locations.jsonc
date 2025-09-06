@@ -2544,28 +2544,28 @@
 						{
 							"name": "4F - West Side",
 							"short_name": "(4F) West",
-							"access_rules": ["burst,growth,lash"],
+							"access_rules": ["burst,growth,lash", "magma_rock_shortcut,burst"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "3F - West Side",
 							"short_name": "(3F) West",
-							"access_rules": ["burst,growth,lash"],
+							"access_rules": ["burst,growth,lash", "magma_rock_shortcut,burst"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "2F - Center",
 							"short_name": "(2F) Center",
-							"access_rules": ["burst,growth,lash,whirlwind"],
+							"access_rules": ["burst,growth,lash,whirlwind", "magma_rock_shortcut,burst"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "2F - North-East Sluice",
 							"short_name": "(2F) North-East",
-							"access_rules": ["burst,growth,lash,whirlwind"],
+							"access_rules": ["burst,growth,lash,whirlwind", "magma_rock_shortcut,burst,whirlwind"],
 							"capture_item": true,
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
@@ -2573,13 +2573,13 @@
 						{
 							"name": "Blaze Tablet",
 							"short_name": "Blaze",
-							"access_rules": ["burst,growth,lash,whirlwind"],
+							"access_rules": ["burst,growth,lash,whirlwind", "magma_rock_shortcut"],
 							"item_count": 1
 						},
 						{
 							"name": "Magma Ball",
 							"short_name": "Meatball",
-							"access_rules": ["burst,growth,lash,whirlwind,blaze"],
+							"access_rules": ["burst,growth,lash,whirlwind,blaze", "magma_rock_shortcut,blaze"],
 							"item_count": 1
 						},
 						{
@@ -2626,7 +2626,7 @@
 						"x": 1965,
 						"y": 1390
 					}],
-					"access_rules": ["whirlwind"],
+					"access_rules": ["whirlwind", "lift,frost"],
 					"sections": [
 						{
 							"name": "Next to Moapa's House",
@@ -2887,8 +2887,8 @@
 							"name": "Chest inside Jupiter Wing",
 							"short_name": "Jup. Wing",
 							"access_rules": [
-								"$neg|sett_hide_yellows,$canAccessUpperMars,mars_lit,cyclone,[hover]", 
-								"$canAccessUpperMars,mars_lit,cyclone,hover"
+								"$neg|sett_hide_yellows,$canAccessUpperMars,mars_lit,cyclone,[hover],reveal",
+								"$canAccessUpperMars,mars_lit,cyclone,hover,reveal"
 							],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]

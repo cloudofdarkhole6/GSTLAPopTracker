@@ -37,6 +37,14 @@ SLOT_CODES = {
             [2] = 2 -- open without djinn
         }
     },
+    shortcut_mars_lighthouse = {
+        code = "mars_lighthouse_shortcut",
+        type = "toggle"
+    },
+    shortcut_magma_rock = {
+        code = "magma_rock_shortcut",
+        type = "toggle"
+    }
     goal = {},
     flags = {},
     counts = {}
