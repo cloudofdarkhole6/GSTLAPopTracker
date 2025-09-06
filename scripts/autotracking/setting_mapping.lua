@@ -44,7 +44,7 @@ SLOT_CODES = {
     shortcut_magma_rock = {
         code = "magma_rock_shortcut",
         type = "toggle"
-    }
+    },
     goal = {},
     flags = {},
     counts = {}
