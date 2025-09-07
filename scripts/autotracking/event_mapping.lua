@@ -8,7 +8,7 @@ EVENT_MAPPING = {
 	[5007] = "aqua_hydra_defeated",
 	[5008] = "trial_road",
 	[5009] = "jupiter_lit",
-	[5010] = "mars_lit",
+	[5010] = "flame_dragons",
 	[5011] = "lemurian_ship",
 	[5012] = "wings_of_anemos",
 	[5013] = "chestbeaters_defeated",
@@ -21,5 +21,5 @@ EVENT_MAPPING = {
 	[5020] = "reunion",
 	[5021] = "victory",
 	[5022] = "cannon",
-	[5023] = "flame_dragons"
+	[5023] = "mars_lit"
 }

@@ -8,7 +8,7 @@ GOAL_MAPPING = {
 	[5007] = "aqua_hydra_defeated",
 	[5008] = "moapa_defeated",
 	[5009] = "jupiter_lit",
-	[5010] = "mars_lit",
+	[5010] = "flame_dragons_defeated",
 	[5011] = "lemurian_ship",
 	[5012] = "wings_of_anemos",
 	[5013] = "chestbeaters_defeated",
@@ -20,5 +20,5 @@ GOAL_MAPPING = {
 	[5019] = "dullahan_defeated",
 	[5020] = "reunion_completed",
 	[5021] = "victory",
-	[5023] = "flame_dragons_defeated"
+	[5023] = "mars_lit"
 }
