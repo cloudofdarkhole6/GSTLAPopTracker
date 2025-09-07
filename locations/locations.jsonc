@@ -2858,7 +2858,7 @@
 						{
 							"name": "Lighthouse Heated",
 							"short_name": "Heated",
-							"access_rules": ["$hasDjinnCountLogic|48,$canAccessUpperMars,grind"],
+							"access_rules": ["flame_dragons,mars_star"],
 							"hosted_item": "mars_lit"
 						},
 						{
@@ -2875,11 +2875,11 @@
 						"x": 3095,
 						"y": 110
 					}],
+					"access_rules": ["$canAccessUpperMars"],
 					"sections": [
 						{
 							"name": "Chest outside Mars Wing",
 							"short_name": "Mars Wing",
-							"access_rules": ["$canAccessUpperMars,mars_lit"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
 						},
@@ -2887,8 +2887,8 @@
 							"name": "Chest inside Jupiter Wing",
 							"short_name": "Jup. Wing",
 							"access_rules": [
-								"$neg|sett_hide_yellows,$canAccessUpperMars,mars_lit,cyclone,[hover],reveal",
-								"$canAccessUpperMars,mars_lit,cyclone,hover,reveal"
+								"$neg|sett_hide_yellows,cyclone,[hover],reveal",
+								"cyclone,hover,reveal"
 							],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
@@ -2897,8 +2897,8 @@
 							"name": "Doomed Dragon",
 							"short_name": "Victory",
 							"access_rules": [
-								"$hasDjinnCountLogic|56,$neg|sett_hide_yellows,$canAccessUpperMars,mars_lit,cyclone,[hover],frost,[carry],[sand]",
-								"$hasDjinnCountLogic|56,$canAccessUpperMars,mars_lit,cyclone,hover,frost,carry,sand"
+								"$hasDjinnCountLogic|56,$neg|sett_hide_yellows,cyclone,[hover],frost,[carry],[sand]",
+								"$hasDjinnCountLogic|56,cyclone,hover,frost,carry,sand"
 							],
 							"hosted_item": "doom_dragon"
 						},

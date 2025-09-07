@@ -46,7 +46,10 @@ function canAccessShip()
 end
 
 function canAccessUpperMars()
-    if (Tracker:FindObjectForCode("burst").Active and Tracker:FindObjectForCode("blaze").Active and Tracker:FindObjectForCode("reveal").Active and Tracker:FindObjectForCode("teleport").Active and Tracker:FindObjectForCode("pound").Active) or Tracker:FindObjectForCode("mars_lighthouse_shortcut").Active then
+    if Tracker:FindObjectForCode("mars_lit").Active then
+        return true
+    end
+    if Tracker:FindObjectForCode("mars_lighthouse_shortcut").Active then
         return Tracker:FindObjectForCode("mars_star").Active
     end
 	return false
