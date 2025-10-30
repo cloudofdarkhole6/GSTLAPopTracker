@@ -78,13 +78,13 @@ end
 
 function canAccessInnerAnemos()
     if Tracker:FindObjectForCode("anemos_door_setting").CurrentStage == 2 then
-        return Tracker:FindObjectForCode("teleport")
+        return Tracker:FindObjectForCode("teleport").Active
     end
 
     local djinn = Tracker:ProviderCountForCode("venus") + Tracker:ProviderCountForCode("mars") + Tracker:ProviderCountForCode("jupiter") + Tracker:ProviderCountForCode("mercury") - 4
     if Tracker:FindObjectForCode("anemos_door_setting").CurrentStage == 1 then
-        return Tracker:FindObjectForCode("teleport") and djinn >= 28
+        return Tracker:FindObjectForCode("teleport").Active and djinn >= 28
     end
 
-    return Tracker:FindObjectForCode("teleport") and djinn == 72
+    return Tracker:FindObjectForCode("teleport").Active and djinn == 72
 end
