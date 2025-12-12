@@ -337,6 +337,7 @@ function updateSingleDjinnCount(value)
 	local code = string.sub(djinn, 1, splitIndex-1)
 	local obj = Tracker:FindObjectForCode(code)
     obj.AcquiredCount = obj.AcquiredCount + 1
+    updateTotalDjinnCount()
 end
 
 function updateDjinnDiff(value, oldvalue)
@@ -355,6 +356,7 @@ function updateDjinnDiff(value, oldvalue)
             obj.AcquiredCount = obj.AcquiredCount + 1
         end
     end
+    updateTotalDjinnCount()
 end
 
 function updateDjinnCount(value)
@@ -366,6 +368,7 @@ function updateDjinnCount(value)
 		local obj = Tracker:FindObjectForCode(code)
         obj.AcquiredCount = obj.AcquiredCount + 1
 	end
+	updateTotalDjinnCount()
 end
 
 function updateProgression(value)
@@ -374,6 +377,12 @@ function updateProgression(value)
         local obj = Tracker:FindObjectForCode(EVENT_MAPPING[id])
         obj.Active = true
     end
+end
+
+function updateTotalDjinnCount()
+    print("Update overall djinn counts")
+    local obj = Tracker:FindObjectForCode("djinntotals")
+    obj.AcquiredCount = Tracker:ProviderCountForCode("venus") + Tracker:ProviderCountForCode("mars") + Tracker:ProviderCountForCode("jupiter") + Tracker:ProviderCountForCode("mercury") -4
 end
 
 function setInitialGoalState(value)

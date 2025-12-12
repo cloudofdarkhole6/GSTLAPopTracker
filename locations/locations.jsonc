@@ -2585,12 +2585,12 @@
 						{
 							"name": "Torch",
 							"short_name": "GS1 Mars",
-							"access_rules": ["burst,growth,lash"],
+							"access_rules": ["burst,growth,lash", "magma_rock_shortcut"],
 							"hosted_item": "mars_10"
 						},
 						{
 							"name": "Fury",
-							"access_rules": ["burst,growth,lash"],
+							"access_rules": ["burst,growth,lash", "magma_rock_shortcut"],
 							"hosted_item": "mars_11"
 						}
 					]
@@ -2666,14 +2666,14 @@
 						},
 						{
 							"name": "Sand Wall",
-							"access_rules": ["shaman's_rod"],
+							"access_rules": ["shaman's_rod, whirlwind"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
 						},
 						{
 							"name": "Trial Road Side Path",
 							"short_name": "Side Path",
-							"access_rules": ["shaman's_rod,hover,lift,reveal"],
+							"access_rules": ["shaman's_rod,hover,lift,reveal, whirlwind"],
 							"capture_item": true,
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
@@ -2681,12 +2681,12 @@
 						{
 							"name": "Trial Road Cleared",
 							"short_name": "Trial Road",
-							"access_rules": ["$hasDjinnCountLogic|28,shaman's_rod"],
+							"access_rules": ["$hasDjinnCountLogic|28,shaman's_rod,whirlwind"],
 							"hosted_item": "trial_road"
 						},
 						{
 							"name": "Aroma",
-							"access_rules": ["$neg|sett_hide_yellows,[lash],[trial_road]", "lash,trial_road"],
+							"access_rules": ["$neg|sett_hide_yellows,[lash],[trial_road]", "lash,trial_road,whirlwind"],
 							"capture_item": true,
 							"capture_item_layout": "tracker_capture_djinni",
 							"hosted_item": "jupiter_9"

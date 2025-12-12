@@ -365,6 +365,15 @@
     "max_quantity": 18,
     "initial_quantity": 0
   },
+  {
+    "name": "Total Djinn Count",
+    "type": "consumable",
+    "img": "images/hosts/djinnhunt.png",
+    "codes": "djinntotals",
+    "swap_actions": false,
+    "max_quantity": 72,
+    "initial_quantity": 0
+  },
   
   {
 	  "name": "Venus Djinni",
