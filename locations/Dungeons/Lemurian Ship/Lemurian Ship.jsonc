@@ -1,0 +1,99 @@
+[
+  {
+    "name": "Lemurian Ship",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Entrance - Barrel",
+            "ref": "Overworld/Indra/Lemurian Ship/Entrance - Barrel"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Lemurian Ship 1F",
+            "x": 172,
+            "y": 220
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Frost Pillar",
+            "ref": "Overworld/Indra/Lemurian Ship/Frost Pillar"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Lemurian Ship 1F",
+            "x": 38,
+            "y": 302
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Large Room - Box",
+            "ref": "Overworld/Indra/Lemurian Ship/Large Room - Box"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Lemurian Ship 2F",
+            "x": 690,
+            "y": 98
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Aqua Hydra Room - Barrel",
+            "ref": "Overworld/Indra/Lemurian Ship/Aqua Hydra Room - Barrel"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Lemurian Ship 2F",
+            "x": 322,
+            "y": 241
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Submerged Chest",
+            "ref": "Overworld/Indra/Lemurian Ship/Submerged Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Lemurian Ship 2F",
+            "x": 265,
+            "y": 206
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Aqua Hydra",
+            "ref": "Overworld/Indra/Lemurian Ship/Aqua Hydra fight"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Lemurian Ship 2F",
+            "x": 243,
+            "y": 226
+          }
+        ]
+      }
+    ]
+  }
+]

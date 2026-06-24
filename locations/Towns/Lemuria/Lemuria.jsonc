@@ -1,0 +1,133 @@
+[
+  {
+    "name": "Lemuria",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Grindstone",
+            "ref": "Overworld/Lemuria/Grindstone"
+          },
+          {
+            "name": "Castle - 1F East Room Barrel",
+            "ref": "Overworld/Lemuria/Castle - 1F East Room Barrel"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Lemuria",
+            "x": 463,
+            "y": 293
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Eclipse Tablet",
+            "ref": "Overworld/Lemuria/Eclipse Tablet"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Lemuria",
+            "x": 463,
+            "y": 879
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "South Buried Item",
+            "ref": "Overworld/Lemuria/South Buried Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Lemuria",
+            "x": 533,
+            "y": 951
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Central Buried Item",
+            "ref": "Overworld/Lemuria/Central Buried Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Lemuria",
+            "x": 373,
+            "y": 524
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "North Buried Item",
+            "ref": "Overworld/Lemuria/North Buried Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Lemuria",
+            "x": 293,
+            "y": 293
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "East Buried Item",
+            "ref": "Overworld/Lemuria/East Buried Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Lemuria",
+            "x": 888,
+            "y": 870
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "South-East Weeds",
+            "ref": "Overworld/Lemuria/South-East Weeds"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Lemuria",
+            "x": 808,
+            "y": 1141
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Rime",
+            "ref": "Overworld/Lemuria/Rime"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Ancient Lemuria",
+            "x": 93,
+            "y": 193
+          }
+        ]
+      }
+    ]
+  }
+]

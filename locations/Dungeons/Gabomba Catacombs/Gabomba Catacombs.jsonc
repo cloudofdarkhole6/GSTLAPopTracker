@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Gabomba Catacombs",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Tomegathericon",
+            "ref": "Overworld/Gondowan/Kibombo Area/Gabomba Catacombs/Tomegathericon"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gabomba Catacombs 4F",
+            "x": 191,
+            "y": 95
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "B2F - North Room Weeds",
+            "ref": "Overworld/Gondowan/Kibombo Area/Gabomba Catacombs/B2F - North Room Weeds"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gabomba Catacombs 2F",
+            "x": 523,
+            "y": 250
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Mud",
+            "ref": "Overworld/Gondowan/Kibombo Area/Gabomba Catacombs/Mud"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gabomba Catacombs 2F",
+            "x": 697,
+            "y": 711
+          }
+        ]
+      }
+    ]
+  }
+]

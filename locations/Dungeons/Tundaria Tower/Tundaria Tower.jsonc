@@ -1,0 +1,144 @@
+[
+  {
+    "name": "Tundaria Tower",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "1F - West Room Ledge",
+            "ref": "Overworld/Eastern Sea/Tundaria Tower/1F - West Room Ledge"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Tundaria Tower 1F",
+            "x": 180,
+            "y": 290
+          },
+          {
+            "map": "Tundaria Tower 1F",
+            "x": 244,
+            "y": 290
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "1F - East Room Ledge",
+            "ref": "Overworld/Eastern Sea/Tundaria Tower/1F - East Room Ledge"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Tundaria Tower 1F",
+            "x": 488,
+            "y": 283
+          },
+          {
+            "map": "Tundaria Tower 1F",
+            "x": 552,
+            "y": 283
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "2F - South Room",
+            "ref": "Overworld/Eastern Sea/Tundaria Tower/2F - South Room"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Tundaria Tower 2F",
+            "x": 440,
+            "y": 515
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "2F - North Room",
+            "ref": "Overworld/Eastern Sea/Tundaria Tower/2F - North Room"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Tundaria Tower 2F",
+            "x": 345,
+            "y": 53
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "4F - West Room",
+            "ref": "Overworld/Eastern Sea/Tundaria Tower/4F - West Room"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Tundaria Tower 4F",
+            "x": 120,
+            "y": 93
+          },
+          {
+            "map": "Tundaria Tower 4F",
+            "x": 264,
+            "y": 109
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Burst Brooch",
+            "ref": "Overworld/Eastern Sea/Tundaria Tower/Burst Brooch"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Tundaria Tower 6F",
+            "x": 233,
+            "y": 99
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Center Prong",
+            "ref": "Overworld/Eastern Sea/Tundaria Tower/Center Prong"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Tundaria Tower 1F",
+            "x": 365,
+            "y": 351
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Reflux",
+            "ref": "Overworld/Eastern Sea/Tundaria Tower/Reflux"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Tundaria Tower 3F",
+            "x": 377,
+            "y": 437
+          }
+        ]
+      }
+    ]
+  }
+]

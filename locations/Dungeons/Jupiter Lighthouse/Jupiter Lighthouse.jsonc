@@ -1,0 +1,208 @@
+[
+  {
+    "name": "Jupiter Lighthouse",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Entrance Weeds",
+            "ref": "Overworld/Western Sea/Jupiter Lighthouse/Entrance Weeds"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Jupiter Lighthouse Entrance",
+            "x": 226,
+            "y": 398
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Rolling Pillar Room",
+            "ref": "Overworld/Western Sea/Jupiter Lighthouse/Rolling Pillar Room"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Jupiter Lighthouse 2F",
+            "x": 274,
+            "y": 145
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Jumping Pillar Room",
+            "ref": "Overworld/Western Sea/Jupiter Lighthouse/Jumping Pillar Room"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Jupiter Lighthouse 5F",
+            "x": 72,
+            "y": 167
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Red Key",
+            "ref": "Overworld/Western Sea/Jupiter Lighthouse/Red Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Jupiter Lighthousen 6F",
+            "x": 70,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Reveal Circle",
+            "ref": "Overworld/Western Sea/Jupiter Lighthouse/Reveal Circle"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Jupiter Lighthouse 4F",
+            "x": 555,
+            "y": 257
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "West Wing - Mimic",
+            "ref": "Overworld/Western Sea/Jupiter Lighthouse/West Wing - Mimic"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Jupiter Lighthouse West Lower",
+            "x": 66,
+            "y": 491
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "West Wing - Middle Room",
+            "ref": "Overworld/Western Sea/Jupiter Lighthouse/West Wing - Middle Room"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Jupiter Lighthouse West Lower",
+            "x": 347,
+            "y": 124
+          },{
+            "map": "Jupiter Lighthouse West Lower",
+            "x": 475,
+            "y": 156
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "West Wing - Blue Key",
+            "ref": "Overworld/Western Sea/Jupiter Lighthouse/West Wing - Blue Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Jupiter Lighthouse West Lower",
+            "x": 143,
+            "y": 170
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "East Wing Approach",
+            "ref": "Overworld/Western Sea/Jupiter Lighthouse/East Wing Approach"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Jupiter Lighthouse 4F",
+            "x": 249,
+            "y": 419
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "East Wing - Nightmare Room",
+            "ref": "Overworld/Western Sea/Jupiter Lighthouse/East Wing - Nightmare Room"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Jupiter Lighthouse East Middle",
+            "x": 293,
+            "y": 321
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "East Wing - Hover Room",
+            "ref": "Overworld/Western Sea/Jupiter Lighthouse/East Wing - Hover Room"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Jupiter Lighthouse East Upper",
+            "x": 429,
+            "y": 63
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Jupiter Lighthouse Lit",
+            "ref": "Overworld/Western Sea/Jupiter Lighthouse/Jupiter Lighthouse Lit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "",
+            "x": 0,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Whorl",
+            "ref": "Overworld/Western Sea/Jupiter Lighthouse/Whorl"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Jupiter Lighthouse East Lower",
+            "x": 49,
+            "y": 148
+          }
+        ]
+      }
+    ]
+  }
+]

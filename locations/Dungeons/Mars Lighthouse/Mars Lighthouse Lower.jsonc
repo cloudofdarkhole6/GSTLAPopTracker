@@ -1,0 +1,144 @@
+[
+  {
+    "name": "Mars Lighthouse Lower",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Elevator Chest",
+            "ref": "Overworld/Northern Reaches/Mars Lighthouse (Lower)/Elevator Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mars Lighthouse Entrance",
+            "x": 68,
+            "y": 98
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Entrance Mimic",
+            "ref": "Overworld/Northern Reaches/Mars Lighthouse (Lower)/Entrance Mimic"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mars Lighthouse 1F",
+            "x": 834,
+            "y": 782
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Orihalcon",
+            "ref": "Overworld/Northern Reaches/Mars Lighthouse (Lower)/Orihalcon"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mars Lighthouse B1",
+            "x": 906,
+            "y": 508
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Teleport Lapis",
+            "ref": "Overworld/Northern Reaches/Mars Lighthouse (Lower)/Teleport Lapis"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mars Lighthouse 1F",
+            "x": 585,
+            "y": 99
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Valkyrie Mail",
+            "ref": "Overworld/Northern Reaches/Mars Lighthouse (Lower)/Valkyrie Mail"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mars Lighthouse B2",
+            "x": 26,
+            "y": 379
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Sol Blade",
+            "ref": "Overworld/Northern Reaches/Mars Lighthouse (Lower)/Sol Blade"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mars Lighthouse B2",
+            "x": 1182,
+            "y": 489
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Flame Dragons",
+            "ref": "Overworld/Northern Reaches/Mars Lighthouse (Lower)/Flame Dragons"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mars Lighthouse B3",
+            "x": 184,
+            "y": 174
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Lighthouse Heated",
+            "ref": "Overworld/Northern Reaches/Mars Lighthouse (Lower)/Lighthouse Heated"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mars Lighthouse B3",
+            "x": 184,
+            "y": 84
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Balm",
+            "ref": "Overworld/Northern Reaches/Mars Lighthouse (Lower)/Balm"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mars Lighthouse B1",
+            "x": 528,
+            "y": 258
+          }
+        ]
+      }
+    ]
+  }
+]

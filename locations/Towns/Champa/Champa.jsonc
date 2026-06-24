@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Champa",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Reveal Circle",
+            "ref": "Overworld/Eastern Sea/Champa/Reveal Circle"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Champa Outside",
+            "x": 392,
+            "y": 539
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "West Box",
+            "ref": "Overworld/Eastern Sea/Champa/West Box"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Champa Outside",
+            "x": 182,
+            "y": 250
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "East Box",
+            "ref": "Overworld/Eastern Sea/Champa/East Box"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Champa Outside",
+            "x": 485,
+            "y": 234
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Inn - Box",
+            "ref": "Overworld/Eastern Sea/Champa/Inn - Box"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Champa Outside",
+            "x": 293,
+            "y": 117
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "1F Cave House - Barrel",
+            "ref": "Overworld/Eastern Sea/Champa/1F Cave House - Barrel"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Champa 1F",
+            "x": 336,
+            "y": 59
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Cave - Upper Ledge Jar",
+            "ref": "Overworld/Eastern Sea/Champa/Cave - Upper Ledge Jar"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Champa 3F",
+            "x": 239,
+            "y": 369
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Trident",
+            "ref": "Overworld/Eastern Sea/Champa/Trident"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Champa 4F",
+            "x": 370,
+            "y": 208
+          }
+        ]
+      }
+    ]
+  }
+]

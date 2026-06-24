@@ -2,7 +2,7 @@
   "tracker_broadcast": {
       "type": "array",
   "orientation": "horizontal",
-    "background": "#6C6046",
+    "background": "#212121",
       "content": [
     {
       "type": "array",
@@ -61,8 +61,18 @@
           "h_alignment": "center",
           "item_margin": "-0.2,-0.2,-0.2,-0.2",
           "rows": [
-            ["briggs_defeated", "gabomba_statue_cleared", "lemurian_ship", "serpent_defeated", "briggs_escaped", "wings_of_anemos"],
-            ["trial_road", "jupiter_lit", "reunion", "cannon", "mars_lit", "doom_dragon"]
+            ["felix", "jenna", "sheba", "piers_character"],
+            ["isaac", "garet", "ivan", "mia"]
+          ]
+        },
+        {
+          "type": "itemgrid",
+          "h_alignment": "center",
+          "item_margin": "-0.2,-0.2,-0.2,-0.2",
+          "rows": [
+            ["chestbeaters_defeated", "king_scorpion_defeated", "briggs_defeated_goal", "aqua_hydra_defeated", "poseidon_defeated", "serpent_defeated_goal"],
+            ["avimander_defeated", "moapa_defeated", "reunion_completed", "flame_dragons_defeated", "doom_dragon_defeated", "star_magician_defeated"],
+            ["sentinel_defeated", "valukar_defeated", "dullahan_defeated", "", "djinn_goal_count", "summons_goal_count"]
           ]
         }
       ]

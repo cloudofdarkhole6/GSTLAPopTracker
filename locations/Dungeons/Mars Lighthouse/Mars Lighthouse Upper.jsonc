@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Mars Lighthouse Upper",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Chest outside Mars Wing",
+            "ref": "Overworld/Northern Reaches/Mars Lighthouse (Upper)/Chest outside Mars Wing"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mars Lighthouse Mars Wing",
+            "x": 3367,
+            "y": 2123
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Chest inside Jupiter Wing",
+            "ref": "Overworld/Northern Reaches/Mars Lighthouse (Upper)/Chest inside Jupiter Wing"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mars Lighthouse Jupiter Wing",
+            "x": 644,
+            "y": 270
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Fugue",
+            "ref": "Overworld/Northern Reaches/Mars Lighthouse (Upper)/Fugue"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mars Lighthouse 2F",
+            "x": 411,
+            "y": 250
+          }
+        ]
+      }
+    ]
+  }
+]

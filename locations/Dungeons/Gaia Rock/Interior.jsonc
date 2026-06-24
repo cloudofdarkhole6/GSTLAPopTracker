@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Gaia Rock Interior",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Maze Items",
+            "ref": "Overworld/Eastern Sea/Gaia Rock/Maze Items"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gaia Rock Maze",
+            "x": 108,
+            "y": 766
+          },
+          {
+            "map": "Gaia Rock Maze",
+            "x": 820,
+            "y": 750
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Cloud Brand",
+            "ref": "Overworld/Eastern Sea/Gaia Rock/Cloud Brand"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gaia Rock Maze",
+            "x": 1784,
+            "y": 226
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Sand Tablet",
+            "ref": "Overworld/Eastern Sea/Gaia Rock/Sand Tablet"
+          },{
+            "name": "Serpent Defeated",
+            "ref": "Overworld/Eastern Sea/Gaia Rock/Serpent Defeated"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gaia Rock Maze",
+            "x": 1798,
+            "y": 254
+          }
+        ]
+      }
+    ]
+  }
+]

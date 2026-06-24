@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Kibombo Mountains",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "South Screen",
+            "ref": "Overworld/Gondowan/Kibombo Mountains/South Screen"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Kibombo Mountains South",
+            "x": 406,
+            "y": 37
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "North Screen",
+            "ref": "Overworld/Gondowan/Kibombo Mountains/North Screen"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Kibombo Mountains North",
+            "x": 839,
+            "y": 279
+          },
+          {
+            "map": "Kibombo Mountains North",
+            "x": 775,
+            "y": 374
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "North Screen Cave",
+            "ref": "Overworld/Gondowan/Kibombo Mountains/North Screen Cave"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Kibombo Mountains North",
+            "x": 691,
+            "y": 148
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Waft",
+            "ref": "Overworld/Gondowan/Kibombo Mountains/Waft"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Kibombo Mountains North",
+            "x": 438,
+            "y": 218
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,89 @@
+[
+  {
+    "name": "Daila",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Central Room Bottom",
+            "ref": "Overworld/Eastern Sea/Islet Cave/Central Room Bottom"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Islet Cave",
+            "x": 64,
+            "y": 1114
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Central Room Top",
+            "ref": "Overworld/Eastern Sea/Islet Cave/Central Room Top"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Islet Cave",
+            "x": 62,
+            "y": 842
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Catastrophe Tablet",
+            "ref": "Overworld/Eastern Sea/Islet Cave/Catastrophe Tablet"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Islet Cave",
+            "x": 203,
+            "y": 107
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Meld",
+            "ref": "Overworld/Eastern Sea/Islet Cave/Meld"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Islet Cave",
+            "x": 412,
+            "y": 836
+          },
+          {
+            "map": "Islet Cave",
+            "x": 383,
+            "y": 1093
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Serac",
+            "ref": "Overworld/Eastern Sea/Islet Cave/Serac"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Islet Cave",
+            "x": 175,
+            "y": 505
+          }
+        ]
+      }
+    ]
+  }
+]

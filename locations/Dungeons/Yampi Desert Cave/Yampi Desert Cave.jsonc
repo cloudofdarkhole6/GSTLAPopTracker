@@ -1,0 +1,84 @@
+[
+  {
+    "name": "Yampi Desert Cave",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Half-buried Item",
+            "ref": "Overworld/Osenia/Yampi Desert Cave/Half-buried Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Yampi Desert Cave Front",
+            "x": 306,
+            "y": 92
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Halfway Chest",
+            "ref": "Overworld/Osenia/Yampi Desert Cave/Halfway Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Yampi Desert Cave Back",
+            "x": 340,
+            "y": 571
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Shortcut Room Chest",
+            "ref": "Overworld/Osenia/Yampi Desert Cave/Shortcut Room Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Yampi Desert Cave Back",
+            "x": 591,
+            "y": 1147
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Daedalus Tablet",
+            "ref": "Overworld/Osenia/Yampi Desert Cave/Daedalus Tablet"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Yampi Desert Cave Back",
+            "x": 245,
+            "y": 81
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Crystal",
+            "ref": "Overworld/Osenia/Yampi Desert Cave/Crystal"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Yampi Desert Cave Back",
+            "x": 221,
+            "y": 820
+          }
+        ]
+      }
+    ]
+  }
+]

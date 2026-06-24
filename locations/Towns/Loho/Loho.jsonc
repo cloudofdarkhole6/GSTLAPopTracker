@@ -1,0 +1,99 @@
+[
+  {
+    "name": "Loho",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "South-East Barrel",
+            "ref": "Overworld/Western Sea/Loho/South-East Barrel"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Loho",
+            "x": 376,
+            "y": 445
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Half-buried Item",
+            "ref": "Overworld/Western Sea/Loho/Half-buried Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Loho",
+            "x": 520,
+            "y": 177
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "South Buried Item",
+            "ref": "Overworld/Western Sea/Loho/South Buried Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Loho",
+            "x": 135,
+            "y": 493
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Item Under Boulder",
+            "ref": "Overworld/Western Sea/Loho/Item Under Boulder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Loho",
+            "x": 518,
+            "y": 93
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Dwarven Cannon",
+            "ref": "Overworld/Western Sea/Loho/Dwarven Cannon"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Loho",
+            "x": 488,
+            "y": 311
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Lull",
+            "ref": "Overworld/Western Sea/Loho/Lull"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Loho",
+            "x": 233,
+            "y": 169
+          }
+        ]
+      }
+    ]
+  }
+]

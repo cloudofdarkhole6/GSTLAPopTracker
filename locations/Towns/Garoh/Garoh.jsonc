@@ -1,0 +1,99 @@
+[
+  {
+    "name": "Garoh",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Ledge Chest",
+            "ref": "Overworld/Osenia/Garoh/Ledge Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Garoh Entrance",
+            "x": 92,
+            "y": 164
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "South-East Barrel",
+            "ref": "Overworld/Osenia/Garoh/South-East Barrel"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Garoh Town",
+            "x": 360,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "North-West Ledge Barrel",
+            "ref": "Overworld/Osenia/Garoh/North-West Ledge Barrel"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Garoh Town",
+            "x": 135,
+            "y": 171
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Inn - Jar",
+            "ref": "Overworld/Osenia/Garoh/Inn - Jar"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Garoh Town",
+            "x": 314,
+            "y": 355
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "North-West Ledge House - Jar",
+            "ref": "Overworld/Osenia/Garoh/North-West Ledge House - Jar"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Garoh Town",
+            "x": 106,
+            "y": 148
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Ether",
+            "ref": "Overworld/Osenia/Garoh/Ether"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Garoh Cave 3",
+            "x": 280,
+            "y": 151
+          }
+        ]
+      }
+    ]
+  }
+]

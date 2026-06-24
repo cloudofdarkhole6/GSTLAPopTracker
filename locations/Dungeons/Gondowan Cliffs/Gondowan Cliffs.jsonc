@@ -1,0 +1,69 @@
+[
+  {
+    "name": "Gondowan Cliffs",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Left Ledge",
+            "ref": "Overworld/Indra/Gondowan Cliffs/Left Ledge"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gondowan Cliffs",
+            "x": 700,
+            "y": 358
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Laughing Fungus",
+            "ref": "Overworld/Indra/Gondowan Cliffs/Laughing Fungus"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gondowan Cliffs",
+            "x": 1165,
+            "y": 649
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Healing Fungus",
+            "ref": "Overworld/Indra/Gondowan Cliffs/Healing Fungus"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gondowan Cliffs",
+            "x": 843,
+            "y": 605
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Kindle",
+            "ref": "Overworld/Indra/Gondowan Cliffs/Kindle"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gondowan Cliffs",
+            "x": 828,
+            "y": 481
+          }
+        ]
+      }
+    ]
+  }
+]

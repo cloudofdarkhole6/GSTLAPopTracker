@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Daila",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Sea God's Tear",
+            "ref": "Overworld/Indra/Daila/Sea God's Tear"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Daila",
+            "x": 257,
+            "y": 100
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "North-East Jar",
+            "ref": "Overworld/Indra/Daila/North-East Jar"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Daila",
+            "x": 377,
+            "y": 73
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "South-West Barrel",
+            "ref": "Overworld/Indra/Daila/South-West Barrel"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Daila",
+            "x": 135,
+            "y": 489
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Buried Item",
+            "ref": "Overworld/Indra/Daila/Buried Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Daila",
+            "x": 486,
+            "y": 362
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Inn - Barrel",
+            "ref": "Overworld/Indra/Daila/Inn - Barrel"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Daila",
+            "x": 215,
+            "y": 435
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Corner House - Jar",
+            "ref": "Overworld/Indra/Daila/Corner House - Jar"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Daila",
+            "x": 343,
+            "y": 306
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Mayor's House - Jar",
+            "ref": "Overworld/Indra/Daila/Mayor's House - Jar"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Daila",
+            "x": 472,
+            "y": 228
+          }
+        ]
+      }
+    ]
+  }
+]

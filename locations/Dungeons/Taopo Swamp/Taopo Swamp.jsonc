@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Taopo Swamp",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "First Screen",
+            "ref": "Overworld/Eastern Sea/Taopo Swamp/First Screen"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Taopo Swamp Entrance",
+            "x": 170,
+            "y": 320
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "North-West Cave - Half-buried Item",
+            "ref": "Overworld/Eastern Sea/Taopo Swamp/North-West Cave - Half-buried Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Taopo Swamp Entrance",
+            "x": 600,
+            "y": 83
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "South-East Cave - Half-buried Item",
+            "ref": "Overworld/Eastern Sea/Taopo Swamp/South-East Cave - Half-buried Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Taopo Swamp B1",
+            "x": 439,
+            "y": 75
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "South-East Cave - Weeds",
+            "ref": "Overworld/Eastern Sea/Taopo Swamp/South-East Cave - Weeds"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Taopo Swamp B2",
+            "x": 236,
+            "y": 327
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Magma Chamber",
+            "ref": "Overworld/Eastern Sea/Taopo Swamp/Magma Chamber"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Taopo Swamp B4",
+            "x": 108,
+            "y": 753
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Star Dust",
+            "ref": "Overworld/Eastern Sea/Taopo Swamp/Star Dust"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Taopo Swamp B5",
+            "x": 323,
+            "y": 562
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Flower",
+            "ref": "Overworld/Eastern Sea/Taopo Swamp/Flower"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Taopo Swamp B2",
+            "x": 397,
+            "y": 282
+          }
+        ]
+      }
+    ]
+  }
+]

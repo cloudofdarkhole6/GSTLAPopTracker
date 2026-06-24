@@ -1,0 +1,103 @@
+[
+  {
+    "name": "Dehkan Plateau",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "First Screen",
+            "ref": "Overworld/Indra/Dehkan Plateau/First Screen"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dehkan Plateau Room 1",
+            "x": 207,
+            "y": 289
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Second Screen Ledge",
+            "ref": "Overworld/Indra/Dehkan Plateau/Second Screen Ledge"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dehkan Plateau Room 2",
+            "x": 156,
+            "y": 89
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Second Screen Drop-down",
+            "ref": "Overworld/Indra/Dehkan Plateau/Second Screen Drop-down"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dehkan Plateau Room 2",
+            "x": 378,
+            "y": 174
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Third Screen",
+            "ref": "Overworld/Indra/Dehkan Plateau/Third Screen"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dehkan Plateau Room 3",
+            "x": 175,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Lash Required Chest",
+            "ref": "Overworld/Indra/Dehkan Plateau/Lash Required Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dehkan Plateau Room 4",
+            "x": 376,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Pound Cube",
+            "ref": "Overworld/Indra/Dehkan Plateau/Pound Cube"
+          },
+          {
+            "name": "Cannon",
+            "ref": "Overworld/Indra/Dehkan Plateau/Cannon"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dehkan Plateau Room 5",
+            "x": 217,
+            "y": 102
+          }
+        ]
+      }
+    ]
+  }
+]

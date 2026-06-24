@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Gabomba Statue",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Early Isaac Room",
+            "ref": "Overworld/Gondowan/Kibombo Area/Gabomba Statue/Early Isaac Room"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gabomba Statue 2F",
+            "x": 125,
+            "y": 255
+          },
+          {
+            "map": "Gabomba Statue 2F",
+            "x": 379,
+            "y": 60
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Right Side Chest",
+            "ref": "Overworld/Gondowan/Kibombo Area/Gabomba Statue/Right Side Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gabomba Statue 3F",
+            "x": 670,
+            "y": 302
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Steel",
+            "ref": "Overworld/Gondowan/Kibombo Area/Gabomba Statue/Steel"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gabomba Statue 4F",
+            "x": 498,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Gabomba Statue Cleared",
+            "ref": "Overworld/Gondowan/Kibombo Area/Gabomba Statue/Gabomba Statue Cleared"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gabomba Statue 6F",
+            "x": 133,
+            "y": 327
+          }
+        ]
+      }
+    ]
+  }
+]

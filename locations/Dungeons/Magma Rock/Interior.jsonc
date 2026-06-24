@@ -1,0 +1,144 @@
+[
+  {
+    "name": "Magma Rock Interior",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "4F - West Side",
+            "ref": "Overworld/Western Sea/Magma Rock Interior/4F - West Side"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Magma Rock Interior 4F",
+            "x": 180,
+            "y": 633
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "3F - West Side",
+            "ref": "Overworld/Western Sea/Magma Rock Interior/3F - West Side"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Magma Rock Interior 3F",
+            "x": 247,
+            "y": 388
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "2F - Center",
+            "ref": "Overworld/Western Sea/Magma Rock Interior/2F - Center"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Magma Rock Interior 2F",
+            "x": 553,
+            "y": 714
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "2F - North-East Sluice",
+            "ref": "Overworld/Western Sea/Magma Rock Interior/2F - North-East Sluice"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Magma Rock Interior 2F",
+            "x": 907,
+            "y": 118
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Blaze Tablet",
+            "ref": "Overworld/Western Sea/Magma Rock Interior/Blaze Tablet"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Magma Rock Sanctum",
+            "x": 245,
+            "y": 76
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Entrance Mimic",
+            "ref": "Overworld/Western Sea/Magma Rock Interior/Entrance Mimic"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Magma Rock Interior 1F",
+            "x": 375,
+            "y": 1071
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Magma Ball",
+            "ref": "Overworld/Western Sea/Magma Rock Interior/Magma Ball"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Magma Rock Interior 1F",
+            "x": 260,
+            "y": 793
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Torch",
+            "ref": "Overworld/Western Sea/Magma Rock Interior/Torch"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Magma Rock Interior 4F",
+            "x": 455,
+            "y": 824
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Fury",
+            "ref": "Overworld/Western Sea/Magma Rock Interior/Fury"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Magma Rock Interior 3F",
+            "x": 54,
+            "y": 727
+          }
+        ]
+      }
+    ]
+  }
+]

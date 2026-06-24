@@ -1,0 +1,99 @@
+[
+  {
+    "name": "Apojii Islands",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "South-West Jar",
+            "ref": "Overworld/Eastern Sea/Apojii Islands/South-West Jar"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Apojii Islands West",
+            "x": 78,
+            "y": 266
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "South Weeds",
+            "ref": "Overworld/Eastern Sea/Apojii Islands/South Weeds"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Apojii Islands West",
+            "x": 287,
+            "y": 363
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "South-East Weeds",
+            "ref": "Overworld/Eastern Sea/Apojii Islands/South-East Weeds"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Apojii Islands West",
+            "x": 505,
+            "y": 386
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "North-East Hut - Barrel",
+            "ref": "Overworld/Eastern Sea/Apojii Islands/North-East Hut - Barrel"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Apojii Islands West",
+            "x": 478,
+            "y": 101
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Gaia Falls Weeds",
+            "ref": "Overworld/Eastern Sea/Apojii Islands/Gaia Falls Weeds"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Apojii Islands East",
+            "x": 168,
+            "y": 202
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Haze",
+            "ref": "Overworld/Eastern Sea/Apojii Islands/Haze"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Apojii Islands East",
+            "x": 377,
+            "y": 277
+          }
+        ]
+      }
+    ]
+  }
+]

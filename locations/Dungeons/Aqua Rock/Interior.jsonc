@@ -1,0 +1,159 @@
+[
+  {
+    "name": "Aqua Rock Interior",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "3F - Steam Ledge",
+            "ref": "Overworld/Eastern Sea/Aqua Rock Interior/3F - Steam Ledge"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Aqua Rock Interior 3F",
+            "x": 726,
+            "y": 310
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "3F - Entrance Room South",
+            "ref": "Overworld/Eastern Sea/Aqua Rock Interior/3F - Entrance Room South"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Aqua Rock Interior 3F",
+            "x": 498,
+            "y": 1012
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "2F - Waterfall",
+            "ref": "Overworld/Eastern Sea/Aqua Rock Interior/2F - Waterfall"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Aqua Rock Interior 2F",
+            "x": 238,
+            "y": 1059
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "1F - Left Side",
+            "ref": "Overworld/Eastern Sea/Aqua Rock Interior/1F - Left Side"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Aqua Rock Interior 1F",
+            "x": 44,
+            "y": 1045
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "1F - Mimic",
+            "ref": "Overworld/Eastern Sea/Aqua Rock Interior/1F - Mimic"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Aqua Rock Interior 1F",
+            "x": 1075,
+            "y": 130
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "1F - Main Room Left",
+            "ref": "Overworld/Eastern Sea/Aqua Rock Interior/1F - Main Room Left"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Aqua Rock Interior 1F",
+            "x": 566,
+            "y": 622
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "1F - Aquarius Stone",
+            "ref": "Overworld/Eastern Sea/Aqua Rock Interior/1F - Aquarius Stone"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Aqua Rock Interior 1F",
+            "x": 726,
+            "y": 768
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "1F - Submerged Chest",
+            "ref": "Overworld/Eastern Sea/Aqua Rock Interior/1F - Submerged Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Aqua Rock Interior 1F",
+            "x": 694,
+            "y": 1497
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Parch Tablet",
+            "ref": "Overworld/Eastern Sea/Aqua Rock Interior/Parch Tablet"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Aqua Rock Interior Tablet Room",
+            "x": 130,
+            "y": 39
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Steam",
+            "ref": "Overworld/Eastern Sea/Aqua Rock Interior/Steam"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Aqua Rock Interior 1F",
+            "x": 1203,
+            "y": 703
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -177,6 +177,7 @@
         }
       ]
     },
+    
     "tracker_goals": {
       "type": "array",
       "orientation": "vertical",

@@ -1,0 +1,159 @@
+[
+  {
+    "name": "Alhafra",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Reveal Circle",
+            "ref": "Overworld/Osenia/Alhafra/Reveal Circle"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Alhafra",
+            "x": 165,
+            "y": 470
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "West Jar",
+            "ref": "Overworld/Osenia/Alhafra/West Jar"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Alhafra",
+            "x": 197,
+            "y": 553
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "North-East Jar",
+            "ref": "Overworld/Osenia/Alhafra/North-East Jar"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Alhafra",
+            "x": 629,
+            "y": 472
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Outside Mayor's House East Box",
+            "ref": "Overworld/Osenia/Alhafra/Outside Mayor's House East Box"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Alhafra",
+            "x": 357,
+            "y": 103
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Eastern Alhafra - Jar",
+            "ref": "Overworld/Osenia/Alhafra/Eastern Alhafra - Jar"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Alhafra",
+            "x": 215,
+            "y": 435
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Inn - Upstairs Jar",
+            "ref": "Overworld/Osenia/Alhafra/Inn - Upstairs Jar"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Alhafra",
+            "x": 597,
+            "y": 738
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Upper Long House - Barrel",
+            "ref": "Overworld/Osenia/Alhafra/Upper Long House - Barrel"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Alhafra",
+            "x": 421,
+            "y": 595
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Cave Left Side",
+            "ref": "Overworld/Osenia/Alhafra/Cave Left Side"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Alhafra Jail",
+            "x": 199,
+            "y": 710
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Cave Right Side",
+            "ref": "Overworld/Osenia/Alhafra/Cave Right Side"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Alhafra Jail",
+            "x": 361,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Jail - Jar",
+            "ref": "Overworld/Osenia/Alhafra/Jail - Jar"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Alhafra Jail",
+            "x": 347,
+            "y": 773
+          }
+        ]
+      }
+    ]
+  }
+]

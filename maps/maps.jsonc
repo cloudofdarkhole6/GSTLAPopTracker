@@ -1,9 +1,993 @@
+
 [
-  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#maps
   {
     "name": "weyard",
     "location_size": 48,
     "location_border_thickness": 4,
     "img": "images/maps/weyard.jpg"
+  },
+  {
+    "name": "Air's Rock Exterior 1",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Airs Rock/Exterior/map1.png"
+  },
+  {
+    "name": "Air's Rock Exterior 2",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Airs Rock/Exterior/map2.png"
+  },
+  {
+    "name": "Air's Rock Exterior 3",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Airs Rock/Exterior/map3.png"
+  },
+  {
+    "name": "Air's Rock Exterior 4",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Airs Rock/Exterior/map4.png"
+  },
+  {
+    "name": "Air's Rock Exterior 5",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Airs Rock/Exterior/map5.png"
+  },
+  {
+    "name": "Air's Rock Interior 1",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Ai's Rock/Interior/map1.png"
+  },
+  {
+    "name": "Air's Rock Interior 2",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Airs Rock/Interior/map2.png"
+  },
+  {
+    "name": "Air's Rock Interior 3",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Airs Rock/Interior/map3.png"
+  },
+  {
+    "name": "Air's Rock Interior 4",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Airs Rock/Interior/map4.png"
+  },
+  {
+    "name": "Air's Rock Interior 5",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Airs Rock/Interior/map5.png"
+  },
+  {
+    "name": "Air's Rock Interior 6",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Airs Rock/Interior/map6.png"
+  },
+  {
+    "name": "Air's Rock Interior 7",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Airs Rock/Interior/map7.png"
+  },
+  {
+    "name": "Air's Rock Interior 8",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Airs Rock/Interior/map8.png"
+  },
+  {
+    "name": "Air's Rock Interior 9",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Airs Rock/Interior/map9.png"
+  },
+  {
+    "name": "Air's Rock Interior Middle",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Airs Rock/Interior/middle.png"
+  },
+  {
+    "name": "Air's Rock Interior Sanctum",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Airs Rock/Interior/sanctum.png"
+  },
+  {
+    "name": "Anemos Inner Sanctum Entrance",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Anemos Inner Sanctum/entrance.png"
+  },
+  {
+    "name": "Anemos Inner Sanctum 1F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Anemos Inner Sanctum/floor1.png"
+  },
+  {
+    "name": "Anemos Inner Sanctum B1",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Anemos Inner Sanctum/basement1.png"
+  },
+  {
+    "name": "Anemos Inner Sanctum B2",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Anemos Inner Sanctum/basement2.png"
+  },
+  {
+    "name": "Anemos Inner Sanctum B3",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Anemos Inner Sanctum/basement3.png"
+  },
+  {
+    "name": "Ankohl Ruins 1F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Ankohl Ruins/floor1.png"
+  },
+  {
+    "name": "Ankohl Ruins 2F Left",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Ankohl Ruins/floor2left.png"
+  },
+  {
+    "name": "Ankohl Ruins 2F Center",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Ankohl Ruins/floor2center.png"
+  },
+  {
+    "name": "Ankohl Ruins 2F Right",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Ankohl Ruins/floor2right.png"
+  },
+  {
+    "name": "Ankohl Ruins 3F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Ankohl Ruins/floor3.png"
+  },
+  {
+    "name": "Ankohl Ruins 4F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Ankohl Ruins/floor4.png"
+  },
+  {
+    "name": "Aqua Rock Exterior 1F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Aqua Rock/Exterior/map1.png"
+  },
+  {
+    "name": "Aqua Rock Exterior 2F Right",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Aqua Rock/Exterior/map2.png"
+  },
+  {
+    "name": "Aqua Rock Exterior 2F Left",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Aqua Rock/Exterior/map3.png"
+  },
+  {
+    "name": "Aqua Rock Interior 1F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Aqua Rock/Interior/map3.png"
+  },
+  {
+    "name": "Aqua Rock Interior 2F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Aqua Rock/Interior/map2.png"
+  },
+  {
+    "name": "Aqua Rock Interior 3F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Aqua Rock/Interior/map1.png"
+  },
+  {
+    "name": "Aqua Rock Interior Tablet Room",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Aqua Rock/Interior/map4.png"
+  },
+  {
+    "name": "Dehkan Plateau Room 1",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Dehkan Plateau/map1.png"
+  },
+  {
+    "name": "Dehkan Plateau Room 2",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Dehkan Plateau/map2.png"
+  },
+  {
+    "name": "Dehkan Plateau Room 3",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Dehkan Plateau/map3.png"
+  },
+  {
+    "name": "Dehkan Plateau Room 4",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Dehkan Plateau/map4.png"
+  },
+  {
+    "name": "Dehkan Plateau Room 5",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Dehkan Plateau/map5.png"
+  },
+  {
+    "name": "Gabomba Catacombs 1F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Gabomba Catacombs/map1.png"
+  },
+  {
+    "name": "Gabomba Catacombs 2F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Gabomba Catacombs/map2.png"
+  },
+  {
+    "name": "Gabomba Catacombs 3F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Gabomba Catacombs/map3.png"
+  },
+  {
+    "name": "Gabomba Catacombs 4F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Gabomba Catacombs/map4.png"
+  },
+  {
+    "name": "Gabomba Statue 1F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Gabomba Statue/floor1.png"
+  },
+  {
+    "name": "Gabomba Statue 2F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Gabomba Statue/floor2.png"
+  },
+  {
+    "name": "Gabomba Statue 3F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Gabomba Statue/floor3.png"
+  },
+  {
+    "name": "Gabomba Statue 4F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Gabomba Statue/floor4.png"
+  },
+  {
+    "name": "Gabomba Statue 5F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Gabomba Statue/floor5.png"
+  },
+  {
+    "name": "Gabomba Statue 6F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Gabomba Statue/floor6.png"
+  },
+  {
+    "name": "Gaia Rock Exterior 1F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Gaia Rock/Exterior/map1.png"
+  },
+  {
+    "name": "Gaia Rock Exterior 2F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Gaia Rock/Exterior/map2.png"
+  },
+  {
+    "name": "Gaia Rock Exterior 3F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Gaia Rock/Exterior/map3.png"
+  },
+  {
+    "name": "Gaia Rock Exterior 4F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Gaia Rock/Exterior/map4.png"
+  },
+  {
+    "name": "Gaia Rock Exterior 5F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Gaia Rock/Exterior/map5.png"
+  },
+  {
+    "name": "Gaia Rock Interior 1F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Gaia Rock/Interior/map1.png"
+  },
+  {
+    "name": "Gaia Rock Interior 2F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Gaia Rock/Interior/map2.png"
+  },
+  {
+    "name": "Gaia Rock Interior 3F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Gaia Rock/Interior/map3.png"
+  },
+  {
+    "name": "Gaia Rock Interior 4F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Gaia Rock/Interior/map4.png"
+  },
+  {
+    "name": "Gaia Rock Maze",
+    "location_size": 40,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Gaia Rock/Interior/maze.png"
+  },
+  {
+    "name": "Gondowan Cliffs",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Gondowan Cliffs/map1.png"
+  },
+  {
+    "name": "Gabomba Statue 2F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Gabomba Statue/floor2.png"
+  },
+  {
+    "name": "Islet Cave",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Islet Cave/map1.png"
+  },
+  {
+    "name": "Izumo Ruins",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Izumo Ruins/ruins.png"
+  },
+  {
+    "name": "Jupiter Lighthouse Entrance",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Jupiter Lighthouse/entrance.png"
+  },
+  {
+    "name": "Jupiter Lighthouse 1F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Jupiter Lighthouse/floor1.png"
+  },
+  {
+    "name": "Jupiter Lighthouse 2F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Jupiter Lighthouse/floor2.png"
+  },
+  {
+    "name": "Jupiter Lighthouse 3F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Jupiter Lighthouse/floor3.png"
+  },
+  {
+    "name": "Jupiter Lighthouse 4F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Jupiter Lighthouse/floor4.png"
+  },
+  {
+    "name": "Jupiter Lighthouse 5F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Jupiter Lighthouse/floor5.png"
+  },
+  {
+    "name": "Jupiter Lighthouse 6F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Jupiter Lighthouse/floor6.png"
+  },
+  {
+    "name": "Jupiter Lighthouse West Lower",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Jupiter Lighthouse/west1.png"
+  },
+  {
+    "name": "Jupiter Lighthouse West Upper",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Jupiter Lighthouse/west2.png"
+  },
+  {
+    "name": "Jupiter Lighthouse East Lower",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Jupiter Lighthouse/east1.png"
+  },
+  {
+    "name": "Jupiter Lighthouse East Middle",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Jupiter Lighthouse/east2.png"
+  },
+  {
+    "name": "Jupiter Lighthouse East Upper",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Jupiter Lighthouse/east3.png"
+  },
+  {
+    "name": "Kandorean Temple Inside",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Kandorean Temple/Inside.png"
+  },
+  {
+    "name": "Kandorean Temple 1F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Kandorean Temple/1F.png"
+  },
+  {
+    "name": "Kandorean Temple 2F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Kandorean Temple/2F.png"
+  },
+  {
+    "name": "Kandorean Temple B1",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Kandorean Temple/B1.png"
+  },
+  {
+    "name": "Kandorean Temple B2",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Kandorean Temple/B2.png"
+  },
+  {
+    "name": "Kibombo Mountains South",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Kibombo Mountains/map1.png"
+  },
+  {
+    "name": "Kibombo Mountains North",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Kibombo Mountains/map2.png"
+  },
+  {
+    "name": "Lemurian Ship 1F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Lemurian Ship/map1.png"
+  },
+  {
+    "name": "Lemurian Ship 2F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Lemurian Ship/map2.png"
+  },
+  {
+    "name": "Madra Catacombs",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Madra Catacombs/map1.png"
+  },
+  {
+    "name": "Magma Rock Exterior 1F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Magma Rock/Exterior/map1.png"
+  },
+  {
+    "name": "Magma Rock Exterior 2F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Magma Rock/Exterior/map2.png"
+  },
+  {
+    "name": "Magma Rock Exterior 3F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Magma Rock/Exterior/map3.png"
+  },
+  {
+    "name": "Magma Rock Exterior 4F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Magma Rock/Exterior/map4.png"
+  },
+  {
+    "name": "Magma Rock Interior 1F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Magma Rock/Interior/map4.png"
+  },
+  {
+    "name": "Magma Rock Interior 2F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Magma Rock/Interior/map3.png"
+  },
+  {
+    "name": "Magma Rock Interior 3F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Magma Rock/Interior/map2.png"
+  },
+  {
+    "name": "Magma Rock Interior 4F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Magma Rock/Interior/map1.png"
+  },
+  {
+    "name": "Magma Rock Sanctum",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Magma Rock/Interior/sanctum.png"
+  },
+  {
+    "name": "Mars Lighthouse Entrance",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Mars Lighthouse/entrance.png"
+  },
+  {
+    "name": "Mars Lighthouse 1F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Mars Lighthouse/floor1.png"
+  },
+  {
+    "name": "Mars Lighthouse 2F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Mars Lighthouse/floor2.png"
+  },
+  {
+    "name": "Mars Lighthouse B1",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Mars Lighthouse/basement1.png"
+  },
+  {
+    "name": "Mars Lighthouse B2",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Mars Lighthouse/basement2.png"
+  },
+  {
+    "name": "Mars Lighthouse B3",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Mars Lighthouse/basement3.png"
+  },
+  {
+    "name": "Mars Lighthouse Jupiter Wing",
+    "location_size": 60,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Mars Lighthouse/jupiter wing.png"
+  },
+  {
+    "name": "Mars Lighthouse Mars Wing",
+    "location_size": 60,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Mars Lighthouse/mars wing.png"
+  },
+  {
+    "name": "Mars Lighthouse Mercury Wing",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Mars Lighthouse/mercury wing.png"
+  },
+  {
+    "name": "Mars Lighthouse Venus Wing",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Mars Lighthouse/venus wing.png"
+  },
+  {
+    "name": "Shrine of The Sea God 1F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Shrine of The Sea God/map1.png"
+  },
+  {
+    "name": "Shrine of The Sea God 2F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Shrine of The Sea God/map2.png"
+  },
+  {
+    "name": "Shrine of The Sea God 3F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Shrine of The Sea God/map3.png"
+  },
+  {
+    "name": "Shrine of The Sea God 4F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Shrine of The Sea God/map4.png"
+  },
+  {
+    "name": "Shrine of The Sea God 5F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Shrine of The Sea God/map5.png"
+  },
+  {
+    "name": "Shrine of The Sea God 6F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Shrine of The Sea God/map6.png"
+  },
+  {
+    "name": "Shrine of The Sea God 7F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Shrine of The Sea God/map7.png"
+  },
+  {
+    "name": "Taopo Swamp Entrance",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Taopo Swamp/map1.png"
+  },
+  {
+    "name": "Taopo Swamp B1",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Taopo Swamp/map2.png"
+  },
+  {
+    "name": "Taopo Swamp B2",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Taopo Swamp/map3.png"
+  },
+  {
+    "name": "Taopo Swamp B3",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Taopo Swamp/map4.png"
+  },
+  {
+    "name": "Taopo Swamp B4",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Taopo Swamp/map5.png"
+  },
+  {
+    "name": "Taopo Swamp B5",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Taopo Swamp/map6.png"
+  },
+  {
+    "name": "Treasure Isle Front",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Treasure Isle/map1.png"
+  },
+  {
+    "name": "Treasure Isle Back",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Treasure Isle/map2.png"
+  },
+  {
+    "name": "Tundaria Tower 1F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Tundaria Tower/map1.png"
+  },
+  {
+    "name": "Tundaria Tower 2F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Tundaria Tower/map2.png"
+  },
+  {
+    "name": "Tundaria Tower 3F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Tundaria Tower/map3.png"
+  },
+  {
+    "name": "Tundaria Tower 4F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Tundaria Tower/map4.png"
+  },
+  {
+    "name": "Tundaria Tower 5F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Tundaria Tower/map5.png"
+  },
+  {
+    "name": "Tundaria Tower 6F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Tundaria Tower/map6.png"
+  },
+  {
+    "name": "Yampi Desert Entrance",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Yampi Desert/map1.png"
+  },
+  {
+    "name": "Yampi Desert Scoop Room",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Yampi Desert/map2.png"
+  },
+  {
+    "name": "Yampi Desert Djinn Room",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Yampi Desert/map3.png"
+  },
+  {
+    "name": "Yampi Desert Sand Room",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Yampi Desert/map6.png"
+  },
+  {
+    "name": "Yampi Desert Reveal Room",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Yampi Desert/map7.png"
+  },
+  {
+    "name": "Yampi Desert King 1",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Yampi Desert/map4.png"
+  },
+  {
+    "name": "Yampi Desert King 2",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Yampi Desert/map5.png"
+  },
+  {
+    "name": "Yampi Desert Cave Front",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Yampi Desert Cave/map1.png"
+  },
+  {
+    "name": "Yampi Desert Cave Back",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Yampi Desert Cave/map2.png"
+  },
+  {
+    "name": "Alhafra",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Towns/Alhafra/map1.png"
+  },
+  {
+    "name": "Alhafra Jail",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Towns/Alhafra/map3.png"
+  },
+  {
+    "name": "Apojii Islands West",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Towns/Apoji Islands/map1.png"
+  },
+  {
+    "name": "Apojii Islands East",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Towns/Apoji Islands/map2.png"
+  },
+  {
+    "name": "Champa Outside",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Towns/Champa/map1.png"
+  },
+  {
+    "name": "Champa 1F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Towns/Champa/map2.png"
+  },
+  {
+    "name": "Champa 2F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Towns/Champa/map3.png"
+  },
+  {
+    "name": "Champa 3F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Towns/Champa/map4.png"
+  },
+  {
+    "name": "Champa 4F",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Towns/Champa/map5.png"
+  },
+  {
+    "name": "Contigo",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Towns/Contigo/map1.png"
+  },
+  {
+    "name": "Daila",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Towns/Daila/map1.png"
+  },
+  {
+    "name": "Garoh Entrance",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Towns/Garoh/map1.png"
+  },
+  {
+    "name": "Garoh Town",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Towns/Garoh/map2.png"
+  },
+  {
+    "name": "Garoh Cave 1",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Towns/Garoh/map3.png"
+  },
+  {
+    "name": "Garoh Cave 2",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Towns/Garoh/map4.png"
+  },
+  {
+    "name": "Garoh Cave 3",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Towns/Garoh/map5.png"
+  },
+  {
+    "name": "Izumo",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Towns/Izumo/map1.png"
+  },
+  {
+    "name": "Kibombo",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Towns/Kibombo/map1.png"
+  },
+  {
+    "name": "Ancient Lemuria",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Towns/Lemuria/map1.png"
+  },
+  {
+    "name": "Lemuria",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Towns/Lemuria/map3.png"
+  },
+  {
+    "name": "Loho",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Towns/Loho/map1.png"
+  },
+  {
+    "name": "Madra",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Towns/Madra/map1.png"
+  },
+  {
+    "name": "Mikasalla",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Towns/Mikasalla/map1.png"
+  },
+  {
+    "name": "Naribwe",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Towns/Naribwe/map1.png"
+  },
+  {
+    "name": "Prox South",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Towns/Prox/map1.png"
+  },
+  {
+    "name": "Prox North",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Towns/Prox/map2.png"
+  },
+  {
+    "name": "Shaman Village",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Towns/Shaman Village/map1.png"
+  },
+  {
+    "name": "Shaman Village Trial Entrance",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Towns/Shaman Village/map2.png"
+  },
+  {
+    "name": "Shaman Village Djinn Room",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Towns/Shaman Village/map3.png"
+  },
+  {
+    "name": "Yallam",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Towns/Yallam/map1.png"
   }
 ]

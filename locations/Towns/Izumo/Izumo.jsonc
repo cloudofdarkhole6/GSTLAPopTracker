@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Daila",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "North Jar",
+            "ref": "Overworld/Eastern Sea/Izumo/North Jar"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Izumo",
+            "x": 249,
+            "y": 26
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "North Ledge Jar",
+            "ref": "Overworld/Eastern Sea/Izumo/North Ledge Jar"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Izumo",
+            "x": 250,
+            "y": 153
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "South-East Weeds",
+            "ref": "Overworld/Eastern Sea/Izumo/South-East Weeds"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Izumo",
+            "x": 456,
+            "y": 570
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Ledge Weeds",
+            "ref": "Overworld/Eastern Sea/Izumo/Ledge Weeds"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Izumo",
+            "x": 173,
+            "y": 294
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "East House - Jar",
+            "ref": "Overworld/Eastern Sea/Izumo/East House - Jar"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Izumo",
+            "x": 408,
+            "y": 441
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "South House - Box",
+            "ref": "Overworld/Eastern Sea/Izumo/South House - Box"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Izumo",
+            "x": 360,
+            "y": 569
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Coal",
+            "ref": "Overworld/Eastern Sea/Izumo/Coal"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Izumo",
+            "x": 360,
+            "y": 569
+          }
+        ]
+      }
+    ]
+  }
+]

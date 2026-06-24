@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Shrine of the Sea God",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Breaking Bridges Room",
+            "ref": "Overworld/Indra/Shrine of the Sea God/Breaking Bridges Room"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Shrine of The Sea God 5F",
+            "x": 450,
+            "y": 147
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Right Prong",
+            "ref": "Overworld/Indra/Shrine of the Sea God/Right Prong"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Shrine of The Sea God 7F",
+            "x": 161,
+            "y": 38
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Breath",
+            "ref": "Overworld/Indra/Shrine of the Sea God/Breath"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Shrine of The Sea God 3F",
+            "x": 321,
+            "y": 75
+          }
+        ]
+      }
+    ]
+  }
+]

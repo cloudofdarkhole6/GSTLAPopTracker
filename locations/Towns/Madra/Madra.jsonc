@@ -1,0 +1,118 @@
+[
+  {
+    "name": "Madra",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Ledge Chest",
+            "ref": "Overworld/Indra/Madra/Ledge Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Madra",
+            "x": 1505,
+            "y": 1169
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Fence Corner Box",
+            "ref": "Overworld/Indra/Madra/Fence Corner Box"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Madra",
+            "x": 392,
+            "y": 208
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Inn - Upstairs Jar",
+            "ref": "Overworld/Indra/Madra/Inn - Upstairs Jar"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Madra",
+            "x": 441,
+            "y": 141
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Left Cave House - Jar",
+            "ref": "Overworld/Indra/Madra/Left Cave House - Jar"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Madra",
+            "x": 264,
+            "y": 31
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Small Central House - Barrel",
+            "ref": "Overworld/Indra/Madra/Small Central House - Barrel"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Madra",
+            "x": 361,
+            "y": 267
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Mayor's House - Box",
+            "ref": "Overworld/Indra/Madra/Mayor's House - Box"
+          },
+          {
+            "name": "Mayor's Gift",
+            "ref": "Overworld/Indra/Madra/Mayor's Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Madra",
+            "x": 136,
+            "y": 76
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Char",
+            "ref": "Overworld/Indra/Madra/Char"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Madra",
+            "x": 264,
+            "y": 253
+          }
+        ]
+      }
+    ]
+  }
+]

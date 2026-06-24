@@ -1,0 +1,159 @@
+[
+  {
+    "name": "Yampi Desert",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Guardian Ring",
+            "ref": "Overworld/Osenia/Yampi Desert/Guardian Ring"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Yampi Desert Entrance",
+            "x": 663,
+            "y": 370
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Djinni Room Chest",
+            "ref": "Overworld/Osenia/Yampi Desert/Djinni Room Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Yampi Desert Djinn Room",
+            "x": 208,
+            "y": 205
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Scoop Gem",
+            "ref": "Overworld/Osenia/Yampi Desert/Scoop Gem"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Yampi Desert King 2",
+            "x": 207,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Buried Item",
+            "ref": "Overworld/Osenia/Yampi Desert/Buried Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Yampi Desert Dig Room",
+            "x": 899,
+            "y": 736
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Sand Flow Cave South",
+            "ref": "Overworld/Osenia/Yampi Desert/Sand Flow Cave South"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Yampi Desert Sand Room",
+            "x": 280,
+            "y": 318
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Sand Flow Cave North",
+            "ref": "Overworld/Osenia/Yampi Desert/Sand Flow Cave North"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Yampi Desert Sand Room",
+            "x": 456,
+            "y": 62
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Trainer's Whip",
+            "ref": "Overworld/Osenia/Yampi Desert/Trainer's Whip"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Yampi Desert Reveal Room",
+            "x": 346,
+            "y": 472
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Reveal Circle",
+            "ref": "Overworld/Osenia/Yampi Desert/Reveal Circle"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Yampi Desert Reveal Room",
+            "x": 595,
+            "y": 380
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Yampi Desert Cave Entrance",
+            "ref": "Overworld/Osenia/Yampi Desert/Yampi Desert Cave Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Yampi Desert Cave Front",
+            "x": 685,
+            "y": 726
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Blitz",
+            "ref": "Overworld/Osenia/Yampi Desert/Blitz"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Yampi Desert Djinn Room",
+            "x": 505,
+            "y": 466
+          }
+        ]
+      }
+    ]
+  }
+]

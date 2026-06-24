@@ -1,0 +1,99 @@
+[
+  {
+    "name": "Yallam",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Masamune",
+            "ref": "Overworld/Eastern Sea/Yallam/Masamune"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Yallam",
+            "x": 105,
+            "y": 194
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "North Jar",
+            "ref": "Overworld/Eastern Sea/Yallam/North Jar"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Yallam",
+            "x": 489,
+            "y": 121
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Central Ledge Weeds",
+            "ref": "Overworld/Eastern Sea/Yallam/Central Ledge Weeds"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Yallam",
+            "x": 400,
+            "y": 170
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "East Weeds",
+            "ref": "Overworld/Eastern Sea/Yallam/East Weeds"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Yallam",
+            "x": 666,
+            "y": 315
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Inn - Box",
+            "ref": "Overworld/Eastern Sea/Yallam/Inn - Box"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Yallam",
+            "x": 534,
+            "y": 112
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Sunshine's Smithy - Barrel",
+            "ref": "Overworld/Eastern Sea/Yallam/Sunshine's Smithy - Barrel"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Yallam",
+            "x": 219,
+            "y": 98
+          }
+        ]
+      }
+    ]
+  }
+]

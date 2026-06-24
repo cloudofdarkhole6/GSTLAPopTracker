@@ -1,0 +1,69 @@
+[
+  {
+    "name": "Kandorean Temple",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Mimic",
+            "ref": "Overworld/Indra/Kandorean Temple/Mimic"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Kandorean Temple 1F",
+            "x": 375,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Mysterious Card",
+            "ref": "Overworld/Indra/Kandorean Temple/Mysterious Card"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Kandorean Temple B1",
+            "x": 634,
+            "y": 306
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Lash Pebble",
+            "ref": "Overworld/Indra/Kandorean Temple/Lash Pebble"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Kandorean Temple Inside",
+            "x": 187,
+            "y": 573
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Fog",
+            "ref": "Overworld/Indra/Kandorean Temple/Fog"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Kandorean Temple B1",
+            "x": 653,
+            "y": 680
+          }
+        ]
+      }
+    ]
+  }
+]

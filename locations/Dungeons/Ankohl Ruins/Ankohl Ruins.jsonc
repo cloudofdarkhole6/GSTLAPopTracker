@@ -1,0 +1,183 @@
+[
+  {
+    "name": "Ankohl Ruins",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Entrance Rooms",
+            "ref": "Overworld/Eastern Sea/Ankohl Ruins/Entrance Rooms"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Ankohl Ruins 1F",
+            "x": 437,
+            "y": 602
+          },
+          {
+            "map": "Ankohl Ruins 1F",
+            "x": 682,
+            "y": 602
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Face Rooms 2 and 7",
+            "ref": "Overworld/Eastern Sea/Ankohl Ruins/Face Rooms 2 and 7"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Ankohl Ruins 1F",
+            "x": 430,
+            "y": 255
+          },{
+            "map": "Ankohl Ruins 1F",
+            "x": 753,
+            "y": 270
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Face Rooms 1 and 6",
+            "ref": "Overworld/Eastern Sea/Ankohl Ruins/Face Rooms 1 and 6"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Ankohl Ruins 1F",
+            "x": 336,
+            "y": 113
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Left Path - Sand Path",
+            "ref": "Overworld/Eastern Sea/Ankohl Ruins/Left Path - Sand Path"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Ankohl Ruins 2F Left",
+            "x": 183,
+            "y": 596
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Left Path - Filled Pit",
+            "ref": "Overworld/Eastern Sea/Ankohl Ruins/Left Path - Filled Pit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Ankohl Ruins 2F Left",
+            "x": 90,
+            "y": 329
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Left Path - Winding Path",
+            "ref": "Overworld/Eastern Sea/Ankohl Ruins/Left Path - Winding Path"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Ankohl Ruins 3F",
+            "x": 57,
+            "y": 671
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Left Path - Thanatos Mace",
+            "ref": "Overworld/Eastern Sea/Ankohl Ruins/Left Path - Thanatos Mace"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Ankohl Ruins 3F",
+            "x": 37,
+            "y": 51
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Right Path - Behind Ivy",
+            "ref": "Overworld/Eastern Sea/Ankohl Ruins/Right Path - Behind Ivy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Ankohl Ruins 2F Right",
+            "x": 191,
+            "y": 351
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Right Path - After Roadblock",
+            "ref": "Overworld/Eastern Sea/Ankohl Ruins/Right Path - After Roadblock"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Ankohl Ruins 2F Center",
+            "x": 659,
+            "y": 163
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Right Path - Ledge Chest",
+            "ref": "Overworld/Eastern Sea/Ankohl Ruins/Right Path - Ledge Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Ankohl Ruins 2F Center",
+            "x": 503,
+            "y": 702
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Left Prong",
+            "ref": "Overworld/Eastern Sea/Ankohl Ruins/Left Prong"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Ankohl Ruins 4F",
+            "x": 33,
+            "y": 111
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,129 @@
+[
+  {
+    "name": "Air's Rock Interior",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Right Path",
+            "ref": "Overworld/Osenia/Air's Rock Interior/Right Path"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Air's Rock Interior 5",
+            "x": 125,
+            "y": 647
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Top Floor",
+            "ref": "Overworld/Osenia/Air's Rock Interior/Top Floor"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Air's Rock Interior 1",
+            "x": 275,
+            "y": 411
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Flora Tablet",
+            "ref": "Overworld/Osenia/Air's Rock Interior/Flora Tablet"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Air's Rock Interior 3",
+            "x": 421,
+            "y": 702
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Left Path Blue - 2 Room",
+            "ref": "Overworld/Osenia/Air's Rock Interior/Left Path - Blue 2 Room"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Air's Rock Interior 7",
+            "x": 447,
+            "y": 84
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Left Path Blue - 4 Room",
+            "ref": "Overworld/Osenia/Air's Rock Interior/Left Path - Blue 4 Room"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Air's Rock Interior 8",
+            "x": 252,
+            "y": 334
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Left Path Blue - 5 Room",
+            "ref": "Overworld/Osenia/Air's Rock Interior/Left Path - Blue 5 Room"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Air's Rock Interior 9",
+            "x": 134,
+            "y": 366
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Reveal Tablet",
+            "ref": "Overworld/Osenia/Air's Rock Interior/Reveal Tablet"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Air's Rock Interior Sanctum",
+            "x": 248,
+            "y": 73
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Tablet Room Chest",
+            "ref": "Overworld/Osenia/Air's Rock Interior/Tablet Room Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Air's Rock Interior Sanctum",
+            "x": 119,
+            "y": 385
+          }
+        ]
+      }
+    ]
+  }
+]

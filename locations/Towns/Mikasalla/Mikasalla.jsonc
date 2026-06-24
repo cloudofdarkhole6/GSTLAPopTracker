@@ -1,0 +1,99 @@
+[
+  {
+    "name": "Mikasalla",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Ledge Chest",
+            "ref": "Overworld/Osenia/Mikasalla/Ledge Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mikasalla",
+            "x": 313,
+            "y": 7
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "South-East Barrel",
+            "ref": "Overworld/Osenia/Mikasalla/South-East Barrel"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mikasalla",
+            "x": 374,
+            "y": 314
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "South-West Box",
+            "ref": "Overworld/Osenia/Mikasalla/South-West Box"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mikasalla",
+            "x": 103,
+            "y": 327
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Inn - Barrel",
+            "ref": "Overworld/Osenia/Mikasalla/Inn - Barrel"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mikasalla",
+            "x": 292,
+            "y": 145
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "South-East House - Jar",
+            "ref": "Overworld/Osenia/Mikasalla/South-East House - Jar"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mikasalla",
+            "x": 328,
+            "y": 290
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Spark",
+            "ref": "Overworld/Osenia/Mikasalla/Spark"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Mikasalla",
+            "x": 54,
+            "y": 332
+          }
+        ]
+      }
+    ]
+  }
+]

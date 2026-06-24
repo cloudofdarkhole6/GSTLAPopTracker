@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Gaia Rock Exterior",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Cliff Ledge Chest",
+            "ref": "Overworld/Eastern Sea/Gaia Rock/Cliff Ledge Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gaia Rock Exterior 2F",
+            "x": 784,
+            "y": 275
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Summit Chest",
+            "ref": "Overworld/Eastern Sea/Gaia Rock/Summit Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gaia Rock Exterior 5F",
+            "x": 475,
+            "y": 233
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Dancing Idol",
+            "ref": "Overworld/Eastern Sea/Gaia Rock/Dancing Idol"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Gaia Rock Exterior 5F",
+            "x": 656,
+            "y": 54
+          }
+        ]
+      }
+    ]
+  }
+]

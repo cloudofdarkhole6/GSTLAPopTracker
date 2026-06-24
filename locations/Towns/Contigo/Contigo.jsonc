@@ -1,0 +1,126 @@
+[
+  {
+    "name": "Contigo",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Free Corn Sample",
+            "ref": "Overworld/Western Sea/Contigo/Free Corn Sample"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Contigo",
+            "x": 201,
+            "y": 281
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Front of Anemos Sanctum",
+            "ref": "Overworld/Western Sea/Contigo/Front of Anemos Sanctum"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Anemos Inner Sanctum Entrance",
+            "x": 248,
+            "y": 811
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "North-East Barrel",
+            "ref": "Overworld/Western Sea/Contigo/North-East Barrel"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Contigo",
+            "x": 395,
+            "y": 153
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "North Weeds",
+            "ref": "Overworld/Western Sea/Contigo/North Weeds"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Contigo",
+            "x": 282,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Recruit Isaac",
+            "ref": "Overworld/Western Sea/Contigo/Recruit Isaac"
+          },
+          {
+            "name": "Recruit Garet",
+            "ref": "Overworld/Western Sea/Contigo/Recruit Garet"
+          },
+          {
+            "name": "Recruit Ivan",
+            "ref": "Overworld/Western Sea/Contigo/Recruit Ivan"
+          },
+          {
+            "name": "Recruit Mia",
+            "ref": "Overworld/Western Sea/Contigo/Recruit Mia"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Contigo",
+            "x": 248,
+            "y": 811
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Salt",
+            "ref": "Overworld/Western Sea/Contigo/Salt"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Contigo",
+            "x": 666,
+            "y": 442
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Shine",
+            "ref": "Overworld/Western Sea/Contigo/Shine"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Contigo",
+            "x": 56,
+            "y": 158
+          }
+        ]
+      }
+    ]
+  }
+]

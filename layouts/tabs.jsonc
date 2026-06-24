@@ -1,0 +1,1501 @@
+﻿{
+  "map_tabs": {
+    "type": "array",
+    "content": [
+      {
+        "type": "tabbed",
+        "dock": "top",
+        "tabs": [
+          {
+            "title": "Weyard",
+            "content": {
+              "type": "map",
+              "maps": ["weyard"]
+            }
+          },
+          {
+            "title": "Towns",
+            "content": {
+              "type": "tabbed",
+              "tabs": [
+                  {
+                    "title": "Alhafra",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Alhafra",
+                          "content": {
+                            "type": "map",
+                            "maps": ["Alhafra"]
+                          }
+                        },
+                        {
+                          "title": "Alhafra Jail",
+                          "content": {
+                            "type": "map",
+                            "maps": ["Alhafra Jail"]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Apojii Islands",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Apojii Islands West",
+                          "content": {
+                            "type": "map",
+                            "maps": ["Apojii Islands West"]
+                          }
+                        },
+                        {
+                          "title": "Apojii Islands East",
+                          "content": {
+                            "type": "map",
+                            "maps": ["Apojii Islands East"]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Champa",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Champa Outside",
+                          "content": {
+                            "type": "map",
+                            "maps": ["Champa Outside"]
+                          }
+                        },
+                        {
+                          "title": "Champa 1F",
+                          "content": {
+                            "type": "map",
+                            "maps": ["Champa 1F"]
+                          }
+                        },
+                        {
+                          "title": "Champa 2F",
+                          "content": {
+                            "type": "map",
+                            "maps": ["Champa 2F"]
+                          }
+                        },
+                        {
+                          "title": "Champa 3F",
+                          "content": {
+                            "type": "map",
+                            "maps": ["Champa 3F"]
+                          }
+                        },
+                        {
+                          "title": "Champa 4F",
+                          "content": {
+                            "type": "map",
+                            "maps": ["Champa 4F"]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Contigo",
+                    "content": {
+                      "type": "map",
+                      "maps": ["Contigo"]
+                    }
+                  },
+                  {
+                    "title": "Daila",
+                    "content": {
+                      "type": "map",
+                      "maps": ["Daila"]
+                    }
+                  },
+                  {
+                    "title": "Garoh",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Garoh Entrance",
+                          "content": {
+                            "type": "map",
+                            "maps": ["Garoh Entrance"]
+                          }
+                        },
+                        {
+                          "title": "Garoh Town",
+                          "content": {
+                            "type": "map",
+                            "maps": ["Garoh Town"]
+                          }
+                        },
+                        {
+                          "title": "Garoh Cave 1",
+                          "content": {
+                            "type": "map",
+                            "maps": ["Garoh Cave 1"]
+                          }
+                        },
+                        {
+                          "title": "Garoh Cave 2",
+                          "content": {
+                            "type": "map",
+                            "maps": ["Garoh Cave 2"]
+                          }
+                        },
+                        {
+                          "title": "Garoh Cave 3",
+                          "content": {
+                            "type": "map",
+                            "maps": ["Garoh Cave 3"]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Izumo",
+                    "content": {
+                      "type": "map",
+                      "maps": ["Izumo"]
+                    }
+                  },
+                  {
+                    "title": "Kibombo",
+                    "content": {
+                      "type": "map",
+                      "maps": ["Kibombo"]
+                    }
+                  },
+                  {
+                    "title": "Lemuria",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Lemuria",
+                          "content": {
+                            "type": "map",
+                            "maps": ["Lemuria"]
+                          }
+                        },
+                        {
+                          "title": "Ancient Lemuria",
+                          "content": {
+                            "type": "map",
+                            "maps": ["Ancient Lemuria"]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Loho",
+                    "content": {
+                      "type": "map",
+                      "maps": ["Loho"]
+                    }
+                  },
+                  {
+                    "title": "Madra",
+                    "content": {
+                      "type": "map",
+                      "maps": ["Madra"]
+                    }
+                  },
+                  {
+                    "title": "Mikasalla",
+                    "content": {
+                      "type": "map",
+                      "maps": ["Mikasalla"]
+                    }
+                  },
+                  {
+                    "title": "Naribwe",
+                    "content": {
+                      "type": "map",
+                      "maps": ["Naribwe"]
+                    }
+                  },
+                  {
+                    "title": "Prox",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Prox South",
+                          "content": {
+                            "type": "map",
+                            "maps": ["Prox South"]
+                          }
+                        },
+                        {
+                          "title": "Prox North",
+                          "content": {
+                            "type": "map",
+                            "maps": ["Prox North"]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Shaman Village",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Shaman Village",
+                          "content": {
+                            "type": "map",
+                            "maps": ["Shaman Village"]
+                          }
+                        },
+                        {
+                          "title": "Shaman Village Trial Entrance",
+                          "content": {
+                            "type": "map",
+                            "maps": ["Shaman Village Trial Entrance"]
+                          }
+                        },
+                        {
+                          "title": "Shaman Village Djinn Room",
+                          "content": {
+                            "type": "map",
+                            "maps": ["Shaman Village Djinn Room"]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Yallam",
+                    "content": {
+                      "type": "map",
+                      "maps": ["Yallam"]
+                    }
+                  }
+                ]
+              }
+            },
+          {
+            "title": "Dungeons",
+            "content": {
+              "type": "tabbed",
+              "tabs": [
+                {
+                  "title": "Air's Rock",
+                  "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                      {
+                        "title": "Exterior",
+                        "content": {
+                          "type": "tabbed",
+                          "tabs": [
+                            {
+                              "title": "Air's Rock Exterior 1",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Air's Rock Exterior 1"]
+                              }
+                            },
+                            {
+                              "title": "Air's Rock Exterior 2",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Air's Rock Exterior 2"]
+                              }
+                            },
+                            {
+                              "title": "Air's Rock Exterior 3",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Air's Rock Exterior 3"]
+                              }
+                            },
+                            {
+                              "title": "Air's Rock Exterior 4",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Air's Rock Exterior 4"]
+                              }
+                            },
+                            {
+                              "title": "Air's Rock Exterior 5",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Air's Rock Exterior 5"]
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "title": "Interior",
+                        "content": {
+                          "type": "tabbed",
+                          "tabs": [
+                            {
+                              "title": "Air's Rock Interior 1",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Air's Rock Interior 1"]
+                              }
+                            },
+                            {
+                              "title": "Air's Rock Interior 2",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Air's Rock Interior 2"]
+                              }
+                            },
+                            {
+                              "title": "Air's Rock Interior 3",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Air's Rock Interior 3"]
+                              }
+                            },
+                            {
+                              "title": "Air's Rock Interior 4",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Air's Rock Interior 4"]
+                              }
+                            },
+                            {
+                              "title": "Air's Rock Interior 5",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Air's Rock Interior 5"]
+                              }
+                            },
+                            {
+                              "title": "Air's Rock Interior 6",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Air's Rock Interior 6"]
+                              }
+                            },
+                            {
+                              "title": "Air's Rock Interior 7",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Air's Rock Interior 7"]
+                              }
+                            },
+                            {
+                              "title": "Air's Rock Interior 8",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Air's Rock Interior 8"]
+                              }
+                            },
+                            {
+                              "title": "Air's Rock Interior 9",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Air's Rock Interior 9"]
+                              }
+                            },
+                            {
+                              "title": "Air's Rock Interior Middle",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Air's Rock Interior Middle"]
+                              }
+                            },
+                            {
+                              "title": "Air's Rock Interior Sanctum",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Air's Rock Interior Sanctum"]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "title": "Anemos Inner Sanctum",
+                  "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                      {
+                        "title": "Anemos Inner Sanctum Entrance",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Anemos Inner Sanctum Entrance"]
+                        }
+                      },
+                      {
+                        "title": "Anemos Inner Sanctum 1F",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Anemos Inner Sanctum 1F"]
+                        }
+                      },
+                      {
+                        "title": "Anemos Inner Sanctum B1",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Anemos Inner Sanctum B1"]
+                        }
+                      },
+                      {
+                        "title": "Anemos Inner Sanctum B2",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Anemos Inner Sanctum B2"]
+                        }
+                      },
+                      {
+                        "title": "Anemos Inner Sanctum B3",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Anemos Inner Sanctum B3"]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "title": "Ankohl Ruins",
+                  "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                      {
+                        "title": "Ankohl Ruins 1F",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Ankohl Ruins 1F"]
+                        }
+                      },
+                      {
+                        "title": "Ankohl Ruins 2F Left",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Ankohl Ruins 2F Left"]
+                        }
+                      },
+                      {
+                        "title": "Ankohl Ruins 2F Center",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Ankohl Ruins 2F Center"]
+                        }
+                      },
+                      {
+                        "title": "Ankohl Ruins 2F Right",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Ankohl Ruins 2F Right"]
+                        }
+                      },
+                      {
+                        "title": "Ankohl Ruins 3F",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Ankohl Ruins 3F"]
+                        }
+                      },
+                      {
+                        "title": "Ankohl Ruins 4F",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Ankohl Ruins 4F"]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "title": "Aqua Rock",
+                  "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                      {
+                        "title": "Exterior",
+                        "content": {
+                          "type": "tabbed",
+                          "tabs": [
+                            {
+                              "title": "Aqua Rock Exterior 1F",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Aqua Rock Exterior 1F"]
+                              }
+                            },
+                            {
+                              "title": "Aqua Rock Exterior 2F Right",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Aqua Rock Exterior 2F Right"]
+                              }
+                            },
+                            {
+                              "title": "Aqua Rock Exterior 2F Left",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Aqua Rock Exterior 2F Left"]
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "title": "Interior",
+                        "content": {
+                          "type": "tabbed",
+                          "tabs": [
+                            {
+                              "title": "Aqua Rock Interior 3F",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Aqua Rock Interior 3F"]
+                              }
+                            },
+                            {
+                              "title": "Aqua Rock Interior 2F",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Aqua Rock Interior 2F"]
+                              }
+                            },
+                            {
+                              "title": "Aqua Rock Interior 1F",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Aqua Rock Interior 1F"]
+                              }
+                            },
+                            {
+                              "title": "Aqua Rock Interior Tablet Room",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Aqua Rock Interior Tablet Room"]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "title": "Dehkan Plateau",
+                  "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                      {
+                        "title": "Dehkan Plateau Room 1",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Dehkan Plateau Room 1"]
+                        }
+                      },
+                      {
+                        "title": "Dehkan Plateau Room 2",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Dehkan Plateau Room 2"]
+                        }
+                      },
+                      {
+                        "title": "Dehkan Plateau Room 3",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Dehkan Plateau Room 3"]
+                        }
+                      },
+                      {
+                        "title": "Dehkan Plateau Room 4",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Dehkan Plateau Room 4"]
+                        }
+                      },
+                      {
+                        "title": "Dehkan Plateau Room 5",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Dehkan Plateau Room 5"]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "title": "Gabomba Catacombs",
+                  "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                      {
+                        "title": "Gabomba Catacombs 1F",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Gabomba Catacombs 1F"]
+                        }
+                      },
+                      {
+                        "title": "Gabomba Catacombs 2F",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Gabomba Catacombs 2F"]
+                        }
+                      },
+                      {
+                        "title": "Gabomba Catacombs 3F",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Gabomba Catacombs 3F"]
+                        }
+                      },
+                      {
+                        "title": "Gabomba Catacombs 4F",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Gabomba Catacombs 4F"]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "title": "Gabomba Statue",
+                  "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                      {
+                        "title": "Gabomba Statue 1F",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Gabomba Statue 1F"]
+                        }
+                      },
+                      {
+                        "title": "Gabomba Statue 2F",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Gabomba Statue 2F"]
+                        }
+                      },
+                      {
+                        "title": "Gabomba Statue 3F",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Gabomba Statue 3F"]
+                        }
+                      },
+                      {
+                        "title": "Gabomba Statue 4F",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Gabomba Statue 4F"]
+                        }
+                      },
+                      {
+                        "title": "Gabomba Statue 5F",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Gabomba Statue 5F"]
+                        }
+                      },
+                      {
+                        "title": "Gabomba Statue 6F",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Gabomba Statue 6F"]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "title": "Gaia Rock",
+                  "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                      {
+                        "title": "Exterior",
+                        "content": {
+                          "type": "tabbed",
+                          "tabs": [
+                            {
+                              "title": "Gaia Rock Exterior 1F",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Gaia Rock Exterior 1F"]
+                              }
+                            },
+                            {
+                              "title": "Gaia Rock Exterior 2F",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Gaia Rock Exterior 2F"]
+                              }
+                            },
+                            {
+                              "title": "Gaia Rock Exterior 3F",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Gaia Rock Exterior 3F"]
+                              }
+                            },
+                            {
+                              "title": "Gaia Rock Exterior 4F",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Gaia Rock Exterior 4F"]
+                              }
+                            },
+                            {
+                              "title": "Gaia Rock Exterior 5F",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Gaia Rock Exterior 5F"]
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "title": "Interior",
+                        "content": {
+                          "type": "tabbed",
+                          "tabs": [
+                            {
+                              "title": "Gaia Rock Interior 1F",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Gaia Rock Interior 1F"]
+                              }
+                            },
+                            {
+                              "title": "Gaia Rock Interior 2F",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Gaia Rock Interior 2F"]
+                              }
+                            },
+                            {
+                              "title": "Gaia Rock Interior 3F",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Gaia Rock Interior 3F"]
+                              }
+                            },
+                            {
+                              "title": "Gaia Rock Interior 4F",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Gaia Rock Interior 4F"]
+                              }
+                            },
+                            {
+                              "title": "Gaia Rock Maze",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Gaia Rock Maze"]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "title": "Gondowan Cliffs",
+                  "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                      {
+                        "title": "Gondowan Cliffs",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Gondowan Cliffs"]
+                        }
+                      }
+                    ]
+                  }
+                },                {
+                  "title": "Islet Cave",
+                  "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                      {
+                        "title": "Islet Cave",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Islet Cave"]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "title": "Izumo Ruins",
+                  "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                      {
+                        "title": "Izumo Ruins",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Izumo Ruins"]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "title": "Jupiter Lighthouse",
+                  "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                      {
+                        "title": "Center Tower",
+                        "content": {
+                          "type": "tabbed",
+                          "tabs": [
+                            {
+                              "title": "Jupiter Lighthouse Entrance",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Jupiter Lighthouse Entrance"]
+                              }
+                            },
+                            {
+                              "title": "Jupiter Lighthouse 1F",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Jupiter Lighthouse 1F"]
+                              }
+                            },
+                            {
+                              "title": "Jupiter Lighthouse 2F",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Jupiter Lighthouse 2F"]
+                              }
+                            },
+                            {
+                              "title": "Jupiter Lighthouse 3F",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Jupiter Lighthouse 3F"]
+                              }
+                            },
+                            {
+                              "title": "Jupiter Lighthouse 4F",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Jupiter Lighthouse 4F"]
+                              }
+                            },
+                            {
+                              "title": "Jupiter Lighthouse 5F",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Jupiter Lighthouse 5F"]
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "title": "West Wing",
+                        "content": {
+                          "type": "tabbed",
+                          "tabs": [
+                            {
+                              "title": "Jupiter Lighthouse West Lower",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Jupiter Lighthouse West Lower"]
+                              }
+                            },
+                            {
+                              "title": "Jupiter Lighthouse West Upper",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Jupiter Lighthouse West Upper"]
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "title": "East Wing",
+                        "content": {
+                          "type": "tabbed",
+                          "tabs": [
+                            {
+                              "title": "Jupiter Lighthouse East Lower",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Jupiter Lighthouse East Lower"]
+                              }
+                            },
+                            {
+                              "title": "Jupiter Lighthouse East Middle",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Jupiter Lighthouse East Middle"]
+                              }
+                            },
+                            {
+                              "title": "Jupiter Lighthouse East Upper",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Jupiter Lighthouse East Upper"]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "title": "Kandorean Temple",
+                  "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                      {
+                        "title": "Kandorean Temple Inside",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Kandorean Temple Inside"]
+                        }
+                      },
+                      {
+                        "title": "Kandorean Temple 1F",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Kandorean Temple 1F"]
+                        }
+                      },
+                      {
+                        "title": "Kandorean Temple 2F",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Kandorean Temple 2F"]
+                        }
+                      },
+                      {
+                        "title": "Kandorean Temple B1",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Kandorean Temple B1"]
+                        }
+                      },
+                      {
+                        "title": "Kandorean Temple B2",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Kandorean Temple B2"]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "title": "Kibombo Mountains",
+                  "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                      {
+                        "title": "Kibombo Mountains South",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Kibombo Mountains South"]
+                        }
+                      },
+                      {
+                        "title": "Kibombo Mountains North",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Kibombo Mountains North"]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "title": "Lemurian Ship",
+                  "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                      {
+                        "title": "Lemurian Ship 1F",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Lemurian Ship 1F"]
+                        }
+                      },
+                      {
+                        "title": "Lemurian Ship 2F",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Lemurian Ship 2F"]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "title": "Madra Catacombs",
+                  "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                      {
+                        "title": "Madra Catacombs",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Madra Catacombs"]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "title": "Magma Rock",
+                  "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                      {
+                        "title": "Exterior",
+                        "content": {
+                          "type": "tabbed",
+                          "tabs": [
+                            {
+                              "title": "Magma Rock Exterior 1F",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Magma Rock Exterior 1F"]
+                              }
+                            },
+                            {
+                              "title": "Magma Rock Exterior 2F",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Magma Rock Exterior 2F"]
+                              }
+                            },
+                            {
+                              "title": "Magma Rock Exterior 3F",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Magma Rock Exterior 3F"]
+                              }
+                            },
+                            {
+                              "title": "Magma Rock Exterior 4F",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Magma Rock Exterior 4F"]
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "title": "Interior",
+                        "content": {
+                          "type": "tabbed",
+                          "tabs": [
+                            {
+                              "title": "Magma Rock Interior 4F",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Magma Rock Interior 4F"]
+                              }
+                            },
+                            {
+                              "title": "Magma Rock Interior 3F",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Magma Rock Interior 3F"]
+                              }
+                            },
+                            {
+                              "title": "Magma Rock Interior 2F",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Magma Rock Interior 2F"]
+                              }
+                            },
+                            {
+                              "title": "Magma Rock Interior 1F",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Magma Rock Interior 1F"]
+                              }
+                            },
+                            {
+                              "title": "Magma Rock Sanctum ",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Magma Rock Sanctum"]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "title": "Mars Lighthouse",
+                  "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                      {
+                        "title": "Mars Lighthouse Entrance",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Mars Lighthouse Entrance"]
+                        }
+                      },
+                      {
+                        "title": "Mars Lighthouse 1F",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Mars Lighthouse 1F"]
+                        }
+                      },
+                      {
+                        "title": "Mars Lighthouse 2F",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Mars Lighthouse 2F"]
+                        }
+                      },
+                      {
+                        "title": "Mars Lighthouse B1",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Mars Lighthouse B1"]
+                        }
+                      },
+                      {
+                        "title": "Mars Lighthouse B2",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Mars Lighthouse B2"]
+                        }
+                      },
+                      {
+                        "title": "Mars Lighthouse B3",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Mars Lighthouse B3"]
+                        }
+                      },
+                      {
+                        "title": "Mars Lighthouse Jupiter Wing",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Mars Lighthouse Jupiter Wing"]
+                        }
+                      },
+                      {
+                        "title": "Mars Lighthouse Mercury Wing",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Mars Lighthouse Mercury Wing"]
+                        }
+                      },
+                      {
+                        "title": "Mars Lighthouse Mars Wing",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Mars Lighthouse Mars Wing"]
+                        }
+                      },
+                      {
+                        "title": "Mars Lighthouse Venus Wing",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Mars Lighthouse Venus Wing"]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "title": "Shrine of The Sea God",
+                  "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                      {
+                        "title": "Shrine of The Sea God 1F",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Shrine of The Sea God 1F"]
+                        }
+                      },
+                      {
+                        "title": "Shrine of The Sea God 2F",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Shrine of The Sea God 2F"]
+                        }
+                      },
+                      {
+                        "title": "Shrine of The Sea God 3F",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Shrine of The Sea God 3F"]
+                        }
+                      },
+                      {
+                        "title": "Shrine of The Sea God 4F",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Shrine of The Sea God 4F"]
+                        }
+                      },
+                      {
+                        "title": "Shrine of The Sea God 5F",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Shrine of The Sea God 5F"]
+                        }
+                      },
+                      {
+                        "title": "Shrine of The Sea God 6F",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Shrine of The Sea God 6F"]
+                        }
+                      },
+                      {
+                        "title": "Shrine of The Sea God 7F",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Shrine of The Sea God 7F"]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "title": "Taopo Swamp",
+                  "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                      {
+                        "title": "Taopo Swamp Entrance",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Taopo Swamp Entrance"]
+                        }
+                      },
+                      {
+                        "title": "Taopo Swamp B1",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Taopo Swamp B1"]
+                        }
+                      },
+                      {
+                        "title": "Taopo Swamp B2",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Taopo Swamp B2"]
+                        }
+                      },
+                      {
+                        "title": "Taopo Swamp B3",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Taopo Swamp B3"]
+                        }
+                      },
+                      {
+                        "title": "Taopo Swamp B4",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Taopo Swamp B4"]
+                        }
+                      },
+                      {
+                        "title": "Taopo Swamp B5",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Taopo Swamp B5"]
+                        }
+                      }
+                    ]
+                  }
+                },
+                { "title": "Treasure Isle",
+                  "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                      {
+                        "title": "Treasure Isle Front",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Treasure Isle Front"]
+                        }
+                      },
+                      {
+                        "title": "Treasure Isle Back",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Treasure Isle Back"]
+                        }
+                      }
+                    ]
+                  }
+                },
+                { "title": "Tundaria Tower",
+                  "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                      {
+                        "title": "Tundaria Tower 1F",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Tundaria Tower 1F"]
+                        }
+                      },
+                      {
+                        "title": "Tundaria Tower 2F",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Tundaria Tower 2F"]
+                        }
+                      },
+                      {
+                        "title": "Tundaria Tower 3F",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Tundaria Tower 3F"]
+                        }
+                      },
+                      {
+                        "title": "Tundaria Tower 4F",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Tundaria Tower 4F"]
+                        }
+                      },
+                      {
+                        "title": "Tundaria Tower 5F",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Tundaria Tower 5F"]
+                        }
+                      },
+                      {
+                        "title": "Tundaria Tower 6F",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Tundaria Tower 6F"]
+                        }
+                      }
+                    ]
+                  }
+                },
+                { "title": "Yampi Desert",
+                  "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                      {
+                        "title": "Yampi Desert Entrance",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Yampi Desert Entrance"]
+                        }
+                      },
+                      {
+                        "title": "Yampi Desert Scoop Room",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Yampi Desert Scoop Room"]
+                        }
+                      },
+                      {
+                        "title": "Yampi Desert Djinn Room",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Yampi Desert Djinn Room"]
+                        }
+                      },
+                      {
+                        "title": "Yampi Desert Sand Room",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Yampi Desert Sand Room"]
+                        }
+                      },
+                      {
+                        "title": "Yampi Desert Reveal Room",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Yampi Desert Reveal Room"]
+                        }
+                      },
+                      {
+                        "title": "Yampi Desert King 1",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Yampi Desert King 1"]
+                        }
+                      },
+                      {
+                        "title": "Yampi Desert King 2",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Yampi Desert King 2"]
+                        }
+                      }
+                    ]
+                  }
+                },
+                { "title": "Yampi Desert Cave",
+                  "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                      {
+                        "title": "Yampi Desert Cave Front",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Yampi Desert Cave Front"]
+                        }
+                      },
+                      {
+                        "title": "Yampi Desert Cave Back",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Yampi Desert Cave Back"]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

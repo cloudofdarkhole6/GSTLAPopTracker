@@ -1,0 +1,69 @@
+[
+  {
+    "name": "Aqua Rock Exterior",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "1F - Top Ledge",
+            "ref": "Overworld/Eastern Sea/Aqua Rock Exterior/1F - Top Ledge"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Aqua Rock Exterior 1F",
+            "x": 454,
+            "y": 65
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "1F - Middle Ledge",
+            "ref": "Overworld/Eastern Sea/Aqua Rock Exterior/1F - Middle Ledge"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Aqua Rock Exterior 1F",
+            "x": 582,
+            "y": 307
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "2F - Waterfall",
+            "ref": "Overworld/Eastern Sea/Aqua Rock Exterior/2F - Waterfall"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Aqua Rock Exterior 2F Right",
+            "x": 314,
+            "y": 468
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "2F - Frost Pillars",
+            "ref": "Overworld/Eastern Sea/Aqua Rock Exterior/2F - Frost Pillars"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Aqua Rock Exterior 2F Right",
+            "x": 152,
+            "y": 49
+          }
+        ]
+      }
+    ]
+  }
+]

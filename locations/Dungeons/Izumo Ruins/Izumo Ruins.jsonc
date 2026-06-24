@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Izumo Ruins",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Ruins Ledge",
+            "ref": "Overworld/Eastern Sea/Izumo/Ruins Ledge"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Izumo Ruins",
+            "x": 1505,
+            "y": 1169
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Ulysses Tablet",
+            "ref": "Overworld/Eastern Sea/Izumo/Ulysses Tablet"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Izumo Ruins",
+            "x": 1236,
+            "y": 279
+          }
+        ]
+      }
+    ]
+  }
+]

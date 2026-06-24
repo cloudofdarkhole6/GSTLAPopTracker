@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Magma Rock Exterior",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "1F - Ledge",
+            "ref": "Overworld/Western Sea/Magma Rock Exterior/1F - Ledge"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Magma Rock Exterior 1F",
+            "x": 388,
+            "y": 33
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "2F West - Bottom",
+            "ref": "Overworld/Western Sea/Magma Rock Exterior/2F West - Bottom"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Magma Rock Exterior 2F",
+            "x": 278,
+            "y": 372
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "2F West - Top",
+            "ref": "Overworld/Western Sea/Magma Rock Exterior/2F West - Top"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Magma Rock Exterior 2F",
+            "x": 438,
+            "y": 49
+          }
+        ]
+      }
+    ]
+  }
+]

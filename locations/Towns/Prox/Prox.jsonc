@@ -1,0 +1,99 @@
+[
+  {
+    "name": "Prox",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Half-buried Item",
+            "ref": "Overworld/Northern Reaches/Prox/Half-buried Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Prox South",
+            "x": 611,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "South-West Jar",
+            "ref": "Overworld/Northern Reaches/Prox/South-West Jar"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Prox South",
+            "x": 99,
+            "y": 455
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Inn - Jar",
+            "ref": "Overworld/Northern Reaches/Prox/Inn - Jar"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Prox South",
+            "x": 163,
+            "y": 403
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Chieftain's House - Box",
+            "ref": "Overworld/Northern Reaches/Prox/Chieftain's House - Box"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Prox South",
+            "x": 227,
+            "y": 194
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Mold",
+            "ref": "Overworld/Northern Reaches/Prox/Mold"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Prox North",
+            "x": 371,
+            "y": 114
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Dew",
+            "ref": "Overworld/Northern Reaches/Prox/Dew"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Prox North",
+            "x": 487,
+            "y": 245
+          }
+        ]
+      }
+    ]
+  }
+]

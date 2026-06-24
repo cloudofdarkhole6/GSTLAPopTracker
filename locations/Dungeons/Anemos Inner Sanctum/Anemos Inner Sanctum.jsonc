@@ -1,0 +1,69 @@
+[
+  {
+    "name": "Anemos Inner Sanctum",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Charon Tablet",
+            "ref": "Overworld/Western Sea/Anemos Inner Sanctum/Charon Tablet"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Anemos Inner Sanctum Entrance",
+            "x": 250,
+            "y": 286
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Cracked Tile Fall Room",
+            "ref": "Overworld/Western Sea/Anemos Inner Sanctum/Cracked Tile Fall Room"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Anemos Inner Sanctum B2",
+            "x": 198,
+            "y": 477
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "After 3rd Clone Room",
+            "ref": "Overworld/Western Sea/Anemos Inner Sanctum/After 3rd Clone Room"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Anemos Inner Sanctum B3",
+            "x": 225,
+            "y": 1026
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Iris Tablet",
+            "ref": "Overworld/Western Sea/Anemos Inner Sanctum/Iris Tablet"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Anemos Inner Sanctum B3",
+            "x": 484,
+            "y": 48
+          }
+        ]
+      }
+    ]
+  }
+]

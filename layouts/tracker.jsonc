@@ -59,7 +59,7 @@
 
     "settings_popup": {
         "type": "array",
-        "background": "#aa444444",
+        "background": "#212121",
         "content": [
             {
                 "type": "canvas",
@@ -90,7 +90,7 @@
     },
     "tracker_default": {
         "type": "container",
-        "background": "#877857",
+        "background": "#212121",
         "content": {
             "type": "dock",
             "dropshadow": false,
@@ -176,11 +176,41 @@
                     ]
                 },
                 {
-                    "type": "map",
-                    "v_alignment": "center",
-                    "maps": ["weyard"]
-                }
-            ]
-        }
+						"type": "array",
+						"v_alignment": "stretch",
+						"margin": "0, 0",
+						"content": [
+						  {
+							"type": "array",
+							"dock": "top",
+							"content": [     
+								{
+									"type": "array",
+									"v_alignment": "stretch",
+									"h_alignment": "stretch",
+									"orientation": "vertical",
+									"margin": "0, 0",
+										"content": [
+											{
+			
+											"title": "weyard",
+											"type": "array",
+											"v_alignment": "stretch",
+											"h_alignment": "stretch",
+											"dock": "bottom",
+											"content": {
+												"type": "layout",
+												"key": "map_tabs"
+												}
+											}
+										]
+									}
+								]
+						  	}
+						]
+					}
+				]
+			}
+		}
     }
-}
+

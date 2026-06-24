@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Air's Exterior",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Lower Left",
+            "ref": "Overworld/Osenia/Air's Rock Exterior/First Room - Lower Left"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Air's Rock Exterior 1",
+            "x": 162,
+            "y": 852
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Mimic",
+            "ref": "Overworld/Osenia/Air's Rock Exterior/First Room - Mimic"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Air's Rock Exterior 1",
+            "x": 380,
+            "y": 178
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Middle",
+            "ref": "Overworld/Osenia/Air's Rock Exterior/First Room - Middle"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Air's Rock Exterior 1",
+            "x": 530,
+            "y": 539
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Top Right",
+            "ref": "Overworld/Osenia/Air's Rock Exterior/First Room - Top Right"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Air's Rock Exterior 1",
+            "x": 719,
+            "y": 117
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Frost Ledge",
+            "ref": "Overworld/Osenia/Air's Rock Exterior/Frost Ledge"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Air's Rock Exterior 2",
+            "x": 443,
+            "y": 118
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Cliff Ascent",
+            "ref": "Overworld/Osenia/Air's Rock Exterior/Cliff Ascent"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Air's Rock Exterior 3",
+            "x": 166,
+            "y": 435
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Summit",
+            "ref": "Overworld/Osenia/Air's Rock Exterior/Summit Chest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Air's Rock Exterior 5",
+            "x": 217,
+            "y": 250
+          }
+        ]
+      }
+    ]
+  }
+]

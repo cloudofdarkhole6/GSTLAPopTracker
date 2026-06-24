@@ -1,0 +1,84 @@
+[
+  {
+    "name": "Naribwe",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Thorn Crown",
+            "ref": "Overworld/Gondowan/Naribwe/Thorn Crown"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Naribwe",
+            "x": 424,
+            "y": 327
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Reveal Circle",
+            "ref": "Overworld/Gondowan/Naribwe/Reveal Circle"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Naribwe",
+            "x": 103,
+            "y": 67
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "South-West Jar",
+            "ref": "Overworld/Gondowan/Naribwe/South-West Jar"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Naribwe",
+            "x": 39,
+            "y": 348
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Inn - Jar",
+            "ref": "Overworld/Gondowan/Naribwe/Inn - Jar"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Naribwe",
+            "x": 296,
+            "y": 359
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "North-West House - Jar",
+            "ref": "Overworld/Gondowan/Naribwe/North-West House - Jar"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Naribwe",
+            "x": 134,
+            "y": 209
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,164 @@
+[
+  {
+    "name": "Shaman Village",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Next to Moapa's House",
+            "ref": "Overworld/Western Sea/Shaman Village/Next to Moapa's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Shaman Village",
+            "x": 56,
+            "y": 87
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "East Ledge Barrel",
+            "ref": "Overworld/Western Sea/Shaman Village/East Ledge Barrel"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Shaman Village",
+            "x": 425,
+            "y": 315
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Inn - Jar",
+            "ref": "Overworld/Western Sea/Shaman Village/Inn - Jar"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Shaman Village",
+            "x": 137,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Moapa's House - Barrel",
+            "ref": "Overworld/Western Sea/Shaman Village/Moapa's House - Barrel"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Shaman Village",
+            "x": 121,
+            "y": 118
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Fortune Teller's Tent - Jar",
+            "ref": "Overworld/Western Sea/Shaman Village/Fortune Teller's Tent - Jar"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Shaman Village",
+            "x": 665,
+            "y": 278
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Sand Wall",
+            "ref": "Overworld/Western Sea/Shaman Village/Sand Wall"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Shaman Village Trial Entrance",
+            "x": 53,
+            "y": 371
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Trial Road Side Path",
+            "ref": "Overworld/Western Sea/Shaman Village/Trial Road Side Path"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Shaman Village Djinn Room",
+            "x": 265,
+            "y": 69
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Trial Road Cleared",
+            "ref": "Overworld/Western Sea/Shaman Village/Trial Road Cleared"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Shaman Village Trial Entrance",
+            "x": 165,
+            "y": 99
+          },
+          {
+            "map": "Shaman Village Trial Entrance",
+            "x": 245,
+            "y": 99
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Aroma",
+            "ref": "Overworld/Western Sea/Shaman Village/Aroma"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Shaman Village",
+            "x": 745,
+            "y": 259
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Gasp",
+            "ref": "Overworld/Western Sea/Shaman Village/Gasp"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Shaman Village Djinn Room",
+            "x": 279,
+            "y": 236
+          }
+        ]
+      }
+    ]
+  }
+]

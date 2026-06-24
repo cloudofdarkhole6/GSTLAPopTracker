@@ -1,9 +1,17 @@
 {
 	"versions": [
 		{
+			"package_version": "0.3.0",
+			"download_url": "https://github.com/cloudofdarkhole6/GSTLAPopTracker/releases/download/0.3.0/GSTLA-poptracker_0.3.0.zip",
+			"sha256": "7bffb303dd58284a3dff41ca0a71f34e5e348988783a320ad319f275e45364a3",
+			"changelog": [
+				"Big overhaul, adding maps of towns and dungeons"
+			]
+		},
+		{
 			"package_version": "0.2.3",
 			"download_url": "https://github.com/cloudofdarkhole6/GSTLAPopTracker/releases/download/0.2.3/GSTLA-poptracker_0.2.3.zip",
-			"sha256": "4249bfa3a42d98a2cec59a260e1d3db9c819ad1267740fbf3d2855c142d9783c",
+			"sha256": "34b99853299e23d772cfe9dddf45e9809bc22d48897a8f027e2c56e0b83c6c5d",
 			"changelog": [
 				""
 			]

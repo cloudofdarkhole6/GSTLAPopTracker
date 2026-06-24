@@ -1,0 +1,163 @@
+[
+  {
+    "name": "Treasure Isle",
+    "chest_unopened_img": "images/chest.png",
+    "chest_opened_img": "images/chest_open.png",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Entrance Rooms",
+            "ref": "Overworld/Eastern Sea/Treasure Isle/Entrance Rooms"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Treasure Isle Front",
+            "x": 63,
+            "y": 904
+          },
+          {
+            "map": "Treasure Isle Front",
+            "x": 126,
+            "y": 904
+          },
+          {
+            "map": "Treasure Isle Front",
+            "x": 189,
+            "y": 904
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Main Room South",
+            "ref": "Overworld/Eastern Sea/Treasure Isle/Main Room South"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Treasure Isle Front",
+            "x": 192,
+            "y": 746
+          },
+          {
+            "map": "Treasure Isle Front",
+            "x": 192,
+            "y": 681
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Three-path Room",
+            "ref": "Overworld/Eastern Sea/Treasure Isle/Three-path Room"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Treasure Isle Front",
+            "x": 616,
+            "y": 566
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Mimic",
+            "ref": "Overworld/Eastern Sea/Treasure Isle/Mimic"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Treasure Isle Front",
+            "x": 406,
+            "y": 130
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Main Room North",
+            "ref": "Overworld/Eastern Sea/Treasure Isle/Main Room North"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Treasure Isle Front",
+            "x": 193,
+            "y": 591
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Depths Front",
+            "ref": "Overworld/Eastern Sea/Treasure Isle/Depths Front"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Treasure Isle Back",
+            "x": 284,
+            "y": 552
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Depths Back",
+            "ref": "Overworld/Eastern Sea/Treasure Isle/Depths Back"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Treasure Isle Back",
+            "x": 379,
+            "y": 261
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Azul Tablet",
+            "ref": "Overworld/Eastern Sea/Treasure Isle/Azul Tablet"
+          },
+          {
+            "name": "Bane",
+            "ref": "Overworld/Eastern Sea/Treasure Isle/Bane"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Treasure Isle Back",
+            "x": 492,
+            "y": 323
+          }
+        ]
+      },
+      {
+        "sections": [
+          {
+            "name": "Gale",
+            "ref": "Overworld/Eastern Sea/Treasure Isle/Gale"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Treasure Isle Back",
+            "x": 78,
+            "y": 278
+          }
+        ]
+      }
+    ]
+  }
+]
