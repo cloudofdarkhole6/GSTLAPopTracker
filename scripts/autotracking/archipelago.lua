@@ -7,6 +7,7 @@ require("scripts/autotracking/setting_mapping")
 require("scripts/autotracking/event_mapping")
 require("scripts/autotracking/goal_mapping")
 require("scripts/autotracking/goal_slot_mapping")
+require("scripts/autotracking/tab_mapping")
 
 CUR_INDEX = -1
 --SLOT_DATA = nil
@@ -48,7 +49,6 @@ end
 
 function onClearHandler(slot_data)
     local clear_timer = os.clock()
-    
     ScriptHost:RemoveWatchForCode("StateChange")
     -- Disable tracker updates.
     Tracker.BulkUpdate = true
@@ -182,6 +182,10 @@ function onClear(slot_data)
         GOAL_ID = "gstla_goal_flags_status_"..PLAYER_ID.."_"..TEAM_NUMBER
         Archipelago:SetNotify({GOAL_ID})
         Archipelago:Get({GOAL_ID})
+
+        MAP_INFO_ID = "gstla_map_info_" .. PLAYER_ID .. "_" .. TEAM_NUMBER
+        Archipelago:SetNotify({MAP_INFO_ID})
+        Archipelago:Get({MAP_INFO_ID})
     end
 end
 
@@ -302,6 +306,9 @@ function onNotify(key, value, old_value)
         if key == GOAL_ID then
             updateGoals(value)
         end
+        if key == MAP_INFO_ID then
+            updateCurrentTab(value)
+        end
     end
 end
 
@@ -319,6 +326,9 @@ function onNotifyLaunch(key, value)
         end
         if key == GOAL_ID then
             updateGoals(value)
+        end
+        if key == MAP_INFO_ID then
+            updateCurrentTab(value)
         end
     end
 end
@@ -433,6 +443,26 @@ function updateHints(locationID, clear)
     end
 end
 
+local function getTabs(tab_entry, entrance)
+    --Little hacky, but if it isn't a table of entrances, just return the entry directly
+    if type(tab_entry[1]) == "string" then
+        return tab_entry
+    end
+    return tab_entry[entrance] or {}
+end
+
+function updateCurrentTab(map_info)
+    local map = map_info["map"]
+    local entrance = map_info["entrance"]
+    local tab_entry = TAB_MAPPING[map]
+    if not tab_entry then
+        return
+    end
+    local tabs = getTabs(tab_entry, entrance)
+    for _, tab in ipairs(tabs) do
+        Tracker:UiHint("ActivateTab", tab)
+    end
+end
 
 -- ScriptHost:AddWatchForCode("settings autofill handler", "autofill_settings", autoFill)
 Archipelago:AddClearHandler("clear handler", onClearHandler)
@@ -455,4 +485,4 @@ Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)
 --     ["item_flags"] = 2,
 --     ["entrance"] = ,
 --     ["item"] = 66062,
--- } 
+-- }
