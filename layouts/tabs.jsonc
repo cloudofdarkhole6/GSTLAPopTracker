@@ -448,24 +448,24 @@
                         }
                       },
                       {
-                        "title": "Anemos Inner Sanctum B1",
+                        "title": "Anemos Inner Sanctum B1F",
                         "content": {
                           "type": "map",
-                          "maps": ["Anemos Inner Sanctum B1"]
+                          "maps": ["Anemos Inner Sanctum B1F"]
                         }
                       },
                       {
-                        "title": "Anemos Inner Sanctum B2",
+                        "title": "Anemos Inner Sanctum B2F",
                         "content": {
                           "type": "map",
-                          "maps": ["Anemos Inner Sanctum B2"]
+                          "maps": ["Anemos Inner Sanctum B2F"]
                         }
                       },
                       {
-                        "title": "Anemos Inner Sanctum B3",
+                        "title": "Anemos Inner Sanctum B3F",
                         "content": {
                           "type": "map",
-                          "maps": ["Anemos Inner Sanctum B3"]
+                          "maps": ["Anemos Inner Sanctum B3F"]
                         }
                       }
                     ]
@@ -997,17 +997,17 @@
                         }
                       },
                       {
-                        "title": "Kandorean Temple B1",
+                        "title": "Kandorean Temple B1F",
                         "content": {
                           "type": "map",
-                          "maps": ["Kandorean Temple B1"]
+                          "maps": ["Kandorean Temple B1F"]
                         }
                       },
                       {
-                        "title": "Kandorean Temple B2",
+                        "title": "Kandorean Temple B2F",
                         "content": {
                           "type": "map",
-                          "maps": ["Kandorean Temple B2"]
+                          "maps": ["Kandorean Temple B2F"]
                         }
                       }
                     ]
@@ -1147,7 +1147,7 @@
                               }
                             },
                             {
-                              "title": "Magma Rock Sanctum ",
+                              "title": "Magma Rock Sanctum",
                               "content": {
                                 "type": "map",
                                 "maps": ["Magma Rock Sanctum"]
@@ -1186,24 +1186,24 @@
                         }
                       },
                       {
-                        "title": "Mars Lighthouse B1",
+                        "title": "Mars Lighthouse B1F",
                         "content": {
                           "type": "map",
-                          "maps": ["Mars Lighthouse B1"]
+                          "maps": ["Mars Lighthouse B1F"]
                         }
                       },
                       {
-                        "title": "Mars Lighthouse B2",
+                        "title": "Mars Lighthouse B2F",
                         "content": {
                           "type": "map",
-                          "maps": ["Mars Lighthouse B2"]
+                          "maps": ["Mars Lighthouse B2F"]
                         }
                       },
                       {
-                        "title": "Mars Lighthouse B3",
+                        "title": "Mars Lighthouse B3F",
                         "content": {
                           "type": "map",
-                          "maps": ["Mars Lighthouse B3"]
+                          "maps": ["Mars Lighthouse B3F"]
                         }
                       },
                       {
@@ -1238,57 +1238,57 @@
                   }
                 },
                 {
-                  "title": "Shrine of The Sea God",
+                  "title": "Shrine of the Sea God",
                   "content": {
                     "type": "tabbed",
                     "tabs": [
                       {
-                        "title": "Shrine of The Sea God 1F",
+                        "title": "Shrine of the Sea God 1F",
                         "content": {
                           "type": "map",
-                          "maps": ["Shrine of The Sea God 1F"]
+                          "maps": ["Shrine of the Sea God 1F"]
                         }
                       },
                       {
-                        "title": "Shrine of The Sea God 2F",
+                        "title": "Shrine of the Sea God 2F",
                         "content": {
                           "type": "map",
-                          "maps": ["Shrine of The Sea God 2F"]
+                          "maps": ["Shrine of the Sea God 2F"]
                         }
                       },
                       {
-                        "title": "Shrine of The Sea God 3F",
+                        "title": "Shrine of the Sea God 3F",
                         "content": {
                           "type": "map",
-                          "maps": ["Shrine of The Sea God 3F"]
+                          "maps": ["Shrine of the Sea God 3F"]
                         }
                       },
                       {
-                        "title": "Shrine of The Sea God 4F",
+                        "title": "Shrine of the Sea God 4F",
                         "content": {
                           "type": "map",
-                          "maps": ["Shrine of The Sea God 4F"]
+                          "maps": ["Shrine of the Sea God 4F"]
                         }
                       },
                       {
-                        "title": "Shrine of The Sea God 5F",
+                        "title": "Shrine of the Sea God 5F",
                         "content": {
                           "type": "map",
-                          "maps": ["Shrine of The Sea God 5F"]
+                          "maps": ["Shrine of the Sea God 5F"]
                         }
                       },
                       {
-                        "title": "Shrine of The Sea God 6F",
+                        "title": "Shrine of the Sea God 6F",
                         "content": {
                           "type": "map",
-                          "maps": ["Shrine of The Sea God 6F"]
+                          "maps": ["Shrine of the Sea God 6F"]
                         }
                       },
                       {
-                        "title": "Shrine of The Sea God 7F",
+                        "title": "Shrine of the Sea God 7F",
                         "content": {
                           "type": "map",
-                          "maps": ["Shrine of The Sea God 7F"]
+                          "maps": ["Shrine of the Sea God 7F"]
                         }
                       }
                     ]
@@ -1307,38 +1307,38 @@
                         }
                       },
                       {
-                        "title": "Taopo Swamp B1",
+                        "title": "Taopo Swamp B1F",
                         "content": {
                           "type": "map",
-                          "maps": ["Taopo Swamp B1"]
+                          "maps": ["Taopo Swamp B1F"]
                         }
                       },
                       {
-                        "title": "Taopo Swamp B2",
+                        "title": "Taopo Swamp B2F",
                         "content": {
                           "type": "map",
-                          "maps": ["Taopo Swamp B2"]
+                          "maps": ["Taopo Swamp B2F"]
                         }
                       },
                       {
-                        "title": "Taopo Swamp B3",
+                        "title": "Taopo Swamp B3F",
                         "content": {
                           "type": "map",
-                          "maps": ["Taopo Swamp B3"]
+                          "maps": ["Taopo Swamp B3F"]
                         }
                       },
                       {
-                        "title": "Taopo Swamp B4",
+                        "title": "Taopo Swamp B4F",
                         "content": {
                           "type": "map",
-                          "maps": ["Taopo Swamp B4"]
+                          "maps": ["Taopo Swamp B4F"]
                         }
                       },
                       {
-                        "title": "Taopo Swamp B5",
+                        "title": "Taopo Swamp B5F",
                         "content": {
                           "type": "map",
-                          "maps": ["Taopo Swamp B5"]
+                          "maps": ["Taopo Swamp B5F"]
                         }
                       }
                     ]
