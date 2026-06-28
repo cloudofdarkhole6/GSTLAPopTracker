@@ -67,15 +67,15 @@
       {
         "sections": [
           {
-            "name": "Eastern Alhafra - Jar",
+            "name": "Eastern Alhafra - Jar (dock)",
             "ref": "Overworld/Osenia/Alhafra/Eastern Alhafra - Jar"
           }
         ],
         "map_locations": [
           {
             "map": "Alhafra",
-            "x": 215,
-            "y": 435
+            "x": 773,
+            "y": 579
           }
         ]
       },

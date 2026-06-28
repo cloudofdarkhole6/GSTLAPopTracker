@@ -14,8 +14,8 @@
         "map_locations": [
           {
             "map": "Apojii Islands West",
-            "x": 78,
-            "y": 266
+            "x": 4,
+            "y": 285
           }
         ]
       },
@@ -74,8 +74,8 @@
         "map_locations": [
           {
             "map": "Apojii Islands East",
-            "x": 168,
-            "y": 202
+            "x": 200,
+            "y": 150
           }
         ]
       },

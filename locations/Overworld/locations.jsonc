@@ -615,7 +615,7 @@
 							"name": "Outside Mayor's House East Box",
 							"short_name": "Outside Mayor Box",
 							"item_count": 1,
-							"access_rules": ["briggs_defeated,reveal_hidden, reveal", "briggs_defeated[$neg|reveal_hidden], $neg|sett_hide_yellows"],
+							"access_rules": ["briggs_defeated,reveal_hidden, reveal", "briggs_defeated,[$neg|reveal_hidden], $neg|sett_hide_yellows"],
 							"visibility_rules": ["sett_mode_2"]
 						},
 						{

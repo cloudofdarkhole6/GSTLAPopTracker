@@ -1,6 +1,14 @@
 {
 	"versions": [
 		{
+			"package_version": "0.3.1",
+			"download_url": "https://github.com/cloudofdarkhole6/GSTLAPopTracker/releases/download/0.3.1/GSTLA-poptracker_0.3.1.zip",
+			"sha256": "a130a68d83810c42cd5f1ab9df88c50bf8a56478b9d5a30c053d5a7d190d92a7",
+			"changelog": [
+				"Fixes for some maps"
+			]
+		},
+		{
 			"package_version": "0.3.0",
 			"download_url": "https://github.com/cloudofdarkhole6/GSTLAPopTracker/releases/download/0.3.0/GSTLA-poptracker_0.3.0.zip",
 			"sha256": "7bffb303dd58284a3dff41ca0a71f34e5e348988783a320ad319f275e45364a3",
