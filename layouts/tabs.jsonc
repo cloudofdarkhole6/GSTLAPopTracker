@@ -912,6 +912,13 @@
                                 "type": "map",
                                 "maps": ["Jupiter Lighthouse 5F"]
                               }
+                            },
+                            {
+                              "title": "Jupiter Lighthouse 6F",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Jupiter Lighthouse 6F"]
+                              }
                             }
                           ]
                         }
