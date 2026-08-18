@@ -276,6 +276,14 @@
 							"visibility_rules": ["sett_mode_1"]
 						},
 						{
+							"name": "Aqua Hydra",
+							"short_name": "Hydra",
+							"access_rules": [
+								"$hasDjinnCountLogic|10,$neg|sett_hide_yellows,[frost]", "$hasDjinnCountLogic|10,frost"
+							],
+							"hosted_item": "aqua_hydra_defeated"
+						},
+						{
 							"name": "Lemurian Ship",
 							"short_name": "Ship",
 							"access_rules": [
