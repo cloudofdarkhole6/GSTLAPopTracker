@@ -40,7 +40,7 @@ end
 
 function canAccessShip()
     if Tracker:FindObjectForCode("lemurian_ship_setting").CurrentStage == 0 then
-        return (canSailShip() and (canAccessLemuria() or canAccessWesternSeas())) or (Tracker:FindObjectForCode("gabomba_statue_cleared") and Tracker:FindObjectForCode("black_crystal") * Tracker:FindObjectForCode("piers_character"))
+        return (canSailShip() and (canAccessLemuria() or canAccessWesternSeas())) or (Tracker:FindObjectForCode("gabomba_statue_cleared").Active and Tracker:FindObjectForCode("black_crystal").Active and Tracker:FindObjectForCode("piers_character").Active)
     end
     return true
 end
