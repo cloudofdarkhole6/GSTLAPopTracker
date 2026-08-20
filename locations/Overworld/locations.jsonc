@@ -1014,6 +1014,12 @@
 									"hosted_item": "gabomba_statue_cleared"
 								},
 								{
+									"name": "Black Crystal",
+									"short_name": "Crystal",
+									"access_rules": ["gabomba_statue_cleared"],
+									"item_count": 1
+								},
+								{
 									"name": "Steel",
 									"access_rules": ["lash,pound"],
 									"capture_item": true,

@@ -59,6 +59,10 @@
           {
             "name": "Gabomba Statue Cleared",
             "ref": "Overworld/Gondowan/Kibombo Area/Gabomba Statue/Gabomba Statue Cleared"
+          },
+          {
+            "name": "Black Crystal",
+            "ref": "Overworld/Gondowan/Kibombo Area/Gabomba Statue/Black Crystal"
           }
         ],
         "map_locations": [

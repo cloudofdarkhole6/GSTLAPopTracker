@@ -346,6 +346,7 @@ LOCATION_MAPPING = {
 	[16384164] = {"@Overworld/Osenia/Yampi Desert/Scoop Gem"},
 	[16384168] = {"@Overworld/Western Sea/Shaman Village/Trial Road Cleared"},
 	[16384170] = {"@Overworld/Northern Reaches/Mars Lighthouse (Lower)/Flame Dragons"},
+	[16384172] = {"@Overworld/Gondowan/Kibombo Area/Gabomba Statue/Black Crystal"},
 	[16384174] = {"@Overworld/Eastern Sea/Champa/Trident"},
 	[16384176] = {"@Overworld/Eastern Sea/E Tundaria Islet/Penguin's Treasure"},
 	[16384178] = {"@Overworld/Eastern Sea/SE Angara Islet/Bird's Treasure"},
