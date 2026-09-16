@@ -912,6 +912,13 @@
                                 "type": "map",
                                 "maps": ["Jupiter Lighthouse 5F"]
                               }
+                            },
+                            {
+                              "title": "Jupiter Lighthouse 6F",
+                              "content": {
+                                "type": "map",
+                                "maps": ["Jupiter Lighthouse 6F"]
+                              }
                             }
                           ]
                         }
@@ -1465,6 +1472,13 @@
                         "content": {
                           "type": "map",
                           "maps": ["Yampi Desert King 2"]
+                        }
+                      },
+                      {
+                        "title": "Yampi Desert Dig Room",
+                        "content": {
+                          "type": "map",
+                          "maps": ["Yampi Desert Dig Room"]
                         }
                       }
                     ]

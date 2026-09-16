@@ -799,6 +799,12 @@
     "img": "images/maps/Dungeons/Yampi Desert/map5.png"
   },
   {
+    "name": "Yampi Desert Dig Room",
+    "location_size": 20,
+    "location_border_thickness": 2,
+    "img": "images/maps/Dungeons/Yampi Desert/dig room.png"
+  },
+  {
     "name": "Yampi Desert Cave Front",
     "location_size": 20,
     "location_border_thickness": 2,

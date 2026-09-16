@@ -276,6 +276,14 @@
 							"visibility_rules": ["sett_mode_1"]
 						},
 						{
+							"name": "Aqua Hydra",
+							"short_name": "Hydra",
+							"access_rules": [
+								"$hasDjinnCountLogic|10,$neg|sett_hide_yellows,[frost]", "$hasDjinnCountLogic|10,frost"
+							],
+							"hosted_item": "aqua_hydra_defeated"
+						},
+						{
 							"name": "Lemurian Ship",
 							"short_name": "Ship",
 							"access_rules": [
@@ -1004,6 +1012,12 @@
 									"short_name": "Cleared",
 									"access_rules": ["lash,pound"],
 									"hosted_item": "gabomba_statue_cleared"
+								},
+								{
+									"name": "Black Crystal",
+									"short_name": "Crystal",
+									"access_rules": ["gabomba_statue_cleared"],
+									"item_count": 1
 								},
 								{
 									"name": "Steel",
