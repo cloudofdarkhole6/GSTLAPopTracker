@@ -433,7 +433,7 @@
 						{
 							"name": "Breaking Bridges Room",
 							"short_name": "Bridges",
-							"access_rules": ["$neg|sett_hide_yellows,[frost]", "frost"],
+							"access_rules": ["frost"],
 							"item_count": 1,
 							"visibility_rules": ["sett_mode_1"]
 						},
@@ -2599,12 +2599,12 @@
 						{
 							"name": "Torch",
 							"short_name": "GS1 Mars",
-							"access_rules": ["burst,growth,lash", "magma_rock_shortcut"],
+							"access_rules": ["burst,growth,lash", "magma_rock_shortcut,burst"],
 							"hosted_item": "mars_10"
 						},
 						{
 							"name": "Fury",
-							"access_rules": ["burst,growth,lash", "magma_rock_shortcut"],
+							"access_rules": ["burst,growth,lash", "magma_rock_shortcut,burst"],
 							"hosted_item": "mars_11"
 						}
 					]
