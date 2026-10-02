@@ -28,7 +28,7 @@
         ],
         "map_locations": [
           {
-            "map": "Anemos Inner Sanctum B2",
+            "map": "Anemos Inner Sanctum B2F",
             "x": 198,
             "y": 477
           }
@@ -43,7 +43,7 @@
         ],
         "map_locations": [
           {
-            "map": "Anemos Inner Sanctum B3",
+            "map": "Anemos Inner Sanctum B3F",
             "x": 225,
             "y": 1026
           }
@@ -58,7 +58,7 @@
         ],
         "map_locations": [
           {
-            "map": "Anemos Inner Sanctum B3",
+            "map": "Anemos Inner Sanctum B3F",
             "x": 484,
             "y": 48
           }

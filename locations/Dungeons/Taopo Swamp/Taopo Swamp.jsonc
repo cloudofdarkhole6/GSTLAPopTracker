@@ -43,7 +43,7 @@
         ],
         "map_locations": [
           {
-            "map": "Taopo Swamp B1",
+            "map": "Taopo Swamp B1F",
             "x": 439,
             "y": 75
           }
@@ -58,7 +58,7 @@
         ],
         "map_locations": [
           {
-            "map": "Taopo Swamp B2",
+            "map": "Taopo Swamp B2F",
             "x": 236,
             "y": 327
           }
@@ -73,7 +73,7 @@
         ],
         "map_locations": [
           {
-            "map": "Taopo Swamp B4",
+            "map": "Taopo Swamp B4F",
             "x": 108,
             "y": 753
           }
@@ -88,7 +88,7 @@
         ],
         "map_locations": [
           {
-            "map": "Taopo Swamp B5",
+            "map": "Taopo Swamp B5F",
             "x": 323,
             "y": 562
           }
@@ -103,7 +103,7 @@
         ],
         "map_locations": [
           {
-            "map": "Taopo Swamp B2",
+            "map": "Taopo Swamp B2F",
             "x": 397,
             "y": 282
           }
