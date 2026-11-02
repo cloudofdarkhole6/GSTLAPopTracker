@@ -458,6 +458,9 @@ function updateCurrentTab(map_info)
     if not tab_entry then
         return
     end
+    if not Tracker:FindObjectForCode("sett_auto_tab").Active then
+        return
+    end
     local tabs = getTabs(tab_entry, entrance)
     for _, tab in ipairs(tabs) do
         Tracker:UiHint("ActivateTab", tab)
