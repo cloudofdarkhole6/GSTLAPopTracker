@@ -67,22 +67,15 @@
                 "height": 332,
                 "content":[
                     {
-                        "type": "item",
-                        "item": "sett_mode",
-                        "canvas_left": 5,
-                        "canvas_top": 2
-                    },
-                    {
-                        "type": "item",
-                        "item": "reveal_hidden",
-                        "canvas_left": 5,
-                        "canvas_top": 30
-                    },
-                    {
-                        "type": "item",
-                        "item": "sett_hide_yellows",
-                        "canvas_left": 5,
-                        "canvas_top": 60
+                        "type": "itemgrid",
+                        "item_size": "350,28",
+                        "item_margin": "0,1",
+                        "rows":[
+                            ["sett_mode"],
+                            ["reveal_hidden"],
+                            ["sett_hide_yellows"],
+                            ["sett_auto_tab"]
+                        ]
                     }
                 ]
             }
