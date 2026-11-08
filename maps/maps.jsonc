@@ -115,19 +115,19 @@
     "img": "images/maps/Dungeons/Anemos Inner Sanctum/floor1.png"
   },
   {
-    "name": "Anemos Inner Sanctum B1",
+    "name": "Anemos Inner Sanctum B1F",
     "location_size": 20,
     "location_border_thickness": 2,
     "img": "images/maps/Dungeons/Anemos Inner Sanctum/basement1.png"
   },
   {
-    "name": "Anemos Inner Sanctum B2",
+    "name": "Anemos Inner Sanctum B2F",
     "location_size": 20,
     "location_border_thickness": 2,
     "img": "images/maps/Dungeons/Anemos Inner Sanctum/basement2.png"
   },
   {
-    "name": "Anemos Inner Sanctum B3",
+    "name": "Anemos Inner Sanctum B3F",
     "location_size": 20,
     "location_border_thickness": 2,
     "img": "images/maps/Dungeons/Anemos Inner Sanctum/basement3.png"
@@ -475,13 +475,13 @@
     "img": "images/maps/Dungeons/Kandorean Temple/2F.png"
   },
   {
-    "name": "Kandorean Temple B1",
+    "name": "Kandorean Temple B1F",
     "location_size": 20,
     "location_border_thickness": 2,
     "img": "images/maps/Dungeons/Kandorean Temple/B1.png"
   },
   {
-    "name": "Kandorean Temple B2",
+    "name": "Kandorean Temple B2F",
     "location_size": 20,
     "location_border_thickness": 2,
     "img": "images/maps/Dungeons/Kandorean Temple/B2.png"
@@ -589,19 +589,19 @@
     "img": "images/maps/Dungeons/Mars Lighthouse/floor2.png"
   },
   {
-    "name": "Mars Lighthouse B1",
+    "name": "Mars Lighthouse B1F",
     "location_size": 20,
     "location_border_thickness": 2,
     "img": "images/maps/Dungeons/Mars Lighthouse/basement1.png"
   },
   {
-    "name": "Mars Lighthouse B2",
+    "name": "Mars Lighthouse B2F",
     "location_size": 20,
     "location_border_thickness": 2,
     "img": "images/maps/Dungeons/Mars Lighthouse/basement2.png"
   },
   {
-    "name": "Mars Lighthouse B3",
+    "name": "Mars Lighthouse B3F",
     "location_size": 20,
     "location_border_thickness": 2,
     "img": "images/maps/Dungeons/Mars Lighthouse/basement3.png"
@@ -631,46 +631,46 @@
     "img": "images/maps/Dungeons/Mars Lighthouse/venus wing.png"
   },
   {
-    "name": "Shrine of The Sea God 1F",
+    "name": "Shrine of the Sea God 1F",
     "location_size": 20,
     "location_border_thickness": 2,
-    "img": "images/maps/Dungeons/Shrine of The Sea God/map1.png"
+    "img": "images/maps/Dungeons/Shrine of the Sea God/map1.png"
   },
   {
-    "name": "Shrine of The Sea God 2F",
+    "name": "Shrine of the Sea God 2F",
     "location_size": 20,
     "location_border_thickness": 2,
-    "img": "images/maps/Dungeons/Shrine of The Sea God/map2.png"
+    "img": "images/maps/Dungeons/Shrine of the Sea God/map2.png"
   },
   {
-    "name": "Shrine of The Sea God 3F",
+    "name": "Shrine of the Sea God 3F",
     "location_size": 20,
     "location_border_thickness": 2,
-    "img": "images/maps/Dungeons/Shrine of The Sea God/map3.png"
+    "img": "images/maps/Dungeons/Shrine of the Sea God/map3.png"
   },
   {
-    "name": "Shrine of The Sea God 4F",
+    "name": "Shrine of the Sea God 4F",
     "location_size": 20,
     "location_border_thickness": 2,
-    "img": "images/maps/Dungeons/Shrine of The Sea God/map4.png"
+    "img": "images/maps/Dungeons/Shrine of the Sea God/map4.png"
   },
   {
-    "name": "Shrine of The Sea God 5F",
+    "name": "Shrine of the Sea God 5F",
     "location_size": 20,
     "location_border_thickness": 2,
-    "img": "images/maps/Dungeons/Shrine of The Sea God/map5.png"
+    "img": "images/maps/Dungeons/Shrine of the Sea God/map5.png"
   },
   {
-    "name": "Shrine of The Sea God 6F",
+    "name": "Shrine of the Sea God 6F",
     "location_size": 20,
     "location_border_thickness": 2,
-    "img": "images/maps/Dungeons/Shrine of The Sea God/map6.png"
+    "img": "images/maps/Dungeons/Shrine of the Sea God/map6.png"
   },
   {
-    "name": "Shrine of The Sea God 7F",
+    "name": "Shrine of the Sea God 7F",
     "location_size": 20,
     "location_border_thickness": 2,
-    "img": "images/maps/Dungeons/Shrine of The Sea God/map7.png"
+    "img": "images/maps/Dungeons/Shrine of the Sea God/map7.png"
   },
   {
     "name": "Taopo Swamp Entrance",
@@ -679,31 +679,31 @@
     "img": "images/maps/Dungeons/Taopo Swamp/map1.png"
   },
   {
-    "name": "Taopo Swamp B1",
+    "name": "Taopo Swamp B1F",
     "location_size": 20,
     "location_border_thickness": 2,
     "img": "images/maps/Dungeons/Taopo Swamp/map2.png"
   },
   {
-    "name": "Taopo Swamp B2",
+    "name": "Taopo Swamp B2F",
     "location_size": 20,
     "location_border_thickness": 2,
     "img": "images/maps/Dungeons/Taopo Swamp/map3.png"
   },
   {
-    "name": "Taopo Swamp B3",
+    "name": "Taopo Swamp B3F",
     "location_size": 20,
     "location_border_thickness": 2,
     "img": "images/maps/Dungeons/Taopo Swamp/map4.png"
   },
   {
-    "name": "Taopo Swamp B4",
+    "name": "Taopo Swamp B4F",
     "location_size": 20,
     "location_border_thickness": 2,
     "img": "images/maps/Dungeons/Taopo Swamp/map5.png"
   },
   {
-    "name": "Taopo Swamp B5",
+    "name": "Taopo Swamp B5F",
     "location_size": 20,
     "location_border_thickness": 2,
     "img": "images/maps/Dungeons/Taopo Swamp/map6.png"

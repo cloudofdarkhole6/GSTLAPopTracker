@@ -39,6 +39,13 @@
         "codes": "sett_hide_yellows"
     },
     {
+        "name": "Auto tab",
+        "type": "toggle",
+        "img": "images/settings/text_auto_tab.png",
+        "initial_active_state": true,
+        "codes": "sett_auto_tab"
+    },
+    {
         "name": "Open Anemos Sanctum",
         "type": "progressive",
         "allow_disabled": false,

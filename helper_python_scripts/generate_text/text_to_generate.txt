@@ -1,0 +1,4 @@
+Item Shuffle,Chests & Tablets,All Items
+Reveal hidden items
+Hide yellow checks
+Auto tab
