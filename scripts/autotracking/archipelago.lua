@@ -74,6 +74,25 @@ function onClearHandler(slot_data)
     end
 end
 
+function resetItemState(item_code)
+    local item_obj = Tracker:FindObjectForCode(item_code)
+    if not item_obj then
+        return
+    end
+    if item_obj.Type == "toggle" then
+        item_obj.Active = false
+    elseif item_obj.Type == "progressive" or item_obj.Type == "progressive_toggle" then
+        item_obj.CurrentStage = 0
+        item_obj.Active = false
+    elseif item_obj.Type == "consumable" then
+        if item_obj.MinCount then
+            item_obj.AcquiredCount = item_obj.MinCount
+        else
+            item_obj.AcquiredCount = 0
+        end
+    end
+end
+
 function onClear(slot_data)
     --SLOT_DATA = slot_data
     CUR_INDEX = -1
@@ -94,27 +113,18 @@ function onClear(slot_data)
     end
     -- reset items
     for _, item_pair in pairs(ITEM_MAPPING) do
-        for item_type, item_code in pairs(item_pair) do
-            local item_obj = Tracker:FindObjectForCode(item_code)
-            if item_obj then
-                if item_obj.Type == "toggle" then
-                    item_obj.Active = false
-                elseif item_obj.Type == "progressive" then
-                    item_obj.CurrentStage = 0
-                    item_obj.Active = false
-                elseif item_obj.Type == "consumable" then
-                    if item_obj.MinCount then
-                        item_obj.AcquiredCount = item_obj.MinCount
-                    else
-                        item_obj.AcquiredCount = 0
-                    end
-                elseif item_obj.Type == "progressive_toggle" then
-                    item_obj.CurrentStage = 0
-                    item_obj.Active = false
-                end
-            end
-        end
+        resetItemState(item_pair[1])
     end
+    for _, item_code in pairs(EVENT_MAPPING) do
+        resetItemState(item_code)
+    end
+    for _, item_code in pairs(GOAL_MAPPING) do
+        resetItemState(item_code)
+    end
+    for _, item_code in pairs(GOAL_SLOT_MAPPING) do
+        resetItemState(item_code)
+    end
+
     PLAYER_ID = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
     -- reset settings
